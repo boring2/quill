@@ -27,6 +27,7 @@ class TableCell extends Block {
   }
 
   format(name, value) {
+    console.log('-----', name, value)
     if (name === TableCell.blotName && value) {
       this.domNode.setAttribute('data-row', value);
     } else {
