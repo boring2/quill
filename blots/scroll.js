@@ -15,7 +15,6 @@ class Scroll extends ScrollBlot {
     this.batch = false;
     this.optimize();
     this.enable();
-    this.domNode.addEventListener('dragstart', e => this.handleDragStart(e));
   }
 
   batchStart() {
@@ -62,10 +61,6 @@ class Scroll extends ScrollBlot {
   formatAt(index, length, format, value) {
     super.formatAt(index, length, format, value);
     this.optimize();
-  }
-
-  handleDragStart(event) {
-    event.preventDefault();
   }
 
   insertAt(index, value, def) {
@@ -151,6 +146,7 @@ class Scroll extends ScrollBlot {
   }
 
   update(mutations) {
+    // window.obs = this.observer.disconnect()
     if (this.batch) {
       if (Array.isArray(mutations)) {
         this.batch = this.batch.concat(mutations);

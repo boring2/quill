@@ -76,6 +76,9 @@ class Quill {
     this.container.innerHTML = '';
     instances.set(this.container, this);
     this.root = this.addContainer('ql-editor');
+    this.root.addEventListener('dragstart', e => {
+      e.preventDefault();
+    });
     this.root.classList.add('ql-blank');
     this.scrollingContainer = this.options.scrollingContainer || this.root;
     this.emitter = new Emitter();
@@ -265,10 +268,11 @@ class Quill {
     return this.editor.getContents(index, length);
   }
 
-  getFormat(index = this.getSelection(true), length = 0) {
+  getFormat(index = this.getSelection(false), length = 0) {
     if (typeof index === 'number') {
       return this.editor.getFormat(index, length);
     }
+    index = index || 0
     return this.editor.getFormat(index.index, index.length);
   }
 

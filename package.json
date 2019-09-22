@@ -23,6 +23,14 @@
     "core.js",
     "quill.js"
   ],
+  "_resolved": "https://registry.npmjs.org/quill/-/quill-2.0.0-dev.3.tgz",
+  "_shasum": "3fc0e6113b5d991ce5d662542ae0eb7ffbbaee66",
+  "_spec": "quill@^2.0.0-dev.3",
+  "_where": "/Users/Boring/Desktop/workspace/shanji",
+  "bugs": {
+    "url": "https://github.com/quilljs/quill/issues"
+  },
+  "bundleDependencies": [],
   "config": {
     "ports": {
       "proxy": "9000",
@@ -39,6 +47,7 @@
     "parchment": "2.0.0-dev.2",
     "quill-delta": "4.2.2"
   },
+  "deprecated": false,
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -81,9 +90,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/quilljs/quill"
-  },
-  "bugs": {
-    "url": "https://github.com/quilljs/quill/issues"
   },
   "eslintConfig": {
     "extends": [
@@ -144,27 +150,28 @@
     "docs/",
     "node_modules/"
   ],
+  "keywords": [
+    "editor",
+    "rich text",
+    "wysiwyg"
+  ],
+
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
   },
+
   "scripts": {
     "build": "npm run lint && npm run build:webpack",
-    "build:webpack": "webpack --config _develop/webpack.config.js; rm dist/quill.core dist/quill.bubble dist/quill.snow",
     "build:release": "./_develop/scripts/release.sh",
     "develop": "npm run start",
     "lint": "eslint blots core formats modules themes ui test",
     "start": "npm run build:webpack; bundle exec foreman start -f _develop/procfile",
     "test": "npm run test:unit",
     "test:all": "npm run test:unit; npm run test:functional",
+    "test:coverage": "webpack --env.coverage --config _develop/webpack.config.js; karma start _develop/karma.config.js --reporters coverage",
     "test:functional": "./_develop/scripts/puppeteer.sh",
     "test:unit": "npm run build; karma start _develop/karma.config.js",
-    "test:coverage": "webpack --env.coverage --config _develop/webpack.config.js; karma start _develop/karma.config.js --reporters coverage",
     "travis": "npm run lint && karma start _develop/karma.config.js --reporters dots,saucelabs"
-  },
-  "keywords": [
-    "editor",
-    "rich text",
-    "wysiwyg"
-  ]
+  }
 }

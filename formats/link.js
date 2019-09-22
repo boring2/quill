@@ -4,7 +4,6 @@ class Link extends Inline {
   static create(value) {
     const node = super.create(value);
     node.setAttribute('href', this.sanitize(value));
-    node.setAttribute('rel', 'noopener noreferrer');
     node.setAttribute('target', '_blank');
     return node;
   }
@@ -29,6 +28,7 @@ Link.blotName = 'link';
 Link.tagName = 'A';
 Link.SANITIZED_URL = 'about:blank';
 Link.PROTOCOL_WHITELIST = ['http', 'https', 'mailto', 'tel'];
+Link.className = 'link';
 
 function sanitize(url, protocols) {
   const anchor = document.createElement('a');

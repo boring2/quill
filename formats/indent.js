@@ -14,11 +14,16 @@ class IndentAttributor extends ClassAttributor {
   }
 
   canAdd(node, value) {
+    console.error('canAdd-----')
+    return true
+    console.log(super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10)))
     return super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10));
   }
 
   value(node) {
-    return parseInt(super.value(node), 10) || undefined; // Don't return NaN
+    console.log(Math.max(0, parseInt(super.value(node), 10)) || undefined)
+    // my fix
+    return Math.max(0, parseInt(super.value(node), 10)) || undefined; // Don't return NaN
   }
 }
 

@@ -7,7 +7,6 @@ import {
   StyleAttributor,
   BlockBlot,
 } from 'parchment';
-import { BlockEmbed } from '../blots/block';
 import Quill from '../core/quill';
 import logger from '../core/logger';
 import Module from '../core/module';
@@ -162,7 +161,9 @@ class Clipboard extends Module {
 
   onPaste(range, { text, html }) {
     const formats = this.quill.getFormat(range.index);
-    const pastedDelta = this.convert({ text, html }, formats);
+    // 去掉html
+    // const pastedDelta = this.convert({ text, html }, formats);
+    const pastedDelta = this.convert({ text }, formats);
     debug.log('onPaste', pastedDelta, { text, html });
     const delta = new Delta()
       .retain(range.index)
@@ -413,12 +414,9 @@ function matchIndent(node, delta, scroll) {
     parent = parent.parentNode;
   }
   if (indent <= 0) return delta;
-  return delta.reduce((composed, op) => {
-    if (op.attributes && op.attributes.list) {
-      return composed.push(op);
-    }
-    return composed.insert(op.insert, { indent, ...(op.attributes || {}) });
-  }, new Delta());
+  return delta.compose(
+    new Delta().retain(delta.length() - 1).retain(1, { indent }),
+  );
 }
 
 function matchList(node, delta) {
@@ -426,23 +424,13 @@ function matchList(node, delta) {
   return applyFormat(delta, 'list', list);
 }
 
-function matchNewline(node, delta, scroll) {
+function matchNewline(node, delta) {
   if (!deltaEndsWith(delta, '\n')) {
-    if (isLine(node)) {
-      return delta.insert('\n');
-    }
-    if (delta.length() > 0 && node.nextSibling) {
-      let { nextSibling } = node;
-      while (nextSibling != null) {
-        if (isLine(nextSibling)) {
-          return delta.insert('\n');
-        }
-        const match = scroll.query(nextSibling);
-        if (match && match.prototype instanceof BlockEmbed) {
-          return delta.insert('\n');
-        }
-        nextSibling = nextSibling.firstChild;
-      }
+    if (
+      isLine(node) ||
+      (delta.length() > 0 && node.nextSibling && isLine(node.nextSibling))
+    ) {
+      delta.insert('\n');
     }
   }
   return delta;
@@ -492,7 +480,7 @@ function matchText(node, delta) {
   if (node.parentNode.tagName === 'O:P') {
     return delta.insert(text.trim());
   }
-  if (text.trim().length === 0 && text.includes('\n')) {
+  if (text.trim().length === 0) {
     return delta;
   }
   if (!isPre(node)) {
