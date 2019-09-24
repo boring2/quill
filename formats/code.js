@@ -5,7 +5,6 @@ import Inline from '../blots/inline';
 import TextBlot, { escapeText } from '../blots/text';
 import Container from '../blots/container';
 import Quill from '../core/quill';
-import ListContainer from './list'
 
 class CodeBlockContainer extends Container {
   static create(value) {
@@ -29,13 +28,7 @@ class CodeBlock extends Block {
   }
 }
 
-class Code extends Inline {
-  static create(value) {
-    lplog('code--------------------------------')
-    const domNode = super.create(value);
-    return domNode;
-  }
-}
+class Code extends Inline {}
 Code.blotName = 'code';
 Code.tagName = 'CODE';
 
@@ -48,7 +41,7 @@ CodeBlockContainer.tagName = 'DIV';
 
 CodeBlockContainer.allowedChildren = [CodeBlock];
 
-CodeBlock.allowedChildren = [TextBlot, Break, Cursor, ListContainer];
+CodeBlock.allowedChildren = [TextBlot, Break, Cursor];
 CodeBlock.requiredContainer = CodeBlockContainer;
 CodeBlock.TAB = '  ';
 
