@@ -18,7 +18,7 @@ class Editor {
   }
 
   applyDelta(delta) {
-    console.log(delta, "delta----------------")
+    console.log(delta, 'delta----------------');
     let consumeNextNewline = false;
     this.scroll.update();
     let scrollLength = this.scroll.length();
@@ -74,7 +74,7 @@ class Editor {
   }
 
   deleteText(index, length) {
-    console.log("deleteText-----------")
+    console.log('deleteText-----------');
     this.scroll.deleteAt(index, length);
     return this.update(new Delta().retain(index).delete(length));
   }
@@ -159,7 +159,7 @@ class Editor {
   }
 
   insertText(index, text, formats = {}) {
-    console.log("insertText----------------")
+    console.log('insertText----------------');
     text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
     this.scroll.insertAt(index, text);
     Object.keys(formats).forEach(format => {
@@ -198,7 +198,6 @@ class Editor {
   }
 
   update(change, mutations = [], selectionInfo = undefined) {
-
     const oldDelta = this.delta;
     if (
       mutations.length === 1 &&
@@ -234,7 +233,6 @@ class Editor {
       }
     }
     return change;
-
   }
 }
 
@@ -250,13 +248,17 @@ function convertListHTML(items, lastIndent, types) {
   const [tag, attribute] = getListType(type);
   if (indent > lastIndent) {
     types.push(type);
-    return `<${tag}><li${attribute}>${convertHTML(
-      child,
-      offset,
-      length,
-    )}${convertListHTML(rest, indent, types)}`;
+    if (indent === lastIndent + 1) {
+      return `<${tag}><li${attribute}>${convertHTML(
+        child,
+        offset,
+        length,
+      )}${convertListHTML(rest, indent, types)}`;
+    }
+    return `<${tag}><li>${convertListHTML(items, lastIndent + 1, types)}`;
   }
-  if (indent === lastIndent) {
+  const previousType = types[types.length - 1];
+  if (indent === lastIndent && type === previousType) {
     return `</li><li${attribute}>${convertHTML(
       child,
       offset,

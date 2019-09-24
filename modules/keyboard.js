@@ -23,7 +23,7 @@ class Keyboard extends Module {
   }
 
   constructor(quill, options) {
-    lplog(options.bindings)
+    lplog(options.bindings);
     super(quill, options);
     this.bindings = {};
     Object.keys(this.options.bindings).forEach(name => {
@@ -103,7 +103,6 @@ class Keyboard extends Module {
 
   listen() {
     this.quill.root.addEventListener('keydown', evt => {
-
       if (evt.defaultPrevented || evt.isComposing) return;
       // my fix
       if (
@@ -115,7 +114,7 @@ class Keyboard extends Module {
       // my fix end
       lplog(evt.key, evt.which, evt.key === ' ');
       const bindings = (this.bindings[evt.key] || []).concat(
-        this.bindings[evt.which] || []
+        this.bindings[evt.which] || [],
       );
       const matches = bindings.filter(binding => Keyboard.match(evt, binding));
       lplog(matches);
@@ -661,7 +660,7 @@ function handleDelete(range, context) {
   }
   this.quill.deleteText(range.index, length, Quill.sources.USER);
   if (Object.keys(formats).length > 0) {
-    lplog('+++++++++++++++++++++++++++++')
+    lplog('+++++++++++++++++++++++++++++');
     this.quill.formatLine(
       range.index + nextLength - 1,
       length,
@@ -692,7 +691,7 @@ function handleEnter(range, context) {
   if (range.length > 0) {
     this.quill.scroll.deleteAt(range.index, range.length); // So we do not trigger text-change
   }
-  let lineFormats = Object.keys(context.format).reduce((formats, format) => {
+  const lineFormats = Object.keys(context.format).reduce((formats, format) => {
     if (
       this.quill.scroll.query(format, Scope.BLOCK) &&
       !Array.isArray(context.format[format])
@@ -801,7 +800,7 @@ function makeEmbedArrowHandler(key, shiftKey) {
 }
 
 function makeFormatHandler(format) {
-  console.warn('makeFormatHandler---', format )
+  console.warn('makeFormatHandler---', format);
   return {
     key: format[0],
     shortKey: true,
