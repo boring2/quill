@@ -23,7 +23,6 @@ class Keyboard extends Module {
   }
 
   constructor(quill, options) {
-    lplog(options.bindings);
     super(quill, options);
     this.bindings = {};
     Object.keys(this.options.bindings).forEach(name => {
@@ -31,7 +30,7 @@ class Keyboard extends Module {
         this.addBinding(this.options.bindings[name]);
       }
     });
-    this.addBinding({ key: 'Enter', shiftKey: null }, handleEnter);
+    this.addBinding({ key: 'Enter', shiftKey: null }, this.handleEnter);
     this.addBinding(
       { key: 'Enter', metaKey: null, ctrlKey: null, altKey: null },
       () => {},
@@ -41,27 +40,35 @@ class Keyboard extends Module {
       this.addBinding(
         { key: 'Backspace' },
         { collapsed: true },
-        handleBackspace,
+        this.handleBackspace,
       );
-      this.addBinding({ key: 'Delete' }, { collapsed: true }, handleDelete);
+      this.addBinding(
+        { key: 'Delete' },
+        { collapsed: true },
+        this.handleDelete,
+      );
     } else {
       this.addBinding(
         { key: 'Backspace' },
         { collapsed: true, prefix: /^.?$/ },
-        handleBackspace,
+        this.handleBackspace,
       );
       this.addBinding(
         { key: 'Delete' },
         { collapsed: true, suffix: /^.?$/ },
-        handleDelete,
+        this.handleDelete,
       );
     }
     this.addBinding(
       { key: 'Backspace' },
       { collapsed: false },
-      handleDeleteRange,
+      this.handleDeleteRange,
     );
-    this.addBinding({ key: 'Delete' }, { collapsed: false }, handleDeleteRange);
+    this.addBinding(
+      { key: 'Delete' },
+      { collapsed: false },
+      this.handleDeleteRange,
+    );
     this.addBinding(
       {
         key: 'Backspace',
@@ -71,7 +78,7 @@ class Keyboard extends Module {
         shiftKey: null,
       },
       { collapsed: true, offset: 0 },
-      handleBackspace,
+      this.handleBackspace,
     );
     this.listen();
   }
@@ -143,7 +150,7 @@ class Keyboard extends Module {
         suffix: suffixText,
         event: evt,
       };
-      lplog(curContext);
+      lplog('curContext-----------------', curContext);
       const prevented = matches.some(binding => {
         if (
           binding.collapsed != null &&
@@ -282,7 +289,9 @@ class Keyboard extends Module {
           this.quill.scroll.query(format, Scope.BLOCK) &&
           !Array.isArray(context.format[format])
         ) {
-          formats[format] = context.format[format];
+          // my fix
+          if (format !== 'file') formats[format] = context.format[format];
+          // my fix end
         }
         return formats;
       },
@@ -294,12 +303,20 @@ class Keyboard extends Module {
       .insert('\n', lineFormats);
     this.quill.updateContents(delta, Quill.sources.USER);
     this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
+    // my fix
+    if (lineFormats.header) this.quill.format('header', null);
+    // my fix end
     this.quill.focus();
 
     Object.keys(context.format).forEach(name => {
       if (lineFormats[name] != null) return;
       if (Array.isArray(context.format[name])) return;
       if (name === 'code' || name === 'link') return;
+      // my fix
+      if (name === 'bookmark-link') return;
+      if (name === 'bookmark') return;
+      if (name === 'file') return;
+      // my fix end
       this.quill.format(name, context.format[name], Quill.sources.USER);
     });
   }
@@ -587,115 +604,6 @@ Keyboard.DEFAULTS = {
     'table up': makeTableArrowHandler(true),
   },
 };
-
-function handleBackspace(range, context) {
-  if (range.index === 0 || this.quill.getLength() <= 1) return;
-  const [line] = this.quill.getLine(range.index);
-  let formats = {};
-  if (context.offset === 0) {
-    const [prev] = this.quill.getLine(range.index - 1);
-    if (prev != null) {
-      if (prev.length() > 1 || prev.statics.blotName === 'table') {
-        const curFormats = line.formats();
-        const prevFormats = this.quill.getFormat(range.index - 1, 1);
-        formats = AttributeMap.diff(curFormats, prevFormats) || {};
-      }
-    }
-  }
-  // Check for astral symbols
-  const length = /[\uD800-\uDBFF][\uDC00-\uDFFF]$/.test(context.prefix) ? 2 : 1;
-  this.quill.deleteText(range.index - length, length, Quill.sources.USER);
-  if (Object.keys(formats).length > 0) {
-    this.quill.formatLine(
-      range.index - length,
-      length,
-      formats,
-      Quill.sources.USER,
-    );
-  }
-  this.quill.focus();
-}
-
-function handleDelete(range, context) {
-  // Check for astral symbols
-  const length = /^[\uD800-\uDBFF][\uDC00-\uDFFF]/.test(context.suffix) ? 2 : 1;
-  if (range.index >= this.quill.getLength() - length) return;
-  let formats = {};
-  let nextLength = 0;
-  const [line] = this.quill.getLine(range.index);
-  if (context.offset >= line.length() - 1) {
-    const [next] = this.quill.getLine(range.index + 1);
-    if (next) {
-      const curFormats = line.formats();
-      const nextFormats = this.quill.getFormat(range.index, 1);
-      formats = AttributeMap.diff(curFormats, nextFormats) || {};
-      nextLength = next.length();
-    }
-  }
-  this.quill.deleteText(range.index, length, Quill.sources.USER);
-  if (Object.keys(formats).length > 0) {
-    lplog('+++++++++++++++++++++++++++++');
-    this.quill.formatLine(
-      range.index + nextLength - 1,
-      length,
-      formats,
-      Quill.sources.USER,
-    );
-  }
-}
-
-function handleDeleteRange(range) {
-  const lines = this.quill.getLines(range);
-  let formats = {};
-  if (lines.length > 1) {
-    const firstFormats = lines[0].formats();
-    const lastFormats = lines[lines.length - 1].formats();
-    formats = AttributeMap.diff(lastFormats, firstFormats) || {};
-  }
-  this.quill.deleteText(range, Quill.sources.USER);
-  if (Object.keys(formats).length > 0) {
-    this.quill.formatLine(range.index, 1, formats, Quill.sources.USER);
-  }
-  this.quill.setSelection(range.index, Quill.sources.SILENT);
-  this.quill.focus();
-}
-
-// TODO use just updateContents()
-function handleEnter(range, context) {
-  if (range.length > 0) {
-    this.quill.scroll.deleteAt(range.index, range.length); // So we do not trigger text-change
-  }
-  const lineFormats = Object.keys(context.format).reduce((formats, format) => {
-    if (
-      this.quill.scroll.query(format, Scope.BLOCK) &&
-      !Array.isArray(context.format[format])
-    ) {
-      // my fix
-      if (format !== 'file') formats[format] = context.format[format];
-      // my fix end
-    }
-    return formats;
-  }, {});
-  this.quill.insertText(range.index, '\n', lineFormats, Quill.sources.USER);
-  // Earlier scroll.deleteAt might have messed up our selection,
-  // so insertText's built in selection preservation is not reliable
-  this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
-  // my fix
-  if (lineFormats.header) this.quill.format('header', null);
-  // my fix end
-  this.quill.focus();
-  Object.keys(context.format).forEach(name => {
-    if (lineFormats[name] != null) return;
-    if (Array.isArray(context.format[name])) return;
-    if (name === 'link') return;
-    // my fix
-    if (name === 'bookmark-link') return;
-    if (name === 'bookmark') return;
-    if (name === 'file') return;
-    // my fix end
-    this.quill.format(name, context.format[name], Quill.sources.USER);
-  });
-}
 
 function makeCodeBlockHandler(indent) {
   return {
