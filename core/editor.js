@@ -18,7 +18,6 @@ class Editor {
   }
 
   applyDelta(delta) {
-    console.log(delta, 'delta----------------');
     let consumeNextNewline = false;
     this.scroll.update();
     let scrollLength = this.scroll.length();
@@ -74,7 +73,6 @@ class Editor {
   }
 
   deleteText(index, length) {
-    console.log('deleteText-----------');
     this.scroll.deleteAt(index, length);
     return this.update(new Delta().retain(index).delete(length));
   }
@@ -159,7 +157,6 @@ class Editor {
   }
 
   insertText(index, text, formats = {}) {
-    console.log('insertText----------------');
     text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
     this.scroll.insertAt(index, text);
     Object.keys(formats).forEach(format => {
