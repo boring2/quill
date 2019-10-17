@@ -13,10 +13,10 @@ class ColorAttributor extends StyleAttributor {
   }
 }
 
-const ColorClass = new ClassAttributor('color', 'ql-color', {
+const ColorClass = new ClassAttributor('acolor', 'ql-color', {
   scope: Scope.INLINE,
 });
-const ColorStyle = new ColorAttributor('color', 'color', {
+const ColorStyle = new ColorAttributor('acolor', 'color', {
   scope: Scope.INLINE,
 });
 
