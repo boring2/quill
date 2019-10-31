@@ -311,7 +311,7 @@ class Keyboard extends Module {
     Object.keys(context.format).forEach(name => {
       if (lineFormats[name] != null) return;
       if (Array.isArray(context.format[name])) return;
-      if (name === 'code' || name === 'link') return;
+      if (name === 'code' || name === 'link' || name === 'tag') return;
       // my fix
       if (name === 'bookmark-link') return;
       if (name === 'bookmark') return;
