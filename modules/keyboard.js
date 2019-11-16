@@ -450,17 +450,29 @@ Keyboard.DEFAULTS = {
       suffix: /^$/,
       handler(range, context) {
         const [line, offset] = this.quill.getLine(range.index);
-        // my fix
-        const delta = new Delta()
-          .retain(range.index)
-          .insert('\n', context.format)
-          .retain(line.length() - offset - 1)
-          .retain(1, Object.assign(context.format, { header: null }));
-        // my fix end
+        let fold = line.formats().header.fold
+        let delta
+        if (fold === 'fold') {
+          let lastChild = line.logicChildren[0]
+          window.lastChild = lastChild
+          range = {index: this.quill.getIndex(lastChild)}
+          delta = new Delta()
+            .retain(range.index + lastChild.length())
+            .insert('\n', {})
+            .retain(lastChild.length());
+        } else {
+          // my fix
+          delta = new Delta()
+            .retain(range.index)
+            .insert('\n', context.format)
+            .retain(line.length() - offset - 1)
+            .retain(1, Object.assign(context.format, { header: null }));
+          // my fix end
+        }
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
         this.quill.scrollIntoView();
-      },
+      }
     },
     'table backspace': {
       key: 'Backspace',
