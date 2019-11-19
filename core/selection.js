@@ -154,7 +154,7 @@ class Selection {
     [node, offset] = leaf.position(offset, true);
     const range = document.createRange();
     if (length > 0) {
-      console.log("1111111111111111111111111")
+      lplog("1111111111111111111111111")
       range.setStart(node, offset);
       [leaf, offset] = this.scroll.leaf(index + length);
       if (leaf == null) return null;
@@ -166,19 +166,19 @@ class Selection {
     let rect;
     if (node instanceof Text) {
       if (offset < node.data.length) {
-        console.log("222222222222222222222", offset, node)
+        lplog("222222222222222222222", offset, node)
         range.setStart(node, offset);
         range.setEnd(node, offset + 1);
       }
        else {
-        console.log("33333333333333333333", offset, node)
+        lplog("33333333333333333333", offset, node)
         range.setStart(node, offset - 1);
         range.setEnd(node, offset);
         side = 'right';
       }
       rect = range.getBoundingClientRect();
     } else {
-      console.log("44444444444444444444444444444444", offset)
+      lplog("44444444444444444444444444444444", offset)
       rect = leaf.domNode.getBoundingClientRect();
       if (offset > 0) side = 'right';
     }

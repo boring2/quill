@@ -694,7 +694,6 @@ function makeEmbedArrowHandler(key, shiftKey) {
 }
 
 function makeFormatHandler(format) {
-  console.warn('makeFormatHandler---', format);
   return {
     key: format[0],
     shortKey: true,

@@ -14,7 +14,6 @@ class IndentAttributor extends ClassAttributor {
   }
 
   canAdd(node, value) {
-    console.error('canAdd-----')
     return true
     console.log(super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10)))
     return super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10));
