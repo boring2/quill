@@ -458,7 +458,7 @@ Keyboard.DEFAULTS = {
           range = {index: this.quill.getIndex(lastChild)}
           delta = new Delta()
             .retain(range.index + lastChild.length())
-            .insert('\n', {})
+            .insert('\n', Object.assign(context.format, { header: null }))
             .retain(lastChild.length());
         } else {
           // my fix
