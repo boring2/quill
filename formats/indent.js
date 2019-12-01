@@ -20,7 +20,6 @@ class IndentAttributor extends ClassAttributor {
   }
 
   value(node) {
-    console.log(Math.max(0, parseInt(super.value(node), 10)) || undefined)
     // my fix
     return Math.max(0, parseInt(super.value(node), 10)) || undefined; // Don't return NaN
   }
