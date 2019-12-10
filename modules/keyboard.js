@@ -314,6 +314,7 @@ class Keyboard extends Module {
       if (name === 'code' || name === 'link' || name === 'tag') return;
       // my fix
       if (name === 'bookmark-link') return;
+      if (name === 'remark-link') return;
       if (name === 'bookmark') return;
       if (name === 'file') return;
       // my fix end
