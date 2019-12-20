@@ -29,9 +29,11 @@ class ListItem extends Block {
       const format = this.statics.formats(domNode, scroll);
       if (format === 'checked') {
         this.format('list', 'unchecked');
+        this.formatAt(0, this.length(), "strike", false)
         e.preventDefault();
       } else if (format === 'unchecked') {
         this.format('list', 'checked');
+        this.formatAt(0, this.length(), "strike", true)
         e.preventDefault();
       }
     };
