@@ -4,6 +4,9 @@ class IndentAttributor extends ClassAttributor {
   add(node, value) {
     if (value === '+1' || value === '-1') {
       const indent = this.value(node) || 0;
+      if ((indent >= 8 && value === '+1')) {
+        return
+      }
       value = value === '+1' ? indent + 1 : indent - 1;
     }
     if (value === 0) {

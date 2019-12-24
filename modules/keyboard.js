@@ -331,9 +331,12 @@ Keyboard.DEFAULTS = {
     indent: {
       // highlight tab or tab at beginning of list, indent or blockquote
       key: 'Tab',
-      format: ['blockquote', 'indent', 'list'],
+      // format: ['blockquote', 'indent', 'list'],
       handler(range, context) {
         if (context.collapsed && context.offset !== 0) return true;
+        if (context.format.indent === 8) {
+          return false
+        }
         this.quill.format('indent', '+1', Quill.sources.USER);
         return false;
       },
@@ -341,7 +344,7 @@ Keyboard.DEFAULTS = {
     outdent: {
       key: 'Tab',
       shiftKey: true,
-      format: ['blockquote', 'indent', 'list'],
+      // format: ['blockquote', 'indent', 'list'],
       // highlight tab or tab at beginning of list, indent or blockquote
       handler(range, context) {
         if (context.collapsed && context.offset !== 0) return true;
