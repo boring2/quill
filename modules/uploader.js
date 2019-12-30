@@ -26,6 +26,7 @@ class Uploader extends Module {
 
   upload(range, files) {
     const uploads = [];
+
     Array.from(files).forEach(file => {
       if (file && this.options.mimetypes.includes(file.type)) {
         uploads.push(file);
@@ -38,7 +39,7 @@ class Uploader extends Module {
 }
 
 Uploader.DEFAULTS = {
-  mimetypes: ['image/png', 'image/jpeg'],
+  mimetypes: ['image/png', 'image/jpeg', 'image/svg+xml', 'image/gif'],
   handler(range, files) {
     const promises = files.map(file => {
       return new Promise(resolve => {
