@@ -13,6 +13,7 @@ class Image extends EmbedBlot {
       // node.setAttribute('width', defaultWidth)
       if (value.startsWith('./icons') || value.startsWith('http://') || value.startsWith('https://')) {
         node.setAttribute('src', value)
+        node.classList.remove('loading')
         // 针对base64图片做存储
       } else if (value.startsWith('data:image')) {
         window.LPNote.FileLoader.saveAsset(value).then((id) => {
