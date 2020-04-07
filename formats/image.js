@@ -1,6 +1,5 @@
 import { EmbedBlot } from 'parchment';
 import { sanitize } from './link';
-import Quill from 'quill'
 
 const ATTRIBUTES = ['alt', 'width', 'height', 'data-id', 'scale'];
 
@@ -13,7 +12,16 @@ class Image extends EmbedBlot {
       // node.setAttribute('width', defaultWidth)
       if (value.startsWith('./icons') || value.startsWith('http://') || value.startsWith('https://')) {
         node.setAttribute('src', value)
-        node.classList.remove('loading')
+        setTimeout(() => {
+          node.classList.remove('loading')
+        }, 1000)
+        window.LPNote.FileLoader.saveRemoteAsset(value).then(({id, base64}) => {
+          window.isModified = true
+          node.setAttribute('src', base64)
+          node.setAttribute('scale', true)
+          node.setAttribute('data-id', id)
+          node.classList.remove('loading')
+        })
         // 针对base64图片做存储
       } else if (value.startsWith('data:image')) {
         window.LPNote.FileLoader.saveAsset(value).then((id) => {
@@ -25,6 +33,7 @@ class Image extends EmbedBlot {
       } else {
         // 暂且认为都是我们的id
         let id = value
+        console.log("data-id-------------", id)
         // node.setAttribute('src', './icons/angry@3x.png')
         window.LPNote.FileLoader.load(id).then((data) => {
           node.setAttribute('src', this.sanitize(data));
