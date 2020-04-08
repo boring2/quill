@@ -1,5 +1,6 @@
 import { EmbedBlot } from 'parchment';
 import { sanitize } from './link';
+import Quill from 'quill'
 
 const ATTRIBUTES = ['alt', 'width', 'height', 'data-id', 'scale'];
 
@@ -10,7 +11,10 @@ class Image extends EmbedBlot {
     if (typeof value === 'string') {
       // let defaultWidth = 300
       // node.setAttribute('width', defaultWidth)
-      if (value.startsWith('./icons') || value.startsWith('http://') || value.startsWith('https://')) {
+      if (value.startsWith('./icons')) {
+        node.setAttribute('src', value)
+        node.classList.remove('loading')
+      } else if (value.startsWith('http://') || value.startsWith('https://')) {
         node.setAttribute('src', value)
         setTimeout(() => {
           node.classList.remove('loading')
@@ -36,7 +40,14 @@ class Image extends EmbedBlot {
         console.log("data-id-------------", id)
         // node.setAttribute('src', './icons/angry@3x.png')
         window.LPNote.FileLoader.load(id).then((data) => {
-          node.setAttribute('src', this.sanitize(data));
+          if (typeof data == 'object') {
+            node.setAttribute('src', this.sanitize(data.src));
+            node.setAttribute('width', data.width);
+            node.setAttribute('height', data.height);
+          }
+          if (typeof data == 'string') {
+            node.setAttribute('src', this.sanitize(data));
+          }
           node.classList.remove('loading')
         })
       }
