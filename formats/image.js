@@ -42,7 +42,7 @@ class Image extends EmbedBlot {
         window.LPNote.FileLoader.load(id).then((data) => {
           if (typeof data == 'object') {
             node.setAttribute('src', this.sanitize(data.src));
-            node.setAttribute('width', data.width);
+            node.setAttribute('width', data.width || "100%");
             node.setAttribute('height', data.height);
           }
           if (typeof data == 'string') {
@@ -54,7 +54,7 @@ class Image extends EmbedBlot {
     } else if (typeof value === 'object') {
       value.src && node.setAttribute('src', this.sanitize(value.src));
       value.alt && node.setAttribute('alt', value.alt);
-      value.width && node.setAttribute('width', value.width);
+      value.width && node.setAttribute('width', value.width || "100%");
       value.height && node.setAttribute('height', value.height);
       value.dataId && node.setAttribute('data-id', value.dataId);
       value.scale && node.setAttribute('scale', true);
@@ -97,9 +97,13 @@ class Image extends EmbedBlot {
     if (ATTRIBUTES.indexOf(name) > -1) {
       if (value) {
         if (name === 'width') {
-          let oldValue = value
-          value = Math.min(window.innerWidth * 0.8, oldValue)
-          this.isFixScale = (value / oldValue)
+          if (parseInt(value) === 0) {
+            value = "100%"
+          } else {
+            let oldValue = value
+            value = Math.min(window.innerWidth * 0.8, oldValue)
+            this.isFixScale = (value / oldValue)
+          }
         } else if (name === 'height') {
           if (this.isFixScale) {
             value = value * this.isFixScale
