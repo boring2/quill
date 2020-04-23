@@ -1,10 +1,12 @@
 import Delta from 'quill-delta';
+import TurndownService from 'turndown';
+
 import {
   Attributor,
   ClassAttributor,
   EmbedBlot,
   Scope,
-  StyleAttributor,
+  // StyleAttributor,
   BlockBlot,
 } from 'parchment';
 import { BlockEmbed } from '../blots/block';
@@ -155,16 +157,19 @@ class Clipboard extends Module {
   }
 
   onCopy(range) {
-    const text = this.quill.getText(range);
+    // const text = this.quill.getText(range);
     const html = this.quill.getSemanticHTML(range);
-    return { html, text };
+    // 把 html转成 md
+    const turndownService = new TurndownService();
+    const markdown = turndownService.turndown(html);
+    return { html, text: markdown };
   }
 
   onPaste(range, { text, html }) {
     const formats = this.quill.getFormat(range.index);
     // 去掉html
-    // const pastedDelta = this.convert({ text, html }, formats);
-    const pastedDelta = this.convert({ text }, formats);
+    const pastedDelta = this.convert({ text, html }, formats);
+    // const pastedDelta = this.convert({ text }, formats);
     debug.log('onPaste', pastedDelta, { text, html });
     const delta = new Delta()
       .retain(range.index)
@@ -332,7 +337,7 @@ function matchAlias(format, node, delta) {
 function matchAttributor(node, delta, scroll) {
   const attributes = Attributor.keys(node);
   const classes = ClassAttributor.keys(node);
-  const styles = StyleAttributor.keys(node);
+  const styles = []; // StyleAttributor.keys(node);
   const formats = {};
   attributes
     .concat(classes)
