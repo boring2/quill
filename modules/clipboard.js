@@ -22,6 +22,21 @@ import { DirectionAttribute, DirectionStyle } from '../formats/direction';
 import { FontStyle } from '../formats/font';
 import { SizeStyle } from '../formats/size';
 
+const turndownService = new TurndownService({ headingStyle: 'atx' });
+turndownService.addRule('td', {
+  filter: ['td'],
+  replacement(content) {
+    return `|  ${content}  `;
+  },
+});
+
+turndownService.addRule('strikethrough', {
+  filter: ['del', 's', 'strike'],
+  replacement(content) {
+    return `~${content}~`;
+  },
+});
+
 const debug = logger('quill:clipboard');
 
 const CLIPBOARD_CONFIG = [
@@ -159,8 +174,9 @@ class Clipboard extends Module {
   onCopy(range) {
     const html = this.quill.getSemanticHTML(range);
     // 把 html转成 md
-    const turndownService = new TurndownService({ headingStyle: 'atx' });
     const markdown = turndownService.turndown(html);
+    console.log(html);
+    console.log(markdown);
     return { html, text: markdown };
   }
 
