@@ -410,7 +410,11 @@ function matchBreak(node, delta) {
 function matchCodeBlock(node, delta, scroll) {
   const match = scroll.query('code-block');
   const language = match ? match.formats(node, scroll) : true;
-  return applyFormat(delta, 'code-block', language);
+  return applyFormat(
+    delta,
+    'code-block',
+    language === 'plain' ? 'javascript' : language,
+  );
 }
 
 function matchIgnore() {
