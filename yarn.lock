@@ -10,6 +10,9 @@
     "@babel/highlight" "^7.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -48,8 +51,11 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/generator@^7.4.0", "@babel/generator@^7.6.0":
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.6.0.tgz#e2c21efbfd3293ad819a2359b448f002bfdfda56"
@@ -62,6 +68,9 @@
     trim-right "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/generator@^7.9.0", "@babel/generator@^7.9.5":
   version "7.9.5"
   resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.9.5.tgz#27f0917741acc41e6eaaced6d68f96c3fa9afaf9"
@@ -124,8 +133,11 @@
     "@babel/traverse" "^7.8.3"
     "@babel/types" "^7.8.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-function-name@^7.1.0":
   version "7.1.0"
   resolved "https://registry.npm.taobao.org/@babel/helper-function-name/download/@babel/helper-function-name-7.1.0.tgz#a0ceb01685f73355d4360c1247f582bfafc8ff53"
@@ -136,6 +148,9 @@
     "@babel/types" "^7.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-function-name@^7.8.3", "@babel/helper-function-name@^7.9.5":
   version "7.9.5"
   resolved "https://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.9.5.tgz#2b53820d35275120e1874a82e5aabe1376920a5c"
@@ -145,8 +160,11 @@
     "@babel/template" "^7.8.3"
     "@babel/types" "^7.9.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-get-function-arity@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npm.taobao.org/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.0.0.tgz#83572d4320e2a4657263734113c42868b64e49c3"
@@ -155,6 +173,9 @@
     "@babel/types" "^7.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-get-function-arity@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.org/@babel/helper-get-function-arity/-/helper-get-function-arity-7.8.3.tgz#b894b947bd004381ce63ea1db9f08547e920abd5"
@@ -203,14 +224,20 @@
   dependencies:
     "@babel/types" "^7.8.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-plugin-utils@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npm.taobao.org/@babel/helper-plugin-utils/download/@babel/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
   integrity sha1-u7P77phmHFaQNCN8wDlnupm08lA=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.8.3.tgz#9ea293be19babc0f52ff8ca88b34c3611b208670"
@@ -252,8 +279,11 @@
     "@babel/template" "^7.8.3"
     "@babel/types" "^7.8.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-split-export-declaration@^7.4.4":
   version "7.4.4"
   resolved "https://registry.npm.taobao.org/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.4.4.tgz#ff94894a340be78f53f06af038b205c49d993677"
@@ -262,6 +292,9 @@
     "@babel/types" "^7.4.4"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/helper-split-export-declaration@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.org/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.8.3.tgz#31a9f30070f91368a7182cf05f831781065fc7a9"
@@ -293,8 +326,11 @@
     "@babel/traverse" "^7.9.0"
     "@babel/types" "^7.9.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/highlight@^7.0.0":
   version "7.5.0"
   resolved "https://registry.npm.taobao.org/@babel/highlight/download/@babel/highlight-7.5.0.tgz#56d11312bd9248fa619591d02472be6e8cb32540"
@@ -305,6 +341,9 @@
     js-tokens "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/highlight@^7.8.3":
   version "7.9.0"
   resolved "https://registry.npmjs.org/@babel/highlight/-/highlight-7.9.0.tgz#4e9b45ccb82b79607271b2979ad82c7b68163079"
@@ -314,14 +353,20 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/parser@^7.4.3", "@babel/parser@^7.6.0":
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.6.0.tgz#3e05d0647432a8326cb28d0de03895ae5a57f39b"
   integrity sha1-PgXQZHQyqDJsso0N4DiVrlpX85s=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/parser@^7.8.6", "@babel/parser@^7.9.0":
   version "7.9.4"
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.9.4.tgz#68a35e6b0319bbc014465be43828300113f2f2e8"
@@ -793,8 +838,11 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/runtime@^7.4.5":
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
@@ -803,6 +851,9 @@
     regenerator-runtime "^0.13.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/runtime@^7.8.4":
   version "7.9.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
@@ -810,8 +861,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/template@^7.1.0", "@babel/template@^7.4.0":
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/@babel/template/download/@babel/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
@@ -822,6 +876,9 @@
     "@babel/types" "^7.6.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
   resolved "https://registry.npmjs.org/@babel/template/-/template-7.8.6.tgz#86b22af15f828dfb086474f964dcc3e39c43ce2b"
@@ -831,8 +888,11 @@
     "@babel/parser" "^7.8.6"
     "@babel/types" "^7.8.6"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/traverse@^7.4.3":
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.6.0.tgz#389391d510f79be7ce2ddd6717be66d3fed4b516"
@@ -849,6 +909,9 @@
     lodash "^4.17.13"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.6", "@babel/traverse@^7.9.0":
   version "7.9.5"
   resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.9.5.tgz#6e7c56b44e2ac7011a948c21e283ddd9d9db97a2"
@@ -864,8 +927,11 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/types@^7.0.0", "@babel/types@^7.4.0", "@babel/types@^7.4.4", "@babel/types@^7.6.0":
   version "7.6.1"
   resolved "https://registry.npm.taobao.org/@babel/types/download/@babel/types-7.6.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.6.1.tgz#53abf3308add3ac2a2884d539151c57c4b3ac648"
@@ -876,6 +942,9 @@
     to-fast-properties "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@babel/types@^7.8.3", "@babel/types@^7.8.6", "@babel/types@^7.9.0", "@babel/types@^7.9.5":
   version "7.9.5"
   resolved "https://registry.npmjs.org/@babel/types/-/types-7.9.5.tgz#89231f82915a8a566a703b3b20133f73da6b9444"
@@ -885,8 +954,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/@types/events/download/@types/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -912,6 +984,9 @@
   integrity sha1-4ZQ25/jptGAQBdc2c7bcR4T/zC8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -974,6 +1049,7 @@
   version "1.9.0"
   resolved "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.9.0.tgz#15c7a0fbaae83fb26143bbacf6d6df1702ad39e4"
   integrity sha512-dcX8JuYU/gvymzIHc9DgxTzUUTLexWwt8uCTWP3otys596io0L5aW02Gb1RjYpx2+0Jus1h4ZFqjla7umFniTg==
+<<<<<<< HEAD
   dependencies:
     "@xtuc/ieee754" "^1.2.0"
 
@@ -1119,88 +1195,95 @@
   version "1.8.5"
   resolved "https://registry.npm.taobao.org/@webassemblyjs/ieee754/download/@webassemblyjs/ieee754-1.8.5.tgz#712329dbef240f36bf57bd2f7b8fb9bf4154421e"
   integrity sha1-cSMp2+8kDza/V70ve4+5v0FUQh4=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     "@xtuc/ieee754" "^1.2.0"
 
-"@webassemblyjs/leb128@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/leb128/download/@webassemblyjs/leb128-1.8.5.tgz#044edeb34ea679f3e04cd4fd9824d5e35767ae10"
-  integrity sha1-BE7es06mefPgTNT9mCTV41dnrhA=
+"@webassemblyjs/leb128@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/leb128/-/leb128-1.9.0.tgz#f19ca0b76a6dc55623a09cffa769e838fa1e1c95"
+  integrity sha512-ENVzM5VwV1ojs9jam6vPys97B/S65YQtv/aanqnU7D8aSoHFX8GyhGg0CMfyKNIHBuAVjy3tlzd5QMMINa7wpw==
   dependencies:
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/utf8@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/utf8/download/@webassemblyjs/utf8-1.8.5.tgz#a8bf3b5d8ffe986c7c1e373ccbdc2a0915f0cedc"
-  integrity sha1-qL87XY/+mGx8Hjc8y9wqCRXwztw=
+"@webassemblyjs/utf8@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/utf8/-/utf8-1.9.0.tgz#04d33b636f78e6a6813227e82402f7637b6229ab"
+  integrity sha512-GZbQlWtopBTP0u7cHrEx+73yZKrQoBMpwkGEIqlacljhXCkVM1kMQge/Mf+csMJAjEdSwhOyLAS0AoR3AG5P8w==
 
-"@webassemblyjs/wasm-edit@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wasm-edit/download/@webassemblyjs/wasm-edit-1.8.5.tgz#962da12aa5acc1c131c81c4232991c82ce56e01a"
-  integrity sha1-li2hKqWswcExyBxCMpkcgs5W4Bo=
+"@webassemblyjs/wasm-edit@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-edit/-/wasm-edit-1.9.0.tgz#3fe6d79d3f0f922183aa86002c42dd256cfee9cf"
+  integrity sha512-FgHzBm80uwz5M8WKnMTn6j/sVbqilPdQXTWraSjBwFXSYGirpkSWE2R9Qvz9tNiTKQvoKILpCuTjBKzOIm0nxw==
   dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-buffer" "1.8.5"
-    "@webassemblyjs/helper-wasm-bytecode" "1.8.5"
-    "@webassemblyjs/helper-wasm-section" "1.8.5"
-    "@webassemblyjs/wasm-gen" "1.8.5"
-    "@webassemblyjs/wasm-opt" "1.8.5"
-    "@webassemblyjs/wasm-parser" "1.8.5"
-    "@webassemblyjs/wast-printer" "1.8.5"
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-buffer" "1.9.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.9.0"
+    "@webassemblyjs/helper-wasm-section" "1.9.0"
+    "@webassemblyjs/wasm-gen" "1.9.0"
+    "@webassemblyjs/wasm-opt" "1.9.0"
+    "@webassemblyjs/wasm-parser" "1.9.0"
+    "@webassemblyjs/wast-printer" "1.9.0"
 
-"@webassemblyjs/wasm-gen@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wasm-gen/download/@webassemblyjs/wasm-gen-1.8.5.tgz#54840766c2c1002eb64ed1abe720aded714f98bc"
-  integrity sha1-VIQHZsLBAC62TtGr5yCt7XFPmLw=
+"@webassemblyjs/wasm-gen@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-gen/-/wasm-gen-1.9.0.tgz#50bc70ec68ded8e2763b01a1418bf43491a7a49c"
+  integrity sha512-cPE3o44YzOOHvlsb4+E9qSqjc9Qf9Na1OO/BHFy4OI91XDE14MjFN4lTMezzaIWdPqHnsTodGGNP+iRSYfGkjA==
   dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-wasm-bytecode" "1.8.5"
-    "@webassemblyjs/ieee754" "1.8.5"
-    "@webassemblyjs/leb128" "1.8.5"
-    "@webassemblyjs/utf8" "1.8.5"
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.9.0"
+    "@webassemblyjs/ieee754" "1.9.0"
+    "@webassemblyjs/leb128" "1.9.0"
+    "@webassemblyjs/utf8" "1.9.0"
 
-"@webassemblyjs/wasm-opt@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wasm-opt/download/@webassemblyjs/wasm-opt-1.8.5.tgz#b24d9f6ba50394af1349f510afa8ffcb8a63d264"
-  integrity sha1-sk2fa6UDlK8TSfUQr6j/y4pj0mQ=
+"@webassemblyjs/wasm-opt@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-opt/-/wasm-opt-1.9.0.tgz#2211181e5b31326443cc8112eb9f0b9028721a61"
+  integrity sha512-Qkjgm6Anhm+OMbIL0iokO7meajkzQD71ioelnfPEj6r4eOFuqm4YC3VBPqXjFyyNwowzbMD+hizmprP/Fwkl2A==
   dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-buffer" "1.8.5"
-    "@webassemblyjs/wasm-gen" "1.8.5"
-    "@webassemblyjs/wasm-parser" "1.8.5"
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-buffer" "1.9.0"
+    "@webassemblyjs/wasm-gen" "1.9.0"
+    "@webassemblyjs/wasm-parser" "1.9.0"
 
-"@webassemblyjs/wasm-parser@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wasm-parser/download/@webassemblyjs/wasm-parser-1.8.5.tgz#21576f0ec88b91427357b8536383668ef7c66b8d"
-  integrity sha1-IVdvDsiLkUJzV7hTY4NmjvfGa40=
+"@webassemblyjs/wasm-parser@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-parser/-/wasm-parser-1.9.0.tgz#9d48e44826df4a6598294aa6c87469d642fff65e"
+  integrity sha512-9+wkMowR2AmdSWQzsPEjFU7njh8HTO5MqO8vjwEHuM+AMHioNqSBONRdr0NQQ3dVQrzp0s8lTcYqzUdb7YgELA==
   dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-api-error" "1.8.5"
-    "@webassemblyjs/helper-wasm-bytecode" "1.8.5"
-    "@webassemblyjs/ieee754" "1.8.5"
-    "@webassemblyjs/leb128" "1.8.5"
-    "@webassemblyjs/utf8" "1.8.5"
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-api-error" "1.9.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.9.0"
+    "@webassemblyjs/ieee754" "1.9.0"
+    "@webassemblyjs/leb128" "1.9.0"
+    "@webassemblyjs/utf8" "1.9.0"
 
-"@webassemblyjs/wast-parser@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wast-parser/download/@webassemblyjs/wast-parser-1.8.5.tgz#e10eecd542d0e7bd394f6827c49f3df6d4eefb8c"
-  integrity sha1-4Q7s1ULQ5705T2gnxJ899tTu+4w=
+"@webassemblyjs/wast-parser@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wast-parser/-/wast-parser-1.9.0.tgz#3031115d79ac5bd261556cecc3fa90a3ef451914"
+  integrity sha512-qsqSAP3QQ3LyZjNC/0jBJ/ToSxfYJ8kYyuiGvtn/8MK89VrNEfwj7BPQzJVHi0jGTRK2dGdJ5PRqhtjzoww+bw==
   dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/floating-point-hex-parser" "1.8.5"
-    "@webassemblyjs/helper-api-error" "1.8.5"
-    "@webassemblyjs/helper-code-frame" "1.8.5"
-    "@webassemblyjs/helper-fsm" "1.8.5"
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/floating-point-hex-parser" "1.9.0"
+    "@webassemblyjs/helper-api-error" "1.9.0"
+    "@webassemblyjs/helper-code-frame" "1.9.0"
+    "@webassemblyjs/helper-fsm" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/wast-printer@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.npm.taobao.org/@webassemblyjs/wast-printer/download/@webassemblyjs/wast-printer-1.8.5.tgz#114bbc481fd10ca0e23b3560fa812748b0bae5bc"
-  integrity sha1-EUu8SB/RDKDiOzVg+oEnSLC65bw=
+"@webassemblyjs/wast-printer@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wast-printer/-/wast-printer-1.9.0.tgz#4935d54c85fef637b00ce9f52377451d00d47899"
+  integrity sha512-2J0nE95rHXHyQ24cWjMKJ1tqB/ds8z/cyeOZxJhcb+rW+SQASVjuznUSmdz5GpVJTzU8JkhYut0D3siFDD6wsA==
   dependencies:
+<<<<<<< HEAD
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/wast-parser" "1.8.5"
 >>>>>>> modify
+=======
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/wast-parser" "1.9.0"
+>>>>>>> 复制粘贴保留格式
     "@xtuc/long" "4.2.2"
 
 "@xtuc/ieee754@^1.2.0":
@@ -1214,13 +1297,19 @@
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 abab@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npmjs.org/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1240,6 +1329,9 @@ accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
     negotiator "0.6.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 acorn-globals@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/acorn-globals/-/acorn-globals-6.0.0.tgz#46cdd39f0f8ff08a876619b55f5ac8a6dc770b45"
@@ -1248,28 +1340,40 @@ acorn-globals@^6.0.0:
     acorn "^7.1.1"
     acorn-walk "^7.1.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 acorn-jsx@^5.0.0:
   version "5.0.2"
   resolved "https://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.0.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Facorn-jsx%2Fdownload%2Facorn-jsx-5.0.2.tgz#84b68ea44b373c4f8686023a551f61a21b7c4a4f"
   integrity sha1-hLaOpEs3PE+GhgI6VR9hoht8Sk8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 acorn-walk@^7.1.1:
   version "7.1.1"
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.1.1.tgz#345f0dffad5c735e7373d2fec9a1023e6a44b83e"
   integrity sha512-wdlPY2tm/9XBr7QkKlq0WQVgiuGTX6YWPyRyBviSoScBuLfTVQhvwg6wJ369GJ/1nPfTLMfnrFIfjqVg6d+jQQ==
 
 acorn@^6.0.7:
+<<<<<<< HEAD
 =======
 acorn@^6.0.7, acorn@^6.2.1:
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   version "6.3.0"
   resolved "https://registry.npm.taobao.org/acorn/download/acorn-6.3.0.tgz?cache=0&sync_timestamp=1565683313321&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Facorn%2Fdownload%2Facorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
   integrity sha1-AIdQkRn/pPwKAEHR6TpBfmjLhW4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 acorn@^6.4.1:
   version "6.4.1"
   resolved "https://registry.npmjs.org/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
@@ -1280,8 +1384,11 @@ acorn@^7.1.1:
   resolved "https://registry.npmjs.org/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 adm-zip@~0.4.3:
   version "0.4.13"
   resolved "https://registry.npm.taobao.org/adm-zip/download/adm-zip-0.4.13.tgz#597e2f8cc3672151e1307d3e95cddbc75672314a"
@@ -1320,6 +1427,9 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.5.5, ajv@^6.9.1:
     uri-js "^4.2.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 ajv@^6.12.0:
   version "6.12.2"
   resolved "https://registry.npmjs.org/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
@@ -1330,8 +1440,11 @@ ajv@^6.12.0:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -1368,6 +1481,7 @@ ansi-regex@^4.1.0:
   integrity sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ansi-styles@^2.2.1:
   version "2.2.1"
@@ -1375,6 +1489,8 @@ ansi-styles@^2.2.1:
   integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-styles%2Fdownload%2Fansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -1391,6 +1507,9 @@ anymatch@^2.0.0:
     normalize-path "^2.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 anymatch@~3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/anymatch/-/anymatch-3.1.1.tgz#c55ecf02185e2469259399310c173ce31233b142"
@@ -1399,13 +1518,17 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
   integrity sha1-aALmJk79GMeQobDVF/DyYnvyyUo=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 archiver-utils@^2.1.0:
@@ -1438,6 +1561,8 @@ archiver@^3.0.0:
     zip-stream "^2.1.2"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 are-we-there-yet@~1.1.2:
   version "1.1.5"
   resolved "https://registry.npm.taobao.org/are-we-there-yet/download/are-we-there-yet-1.1.5.tgz#4b35c2944f062a8bfcda66410760350fe9ddfc21"
@@ -1505,6 +1630,9 @@ array-includes@^3.0.3:
     es-abstract "^1.7.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 array-includes@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/array-includes/-/array-includes-3.1.1.tgz#cdd67e6852bdf9c1215460786732255ed2459348"
@@ -1513,12 +1641,15 @@ array-includes@^3.1.1:
     define-properties "^1.1.3"
     es-abstract "^1.17.0"
     is-string "^1.0.5"
+<<<<<<< HEAD
 =======
 array-slice@^0.2.3:
   version "0.2.3"
   resolved "https://registry.npm.taobao.org/array-slice/download/array-slice-0.2.3.tgz#dd3cfb80ed7973a75117cdac69b0b99ec86186f5"
   integrity sha1-3Tz7gO15c6dRF82sabC5nshhhvU=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 array-union@^1.0.1:
   version "1.0.2"
@@ -1533,6 +1664,7 @@ array-uniq@^1.0.1:
   integrity sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 array-unique@^0.2.1:
   version "0.2.1"
@@ -1540,12 +1672,17 @@ array-unique@^0.2.1:
   integrity sha1-odl8yvy8JiXMcPrc6zalDFiwGlM=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.npm.taobao.org/array-unique/download/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 array.prototype.flat@^1.2.1:
   version "1.2.3"
   resolved "https://registry.npmjs.org/array.prototype.flat/-/array.prototype.flat-1.2.3.tgz#0de82b426b0318dbfdb940089e38b043d37f6c7b"
@@ -1554,8 +1691,11 @@ array.prototype.flat@^1.2.1:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 arraybuffer.slice@~0.0.7:
   version "0.0.7"
   resolved "https://registry.npm.taobao.org/arraybuffer.slice/download/arraybuffer.slice-0.0.7.tgz#3bbc4275dd584cc1b10809b89d4e8b63a69e7675"
@@ -1621,14 +1761,19 @@ async-limiter@~1.0.0:
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 async@1.x:
 =======
 async@1.x, async@^1.5.2:
 >>>>>>> modify
+=======
+async@1.x:
+>>>>>>> 复制粘贴保留格式
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
   integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 async@^2.1.2, async@^2.6.2:
   version "2.6.3"
@@ -1640,6 +1785,12 @@ async@^2.0.0, async@^2.1.2, async@^2.6.3:
   resolved "https://registry.npm.taobao.org/async/download/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
   integrity sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
 >>>>>>> modify
+=======
+async@^2.1.2, async@^2.6.2:
+  version "2.6.3"
+  resolved "https://registry.npmjs.org/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
+  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     lodash "^4.17.14"
 
@@ -1662,6 +1813,7 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
+<<<<<<< HEAD
 
 axobject-query@^2.0.2:
   version "2.0.2"
@@ -2177,55 +2329,43 @@ babel-register@^6.26.0:
     lodash "^4.17.4"
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
+=======
+>>>>>>> 复制粘贴保留格式
 
-babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
-  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+axobject-query@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/axobject-query/download/axobject-query-2.0.2.tgz#ea187abe5b9002b377f925d8bf7d1c561adf38f9"
+  integrity sha1-6hh6vluQArN3+SXYv30cVhrfOPk=
   dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
+    ast-types-flow "0.0.7"
 
-babel-template@^6.24.1, babel-template@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.npm.taobao.org/babel-template/download/babel-template-6.26.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
-  integrity sha1-3gPi0WOWsGn0bdn/+FIfsaDjXgI=
+babel-loader@^8.0.5:
+  version "8.1.0"
+  resolved "https://registry.npmjs.org/babel-loader/-/babel-loader-8.1.0.tgz#c611d5112bd5209abe8b9fa84c3e4da25275f1c3"
+  integrity sha512-7q7nC1tYOrqvUrN3LQK4GwSk/TQorZSOlO9C+RZDZpODgyN4ZlCqE5q9cDsyWOliN+aU9B4JX01xK9eJXowJLw==
   dependencies:
-    babel-runtime "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
-    babylon "^6.18.0"
-    lodash "^4.17.4"
+    find-cache-dir "^2.1.0"
+    loader-utils "^1.4.0"
+    mkdirp "^0.5.3"
+    pify "^4.0.1"
+    schema-utils "^2.6.5"
 
-babel-traverse@^6.24.1, babel-traverse@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.npm.taobao.org/babel-traverse/download/babel-traverse-6.26.0.tgz#46a9cbd7edcc62c8e5c064e2d2d8d0f4035766ee"
-  integrity sha1-RqnL1+3MYsjlwGTi0tjQ9ANXZu4=
+babel-plugin-dynamic-import-node@^2.3.0:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
+  integrity sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==
   dependencies:
-    babel-code-frame "^6.26.0"
-    babel-messages "^6.23.0"
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
-    babylon "^6.18.0"
-    debug "^2.6.8"
-    globals "^9.18.0"
-    invariant "^2.2.2"
-    lodash "^4.17.4"
+    object.assign "^4.1.0"
 
-babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.npm.taobao.org/babel-types/download/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
-  integrity sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc=
+babel-plugin-istanbul@^5.1.1:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/babel-plugin-istanbul/-/babel-plugin-istanbul-5.2.0.tgz#df4ade83d897a92df069c4d9a25cf2671293c854"
+  integrity sha512-5LphC0USA8t4i1zCtjbbNb6jJj/9+X6P37Qfirc/70EQ34xKlMW+a1RHGwxGI+SwWpNwZ27HqvzAobeqaXwiZw==
   dependencies:
-    babel-runtime "^6.26.0"
-    esutils "^2.0.2"
-    lodash "^4.17.4"
-    to-fast-properties "^1.0.3"
-
-babylon@^6.18.0:
-  version "6.18.0"
-  resolved "https://registry.npm.taobao.org/babylon/download/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
-  integrity sha1-ry87iPpvXB5MY00aD46sT1WzleM=
+    "@babel/helper-plugin-utils" "^7.0.0"
+    find-up "^3.0.0"
+    istanbul-lib-instrument "^3.3.0"
+    test-exclude "^5.2.3"
 
 >>>>>>> modify
 backo2@1.0.2:
@@ -2296,10 +2436,14 @@ binary-extensions@^1.0.0:
   integrity sha1-WYr+VHVbKGilMw0q/51Ou1Mgm2U=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 binary-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+<<<<<<< HEAD
 =======
 bl@^3.0.0:
   version "3.0.0"
@@ -2308,6 +2452,8 @@ bl@^3.0.0:
   dependencies:
     readable-stream "^3.0.1"
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 blob@0.0.5:
   version "0.0.5"
@@ -2361,6 +2507,7 @@ brace-expansion@^1.1.7:
     concat-map "0.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 braces@^0.1.2:
   version "0.1.5"
@@ -2370,6 +2517,8 @@ braces@^0.1.2:
     expand-range "^0.1.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 braces@^2.3.1, braces@^2.3.2:
   version "2.3.2"
   resolved "https://registry.npm.taobao.org/braces/download/braces-2.3.2.tgz#5979fd3f14cd531565e5fa2df1abfff1dfaee729"
@@ -2387,6 +2536,9 @@ braces@^2.3.1, braces@^2.3.2:
     to-regex "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 braces@^3.0.2, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -2394,21 +2546,30 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 brorand@^1.0.1:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/brorand/download/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 browser-process-hrtime@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 browserify-aes@^1.0.0, browserify-aes@^1.0.4:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/browserify-aes/download/browserify-aes-1.2.0.tgz#326734642f403dabc3003209853bb70ad428ef48"
@@ -2469,10 +2630,14 @@ browserify-zlib@^0.2.0:
     pako "~1.0.5"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 browserslist@^4.8.5, browserslist@^4.9.1:
   version "4.12.0"
   resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.12.0.tgz#06c6d5715a1ede6c51fc39ff67fd647f740b656d"
   integrity sha512-UH2GkcEDSI0k/lRkuDSzFl9ZZ87skSy9w2XAn1MsZnL+4c4rqbBd3e82UWHbYDpztABrPBhZsTEeuxVfHppqDg==
+<<<<<<< HEAD
   dependencies:
     caniuse-lite "^1.0.30001043"
     electron-to-chromium "^1.3.413"
@@ -2487,6 +2652,13 @@ browserslist@^3.2.6:
     caniuse-lite "^1.0.30000844"
     electron-to-chromium "^1.3.47"
 >>>>>>> modify
+=======
+  dependencies:
+    caniuse-lite "^1.0.30001043"
+    electron-to-chromium "^1.3.413"
+    node-releases "^1.1.53"
+    pkg-up "^2.0.0"
+>>>>>>> 复制粘贴保留格式
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -2502,6 +2674,7 @@ buffer-alloc@^1.2.0:
     buffer-fill "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 buffer-crc32@^0.2.1, buffer-crc32@^0.2.13:
   version "0.2.13"
@@ -2509,6 +2682,8 @@ buffer-crc32@^0.2.1, buffer-crc32@^0.2.13:
   integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 buffer-fill@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/buffer-fill/download/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
@@ -2539,6 +2714,7 @@ buffer@^4.3.0:
     isarray "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 buffer@^5.1.0:
   version "5.4.3"
@@ -2549,6 +2725,8 @@ buffer@^5.1.0:
     ieee754 "^1.1.4"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/builtin-status-codes/download/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
@@ -2632,6 +2810,7 @@ camelcase@^2.0.0:
   integrity sha1-fB0W1nmhu+WcoCys7PsBHiAfWh8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 camelcase@^5.0.0, camelcase@^5.2.0:
   version "5.3.1"
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
@@ -2643,15 +2822,25 @@ caniuse-lite@^1.0.30001043:
   integrity sha512-Y8o2Iz1KPcD6FjySbk1sPpvJqchgxk/iow0DABpGyzA1UeQAuxh63Xh0Enj5/BrsYbXtCN32JmR4ZxQTCQ6E6A==
 =======
 camelcase@^5.0.0:
+=======
+camelcase@^5.0.0, camelcase@^5.2.0:
+>>>>>>> 复制粘贴保留格式
   version "5.3.1"
-  resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
-  integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
+  resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
+  integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
+<<<<<<< HEAD
 caniuse-lite@^1.0.30000844:
   version "1.0.30000989"
   resolved "https://registry.npm.taobao.org/caniuse-lite/download/caniuse-lite-1.0.30000989.tgz#b9193e293ccf7e4426c5245134b8f2a56c0ac4b9"
   integrity sha1-uRk+KTzPfkQmxSRRNLjypWwKxLk=
 >>>>>>> modify
+=======
+caniuse-lite@^1.0.30001043:
+  version "1.0.30001045"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001045.tgz#a770df9de36ad6ca0c34f90eaa797a2dbbb1b619"
+  integrity sha512-Y8o2Iz1KPcD6FjySbk1sPpvJqchgxk/iow0DABpGyzA1UeQAuxh63Xh0Enj5/BrsYbXtCN32JmR4ZxQTCQ6E6A==
+>>>>>>> 复制粘贴保留格式
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -2659,10 +2848,14 @@ caseless@~0.12.0:
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.2:
 =======
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
 >>>>>>> modify
+=======
+chalk@2.4.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.2:
+>>>>>>> 复制粘贴保留格式
   version "2.4.2"
   resolved "https://registry.npm.taobao.org/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -2671,6 +2864,7 @@ chalk@2.4.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 chalk@^1.1.3:
@@ -2685,16 +2879,22 @@ chalk@^1.1.3:
     supports-color "^2.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npm.taobao.org/chardet/download/chardet-0.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchardet%2Fdownload%2Fchardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 chokidar@^2.1.8:
 =======
 chokidar@^2.0.2, chokidar@^2.0.3, chokidar@^2.1.8:
 >>>>>>> modify
+=======
+chokidar@^2.1.8:
+>>>>>>> 复制粘贴保留格式
   version "2.1.8"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1568917935776&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
   integrity sha1-gEs6e2qZNYw8XGHnHYco8EHP+Rc=
@@ -2714,6 +2914,9 @@ chokidar@^2.0.2, chokidar@^2.0.3, chokidar@^2.1.8:
     fsevents "^1.2.7"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 chokidar@^3.0.0:
   version "3.3.1"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.3.1.tgz#c84e5b3d18d9a4d77558fef466b1bf16bbeb3450"
@@ -2729,8 +2932,11 @@ chokidar@^3.0.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 chownr@^1.1.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/chownr/download/chownr-1.1.2.tgz#a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
@@ -2752,6 +2958,7 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     safe-buffer "^5.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 circular-json@^0.5.5:
   version "0.5.9"
@@ -2759,6 +2966,8 @@ circular-json@^0.5.5:
   integrity sha1-kydjroj0996teg0JyKUaR0OlOx0=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.npm.taobao.org/class-utils/download/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2842,6 +3051,7 @@ colors@^1.1.0:
   integrity sha1-OeAF1Uav4B4B+cTKj6UPaGoBIF0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 combine-lists@^1.0.0:
   version "1.0.1"
@@ -2851,6 +3061,8 @@ combine-lists@^1.0.0:
     lodash "^4.5.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.npm.taobao.org/combined-stream/download/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2899,6 +3111,7 @@ component-inherit@0.0.3:
   integrity sha1-ZF/ErfWLcrZJ1crmUTVhnbJv8UM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 compress-commons@^2.1.1:
   version "2.1.1"
@@ -2911,6 +3124,8 @@ compress-commons@^2.1.1:
     readable-stream "^2.3.6"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 compressible@~2.0.16:
   version "2.0.17"
   resolved "https://registry.npm.taobao.org/compressible/download/compressible-2.0.17.tgz#6e8c108a16ad58384a977f3a482ca20bff2f38c1"
@@ -3001,16 +3216,22 @@ content-type@~1.0.4:
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
   integrity sha512-4FJkXzKXEDB1snCFZlLP4gpC3JILicCpGbzG9f9G7tGqGCzETQ2hWPrcinA9oU4wtf2biUaEH5065UnMeR33oA==
+<<<<<<< HEAD
 =======
 convert-source-map@^1.5.1:
   version "1.6.0"
   resolved "https://registry.npm.taobao.org/convert-source-map/download/convert-source-map-1.6.0.tgz#51b537a8c43e0f04dec1993bffcdd504e758ac20"
   integrity sha1-UbU3qMQ+DwTewZk7/83VBOdYrCA=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     safe-buffer "~5.1.1"
 
@@ -3047,6 +3268,9 @@ copy-descriptor@^0.1.0:
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 core-js-compat@^3.6.2:
   version "3.6.5"
   resolved "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.6.5.tgz#2a51d9a4e25dfd6e690251aa81f99e3c05481f1c"
@@ -3059,18 +3283,22 @@ core-js-pure@^3.0.0:
   version "3.6.5"
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
   integrity sha512-lacdXOimsiD0QyNf9BC/mxivNJ/ybBGJXQFKzRekp1WTHoVUWsUHEn+2T8GJAzzIhyOuXA+gOxCVN3l+5PLPUA==
+<<<<<<< HEAD
 =======
 core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0:
   version "2.6.9"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.9.tgz?cache=0&sync_timestamp=1565640447689&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha1-a0shRiDINBUuF5Mjcn/Bl0GwhPI=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 crc32-stream@^3.0.1:
@@ -3089,6 +3317,8 @@ crc@^3.4.4:
     buffer "^5.1.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 create-ecdh@^4.0.0:
   version "4.0.3"
   resolved "https://registry.npm.taobao.org/create-ecdh/download/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"
@@ -3149,10 +3379,14 @@ crypto-browserify@^3.11.0:
     randomfill "^1.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 css-loader@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/css-loader/-/css-loader-2.1.1.tgz#d8254f72e412bb2238bb44dd674ffbef497333ea"
   integrity sha512-OcKJU/lt232vl1P9EEDamhoO9iKY3tIjY5GU+XDLblAykTdgs6Ux9P1hTHve8nFKy5KPpOXOsVI/hIwi3841+w==
+<<<<<<< HEAD
   dependencies:
     camelcase "^5.2.0"
     icss-utils "^4.1.0"
@@ -3170,20 +3404,25 @@ css-loader@~1.0.0:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/css-loader/download/css-loader-1.0.1.tgz#6885bb5233b35ec47b006057da01cc640b6b79fe"
   integrity sha1-aIW7UjOzXsR7AGBX2gHMZAtref4=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    babel-code-frame "^6.26.0"
-    css-selector-tokenizer "^0.7.0"
-    icss-utils "^2.1.0"
-    loader-utils "^1.0.2"
-    lodash "^4.17.11"
-    postcss "^6.0.23"
-    postcss-modules-extract-imports "^1.2.0"
-    postcss-modules-local-by-default "^1.2.0"
-    postcss-modules-scope "^1.1.0"
-    postcss-modules-values "^1.3.0"
+    camelcase "^5.2.0"
+    icss-utils "^4.1.0"
+    loader-utils "^1.2.3"
+    normalize-path "^3.0.0"
+    postcss "^7.0.14"
+    postcss-modules-extract-imports "^2.0.0"
+    postcss-modules-local-by-default "^2.0.6"
+    postcss-modules-scope "^2.1.0"
+    postcss-modules-values "^2.0.0"
     postcss-value-parser "^3.3.0"
+<<<<<<< HEAD
     source-list-map "^2.0.0"
 >>>>>>> modify
+=======
+    schema-utils "^1.0.0"
+>>>>>>> 复制粘贴保留格式
 
 css-parse@~2.0.0:
   version "2.0.0"
@@ -3192,6 +3431,7 @@ css-parse@~2.0.0:
   dependencies:
     css "^2.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 css-selector-tokenizer@^0.7.0:
@@ -3204,6 +3444,8 @@ css-selector-tokenizer@^0.7.0:
     regexpu-core "^1.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 css@^2.0.0:
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/css/download/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
@@ -3215,6 +3457,9 @@ css@^2.0.0:
     urix "^0.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
@@ -3236,12 +3481,15 @@ cssstyle@^2.2.0:
   integrity sha512-sEb3XFPx3jNnCAMtqrXPDeSgQr+jojtCeNf8cvMNMh1cG970+lljssvQDzPq6lmmJu2Vhqood/gtEomBiHOGnA==
   dependencies:
     cssom "~0.3.6"
+<<<<<<< HEAD
 =======
 cssesc@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npm.taobao.org/cssesc/download/cssesc-0.1.0.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
   integrity sha1-yBSQPkViM3GgR3tAEJqq++6t27Q=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -3273,6 +3521,9 @@ dashdash@^1.12.0:
     assert-plus "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 data-urls@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/data-urls/-/data-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
@@ -3286,12 +3537,15 @@ date-format@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/date-format/-/date-format-2.1.0.tgz#31d5b5ea211cf5fd764cd38baf9d033df7e125cf"
   integrity sha512-bYQuGLeFxhkxNOF3rcMtiZxvCBAquGzZm6oWA1oZ0g2THUzivaRhv8uOhdr19LmoobSOLoIAxeUK2RdbM8IFTA==
+<<<<<<< HEAD
 =======
 date-format@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/date-format/download/date-format-1.2.0.tgz#615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8"
   integrity sha1-YV6CjiM90aubua4JUODOzPpuytg=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 date-now@^0.1.4:
   version "0.1.4"
@@ -3314,10 +3568,14 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
     ms "2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
 =======
 debug@^3.0.0, debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
 >>>>>>> modify
+=======
+debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+>>>>>>> 复制粘贴保留格式
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -3344,13 +3602,19 @@ decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 decimal.js@^10.2.0:
   version "10.2.0"
   resolved "https://registry.npmjs.org/decimal.js/-/decimal.js-10.2.0.tgz#39466113a9e036111d02f82489b5fd6b0b5ed231"
   integrity sha512-vDPw+rDgn3bZe1+F/pyEwb1oMG2XTlRVgAa6B4KccTEpYgF8w6eQllVbQcfIJnZyvzFtFpxnpGtx8dd7DJp/Rw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
@@ -3462,6 +3726,7 @@ detect-file@^1.0.0:
   integrity sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 detect-indent@^4.0.0:
   version "4.0.0"
@@ -3471,6 +3736,8 @@ detect-indent@^4.0.0:
     repeating "^2.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 detect-libc@^1.0.2:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/detect-libc/download/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
@@ -3553,6 +3820,9 @@ domain-browser@^1.1.1:
   integrity sha1-PTH1AZGmdJ3RN1p/Ui6CPULlTto=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 domexception@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/domexception/-/domexception-2.0.1.tgz#fb44aefba793e1574b0af6aed2801d057529f304"
@@ -3560,8 +3830,11 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
   resolved "https://registry.npm.taobao.org/duplexify/download/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
@@ -3586,16 +3859,22 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 electron-to-chromium@^1.3.413:
   version "1.3.414"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.414.tgz#9d0a92defefda7cc1cf8895058b892795ddd6b41"
   integrity sha512-UfxhIvED++qLwWrAq9uYVcqF8FdeV9sU2S7qhiHYFODxzXRrd1GZRl/PjITHsTEejgibcWDraD8TQqoHb1aCBQ==
+<<<<<<< HEAD
 =======
 electron-to-chromium@^1.3.47:
   version "1.3.264"
   resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.264.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.264.tgz#ed837f44524d0601a7b2b7b6efd86e35753d0e27"
   integrity sha1-7YN/RFJNBgGnsre279huNXU9Dic=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -3621,23 +3900,33 @@ emojis-list@^2.0.0:
   integrity sha1-TapNnbAPmBmIDHn6RXrlsJof04k=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
 =======
 end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
 >>>>>>> modify
+=======
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
+>>>>>>> 复制粘贴保留格式
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/end-of-stream/download/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
   integrity sha1-7SljTRm6ukY7bOa4CjchPqtx7EM=
@@ -3722,10 +4011,14 @@ error-ex@^1.2.0, error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 es-abstract@^1.12.0, es-abstract@^1.7.0:
 =======
 es-abstract@^1.11.0, es-abstract@^1.12.0, es-abstract@^1.7.0:
 >>>>>>> modify
+=======
+es-abstract@^1.12.0, es-abstract@^1.7.0:
+>>>>>>> 复制粘贴保留格式
   version "1.14.2"
   resolved "https://registry.npm.taobao.org/es-abstract/download/es-abstract-1.14.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fes-abstract%2Fdownload%2Fes-abstract-1.14.2.tgz#7ce108fad83068c8783c3cdf62e504e084d8c497"
   integrity sha1-fOEI+tgwaMh4PDzfYuUE4ITYxJc=
@@ -3742,6 +4035,9 @@ es-abstract@^1.11.0, es-abstract@^1.12.0, es-abstract@^1.7.0:
     string.prototype.trimright "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 es-abstract@^1.17.0, es-abstract@^1.17.0-next.1, es-abstract@^1.17.5:
   version "1.17.5"
   resolved "https://registry.npmjs.org/es-abstract/-/es-abstract-1.17.5.tgz#d8c9d1d66c8981fb9200e2251d799eee92774ae9"
@@ -3759,8 +4055,11 @@ es-abstract@^1.17.0, es-abstract@^1.17.0-next.1, es-abstract@^1.17.5:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 es-to-primitive@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/es-to-primitive/download/es-to-primitive-1.2.0.tgz#edf72478033456e8dda8ef09e00ad9650707f377"
@@ -3771,6 +4070,9 @@ es-to-primitive@^1.2.0:
     is-symbol "^1.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 es-to-primitive@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.2.1.tgz#e55cd4c9cdc188bcefb03b366c736323fc5c898a"
@@ -3780,8 +4082,11 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 es6-promise@^4.0.3:
   version "4.2.8"
   resolved "https://registry.npm.taobao.org/es6-promise/download/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
@@ -3808,10 +4113,14 @@ escape-html@~1.0.3:
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 escape-string-regexp@^1.0.5:
 =======
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
 >>>>>>> modify
+=======
+escape-string-regexp@^1.0.5:
+>>>>>>> 复制粘贴保留格式
   version "1.0.5"
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
@@ -3829,6 +4138,9 @@ escodegen@1.8.x:
     source-map "~0.2.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 escodegen@^1.14.1:
   version "1.14.1"
   resolved "https://registry.npmjs.org/escodegen/-/escodegen-1.14.1.tgz#ba01d0c8278b5e95a9a45350142026659027a457"
@@ -3841,8 +4153,11 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 eslint-config-airbnb-base@^13.2.0:
   version "13.2.0"
   resolved "https://registry.npm.taobao.org/eslint-config-airbnb-base/download/eslint-config-airbnb-base-13.2.0.tgz#f6ea81459ff4dec2dda200c35f1d8f7419d57943"
@@ -3862,16 +4177,22 @@ eslint-config-airbnb@^17.1.0:
     object.entries "^1.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 eslint-config-prettier@^4.1.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
   integrity sha512-sZwhSTHVVz78+kYD3t5pCWSYEdVSBR0PXnwjDRsUs8ytIrK8PLXw+6FKp8r3Z7rx4ZszdetWlXYKOHoUrrwPlA==
+<<<<<<< HEAD
 =======
 eslint-config-prettier@^3.0.1:
   version "3.6.0"
   resolved "https://registry.npm.taobao.org/eslint-config-prettier/download/eslint-config-prettier-3.6.0.tgz#8ca3ffac4bd6eeef623a0651f9d754900e3ec217"
   integrity sha1-jKP/rEvW7u9iOgZR+ddUkA4+whc=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     get-stdin "^6.0.0"
 
@@ -3884,16 +4205,22 @@ eslint-import-resolver-node@^0.3.2:
     resolve "^1.5.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 eslint-import-resolver-webpack@~0.11.1:
   version "0.11.1"
   resolved "https://registry.npmjs.org/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.11.1.tgz#fcf1fd57a775f51e18f442915f85dd6ba45d2f26"
   integrity sha512-eK3zR7xVQR/MaoBWwGuD+CULYVuqe5QFlDukman71aI6IboCGzggDUohHNfu1ZeBnbHcUHJc0ywWoXUBNB6qdg==
+<<<<<<< HEAD
 =======
 eslint-import-resolver-webpack@~0.10.1:
   version "0.10.1"
   resolved "https://registry.npm.taobao.org/eslint-import-resolver-webpack/download/eslint-import-resolver-webpack-0.10.1.tgz#4cbceed2c0c43e488a74775c30861e58e00fb290"
   integrity sha1-TLzu0sDEPkiKdHdcMIYeWOAPspA=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     array-find "^1.0.0"
     debug "^2.6.8"
@@ -3903,6 +4230,7 @@ eslint-import-resolver-webpack@~0.10.1:
     interpret "^1.0.0"
     lodash "^4.17.4"
     node-libs-browser "^1.0.0 || ^2.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
     resolve "^1.10.0"
     semver "^5.3.0"
@@ -3924,36 +4252,48 @@ eslint-plugin-import@^2.17.1:
     array.prototype.flat "^1.2.1"
 =======
     resolve "^1.4.0"
+=======
+    resolve "^1.10.0"
+>>>>>>> 复制粘贴保留格式
     semver "^5.3.0"
 
-eslint-module-utils@^2.4.0:
-  version "2.4.1"
-  resolved "https://registry.npm.taobao.org/eslint-module-utils/download/eslint-module-utils-2.4.1.tgz#7b4675875bf96b0dbf1b21977456e5bb1f5e018c"
-  integrity sha1-e0Z1h1v5aw2/GyGXdFblux9eAYw=
+eslint-module-utils@^2.4.1:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.6.0.tgz#579ebd094f56af7797d19c9866c9c9486629bfa6"
+  integrity sha512-6j9xxegbqe8/kZY8cYpcp0xhbK0EgJlg3g9mib3/miLaExuuwc3n5UEfSnU6hWMbT0FAYVvDbL9RrRgpUeQIvA==
   dependencies:
-    debug "^2.6.8"
+    debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@^2.14.0:
-  version "2.18.2"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-import/download/eslint-plugin-import-2.18.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-import%2Fdownload%2Feslint-plugin-import-2.18.2.tgz#02f1180b90b077b33d447a17a2326ceb400aceb6"
-  integrity sha1-AvEYC5Cwd7M9RHoXojJs60AKzrY=
+eslint-plugin-import@^2.17.1:
+  version "2.20.2"
+  resolved "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.20.2.tgz#91fc3807ce08be4837141272c8b99073906e588d"
+  integrity sha512-FObidqpXrR8OnCh4iNsxy+WACztJLXAHBO5hK79T1Hc77PgQZkyDGA5Ag9xAvRpglvLNxhH/zSmZ70/pZ31dHg==
   dependencies:
     array-includes "^3.0.3"
+<<<<<<< HEAD
 >>>>>>> modify
+=======
+    array.prototype.flat "^1.2.1"
+>>>>>>> 复制粘贴保留格式
     contains-path "^0.1.0"
     debug "^2.6.9"
     doctrine "1.5.0"
     eslint-import-resolver-node "^0.3.2"
 <<<<<<< HEAD
+<<<<<<< HEAD
     eslint-module-utils "^2.4.1"
 =======
     eslint-module-utils "^2.4.0"
 >>>>>>> modify
+=======
+    eslint-module-utils "^2.4.1"
+>>>>>>> 复制粘贴保留格式
     has "^1.0.3"
     minimatch "^3.0.4"
     object.values "^1.1.0"
     read-pkg-up "^2.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
     resolve "^1.12.0"
 
@@ -3963,12 +4303,20 @@ eslint-plugin-jsx-a11y@^6.2.1:
   integrity sha512-CawzfGt9w83tyuVekn0GDPU9ytYtxyxyFZ3aSWROmnRRFQFT2BiPJd7jvRdzNDi6oLWaS2asMeYSNMjWTV4eNg==
 =======
     resolve "^1.11.0"
+=======
+    resolve "^1.12.0"
+>>>>>>> 复制粘贴保留格式
 
-eslint-plugin-jsx-a11y@^6.1.1:
+eslint-plugin-jsx-a11y@^6.2.1:
   version "6.2.3"
+<<<<<<< HEAD
   resolved "https://registry.npm.taobao.org/eslint-plugin-jsx-a11y/download/eslint-plugin-jsx-a11y-6.2.3.tgz#b872a09d5de51af70a97db1eea7dc933043708aa"
   integrity sha1-uHKgnV3lGvcKl9se6n3JMwQ3CKo=
 >>>>>>> modify
+=======
+  resolved "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.2.3.tgz#b872a09d5de51af70a97db1eea7dc933043708aa"
+  integrity sha512-CawzfGt9w83tyuVekn0GDPU9ytYtxyxyFZ3aSWROmnRRFQFT2BiPJd7jvRdzNDi6oLWaS2asMeYSNMjWTV4eNg==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     "@babel/runtime" "^7.4.5"
     aria-query "^3.0.0"
@@ -3981,10 +4329,14 @@ eslint-plugin-jsx-a11y@^6.1.1:
     jsx-ast-utils "^2.2.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 eslint-plugin-prettier@^3.0.1:
   version "3.1.3"
   resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.3.tgz#ae116a0fc0e598fdae48743a4430903de5b4e6ca"
   integrity sha512-+HG5jmu/dN3ZV3T6eCD7a4BlAySdN7mLIbJYo0z1cFQuI+r2DiTJEFeF68ots93PsnrMxbzIZ2S/ieX+mkrBeQ==
+<<<<<<< HEAD
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -4010,25 +4362,33 @@ eslint-plugin-prettier@^2.6.2:
   version "2.7.0"
   resolved "https://registry.npm.taobao.org/eslint-plugin-prettier/download/eslint-plugin-prettier-2.7.0.tgz#b4312dcf2c1d965379d7f9d5b5f8aaadc6a45904"
   integrity sha1-tDEtzywdllN51/nVtfiqrcakWQQ=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    fast-diff "^1.1.1"
-    jest-docblock "^21.0.0"
+    prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react@^7.11.1:
-  version "7.14.3"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-react/download/eslint-plugin-react-7.14.3.tgz#911030dd7e98ba49e1b2208599571846a66bdf13"
-  integrity sha1-kRAw3X6YuknhsiCFmVcYRqZr3xM=
+eslint-plugin-react@^7.12.4:
+  version "7.19.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.19.0.tgz#6d08f9673628aa69c5559d33489e855d83551666"
+  integrity sha512-SPT8j72CGuAP+JFbT0sJHOB80TX/pu44gQ4vXH/cq+hQTiY2PuZ6IHkqXJV6x1b28GDdo1lbInjKUrrdUf0LOQ==
   dependencies:
-    array-includes "^3.0.3"
+    array-includes "^3.1.1"
     doctrine "^2.1.0"
     has "^1.0.3"
-    jsx-ast-utils "^2.1.0"
-    object.entries "^1.1.0"
-    object.fromentries "^2.0.0"
-    object.values "^1.1.0"
+    jsx-ast-utils "^2.2.3"
+    object.entries "^1.1.1"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
     prop-types "^15.7.2"
+<<<<<<< HEAD
     resolve "^1.10.1"
 >>>>>>> modify
+=======
+    resolve "^1.15.1"
+    semver "^6.3.0"
+    string.prototype.matchall "^4.0.2"
+    xregexp "^4.3.0"
+>>>>>>> 复制粘贴保留格式
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -4051,6 +4411,7 @@ eslint-visitor-keys@^1.0.0:
   integrity sha1-4qgs6oT/JGrW+1f5veW0ZiFFnsI=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 eslint@^5.16.0:
   version "5.16.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
@@ -4061,6 +4422,12 @@ eslint@^5.4.0:
   resolved "https://registry.npm.taobao.org/eslint/download/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha1-oeOsGq5KP72Clvz496tzFMu2q+o=
 >>>>>>> modify
+=======
+eslint@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.npmjs.org/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
+  integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.9.1"
@@ -4114,10 +4481,14 @@ esprima@2.7.x, esprima@^2.7.1:
   integrity sha1-luO3DVd59q1JzQMmc9HDEnZ7pYE=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 esprima@^4.0.0, esprima@^4.0.1:
 =======
 esprima@^4.0.0:
 >>>>>>> modify
+=======
+esprima@^4.0.0, esprima@^4.0.1:
+>>>>>>> 复制粘贴保留格式
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
@@ -4147,10 +4518,14 @@ estraverse@^1.9.1:
   integrity sha1-r2fy3JIlgkFZUJJgkaQAXSnJu0Q=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
 =======
 estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1:
 >>>>>>> modify
+=======
+estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
+>>>>>>> 复制粘贴保留格式
   version "4.3.0"
   resolved "https://registry.npm.taobao.org/estraverse/download/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0=
@@ -4209,6 +4584,7 @@ execa@^1.0.0:
     strip-eof "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 expand-braces@^0.1.1:
   version "0.1.2"
@@ -4220,6 +4596,8 @@ expand-braces@^0.1.1:
     braces "^0.1.2"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 expand-brackets@^2.1.4:
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/expand-brackets/download/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
@@ -4234,6 +4612,7 @@ expand-brackets@^2.1.4:
     to-regex "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 expand-range@^0.1.0:
   version "0.1.1"
@@ -4244,6 +4623,8 @@ expand-range@^0.1.0:
     repeat-string "^0.2.2"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npm.taobao.org/expand-tilde/download/expand-tilde-2.0.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fexpand-tilde%2Fdownload%2Fexpand-tilde-2.0.2.tgz#97e801aa052df02454de46b02bf621642cdc8502"
@@ -4356,15 +4737,21 @@ fast-deep-equal@^2.0.1:
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 fast-deep-equal@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
   integrity sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA==
 
 fast-diff@1.2.0, fast-diff@^1.1.2:
+<<<<<<< HEAD
 =======
 fast-diff@1.2.0, fast-diff@^1.1.1:
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/fast-diff/download/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
@@ -4435,6 +4822,9 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -4442,8 +4832,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 finalhandler@1.1.2, finalhandler@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/finalhandler/download/finalhandler-1.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffinalhandler%2Fdownload%2Ffinalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -4458,6 +4851,7 @@ finalhandler@1.1.2, finalhandler@~1.1.2:
     unpipe "~1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find-cache-dir@^1.0.0:
   version "1.0.0"
@@ -4469,6 +4863,8 @@ find-cache-dir@^1.0.0:
     pkg-dir "^2.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 find-cache-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/find-cache-dir/download/find-cache-dir-2.1.0.tgz#8d0f94cd13fe43c6c7c261a0d86115ca918c05f7"
@@ -4596,6 +4992,9 @@ fs-access@^1.0.0:
     null-check "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 fs-extra@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -4604,12 +5003,15 @@ fs-extra@^7.0.1:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
     universalify "^0.1.0"
+<<<<<<< HEAD
 =======
 fs-constants@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/fs-constants/download/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha1-a+Dem+mYzhavivwkSXue6bfM2a0=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 fs-minipass@^1.2.5:
   version "1.2.7"
@@ -4642,13 +5044,19 @@ fsevents@^1.2.7:
     node-pre-gyp "^0.12.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 fsevents@~2.1.2:
   version "2.1.3"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
   integrity sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -4674,13 +5082,19 @@ gauge@~2.7.3:
     wide-align "^1.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
   resolved "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
   integrity sha512-r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/get-caller-file/download/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
@@ -4729,6 +5143,9 @@ glob-parent@^3.1.0:
     path-dirname "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 glob-parent@~5.1.0:
   version "5.1.1"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
@@ -4736,8 +5153,11 @@ glob-parent@~5.1.0:
   dependencies:
     is-glob "^4.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 glob@^5.0.15:
   version "5.0.15"
   resolved "https://registry.npm.taobao.org/glob/download/glob-5.0.15.tgz#1bc936b9e02f4a603fcc222ecf7633d30b8b93b1"
@@ -4803,6 +5223,7 @@ globals@^11.1.0, globals@^11.7.0:
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 globals@^9.18.0:
   version "9.18.0"
@@ -4810,6 +5231,8 @@ globals@^9.18.0:
   integrity sha1-qjiWs+abSH8X4x7SFD1pqOMMLYo=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 globby@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npm.taobao.org/globby/download/globby-6.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fglobby%2Fdownload%2Fglobby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
@@ -4822,22 +5245,32 @@ globby@^6.1.0:
     pinkie-promise "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
 =======
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.2.0:
 >>>>>>> modify
+=======
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
+>>>>>>> 复制粘贴保留格式
   version "4.2.2"
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.2.tgz#6f0952605d0140c1cfdb138ed005775b92d67b02"
   integrity sha1-bwlSYF0BQMHP2xOO0AV3W5LWewI=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 graceful-fs@^4.1.6:
   version "4.2.3"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 handle-thing@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/handle-thing/download/handle-thing-2.0.0.tgz#0e039695ff50c93fc288557d696f3c1dc6776754"
@@ -4860,6 +5293,7 @@ har-schema@^2.0.0:
   integrity sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 har-validator@~5.1.3:
   version "5.1.3"
   resolved "https://registry.npmjs.org/har-validator/-/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
@@ -4870,10 +5304,17 @@ har-validator@~5.1.0:
   resolved "https://registry.npm.taobao.org/har-validator/download/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
   integrity sha1-HvievT5JllV2de7ZiTEQ3DUPoIA=
 >>>>>>> modify
+=======
+har-validator@~5.1.3:
+  version "5.1.3"
+  resolved "https://registry.npmjs.org/har-validator/-/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
+  integrity sha512-sNvOCzEQNr/qrvJgc3UG/kD4QtlHycrzwS+6mfTrrSq97BvaYcPZZI1ZSqGSPR73Cxn4LKTD4PttRwfU7jWq5g==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     ajv "^6.5.5"
     har-schema "^2.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 has-ansi@^2.0.0:
@@ -4884,6 +5325,8 @@ has-ansi@^2.0.0:
     ansi-regex "^2.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 has-binary2@~1.0.2:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/has-binary2/download/has-binary2-1.0.3.tgz#7776ac627f3ea77250cfc332dab7ddf5e4f5d11d"
@@ -4912,13 +5355,19 @@ has-symbols@^1.0.0:
   integrity sha1-uhqPGvKg/DllD1yFA2dwQSIGO0Q=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 has-symbols@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
   integrity sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 has-unicode@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/has-unicode/download/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
@@ -4984,16 +5433,22 @@ he@1.2.x:
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 highlight.js@^9.15.6:
   version "9.18.1"
   resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
   integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
+<<<<<<< HEAD
 =======
 highlight.js@^9.12.0:
   version "9.15.10"
   resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
   integrity sha1-exjtdckDSMBF7vntCMoTGaIhmtI=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -5005,6 +5460,7 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -5015,6 +5471,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 homedir-polyfill@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/homedir-polyfill/download/homedir-polyfill-1.0.3.tgz#743298cef4e5af3e194161fbadcc2151d3a058e8"
@@ -5038,6 +5496,9 @@ hpack.js@^2.1.6:
     wbuf "^1.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
@@ -5045,8 +5506,11 @@ html-encoding-sniffer@^2.0.1:
   dependencies:
     whatwg-encoding "^1.0.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 html-entities@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/html-entities/download/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
@@ -5119,6 +5583,7 @@ http-errors@~1.7.2:
   integrity sha1-ksnBN0w1CF912zWexWzCV8u5P6Q=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 http-proxy-middleware@0.19.1:
   version "0.19.1"
   resolved "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-0.19.1.tgz#183c7dc4aa1479150306498c210cdaf96080a43a"
@@ -5129,6 +5594,12 @@ http-proxy-middleware@^0.19.1:
   resolved "https://registry.npm.taobao.org/http-proxy-middleware/download/http-proxy-middleware-0.19.1.tgz?cache=0&sync_timestamp=1567540612900&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhttp-proxy-middleware%2Fdownload%2Fhttp-proxy-middleware-0.19.1.tgz#183c7dc4aa1479150306498c210cdaf96080a43a"
   integrity sha1-GDx9xKoUeRUDBkmMIQza+WCApDo=
 >>>>>>> modify
+=======
+http-proxy-middleware@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-0.19.1.tgz#183c7dc4aa1479150306498c210cdaf96080a43a"
+  integrity sha512-yHYTgWMQO8VvwNS22eLLloAkvungsKdKTLO8AJlftYIKNfJr3GK3zK0ZCfzDDGUBttdGc8xFy1mCitvNKQtC3Q==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     http-proxy "^1.17.0"
     is-glob "^4.0.0"
@@ -5167,6 +5638,9 @@ https-proxy-agent@^2.2.1:
     debug "^3.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 https-proxy-agent@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-3.0.1.tgz#b8c286433e87602311b01c8ea34413d856a4af81"
@@ -5175,8 +5649,11 @@ https-proxy-agent@^3.0.0:
     agent-base "^4.3.0"
     debug "^3.1.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -5190,10 +5667,14 @@ icss-replace-symbols@^1.1.0:
   integrity sha1-Bupvg2ead0njhs/h/oEq5dsiPe0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 icss-utils@^4.1.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/icss-utils/-/icss-utils-4.1.1.tgz#21170b53789ee27447c2f47dd683081403f9a467"
   integrity sha512-4aFq7wvWyMHKgxsH8QQtGpvbASCf+eM3wPRLI6R+MgAnTCZ6STYsRvttLvRWK0Nfif5piF394St3HeJDaljGPA==
+<<<<<<< HEAD
   dependencies:
     postcss "^7.0.14"
 =======
@@ -5204,6 +5685,10 @@ icss-utils@^2.1.0:
   dependencies:
     postcss "^6.0.1"
 >>>>>>> modify
+=======
+  dependencies:
+    postcss "^7.0.14"
+>>>>>>> 复制粘贴保留格式
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -5228,13 +5713,19 @@ ignore@^4.0.6:
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 immediate@~3.0.5:
   version "3.0.6"
   resolved "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
   integrity sha1-nbHb0Pr43m++D13V5Wu2BigN5ps=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 import-fresh@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/import-fresh/download/import-fresh-3.1.0.tgz#6d33fa1dcef6df930fae003446f33415af905118"
@@ -5264,13 +5755,19 @@ indent-string@^2.1.0:
     repeating "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.npm.taobao.org/indexof/download/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
@@ -5337,6 +5834,9 @@ internal-ip@^4.3.0:
     ipaddr.js "^1.9.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 internal-slot@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.2.tgz#9c2e9fb3cd8e5e4256c6f45fe310067fcfa378a3"
@@ -5346,18 +5846,25 @@ internal-slot@^1.0.2:
     has "^1.0.3"
     side-channel "^1.0.2"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 interpret@1.2.0, interpret@^1.0.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/interpret/download/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha1-1QYaYiS+WOgIOYX1AU2EQ1lXYpY=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 invariant@^2.2.2, invariant@^2.2.4:
 =======
 invariant@^2.2.2:
 >>>>>>> modify
+=======
+invariant@^2.2.2, invariant@^2.2.4:
+>>>>>>> 复制粘贴保留格式
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -5390,16 +5897,22 @@ ipaddr.js@^1.9.0:
   integrity sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-absolute-url@^3.0.3:
   version "3.0.3"
   resolved "https://registry.npmjs.org/is-absolute-url/-/is-absolute-url-3.0.3.tgz#96c6a22b6a23929b11ea0afb1836c36ad4a5d698"
   integrity sha512-opmNIX7uFnS96NtPmhWQgQx6/NYFgsUXYMllcfzwWKUMwfo8kku1TvE6hkNcH+Q1ts5cMVrsY7j0bxXQDciu9Q==
+<<<<<<< HEAD
 =======
 is-absolute-url@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/is-absolute-url/download/is-absolute-url-3.0.2.tgz?cache=0&sync_timestamp=1568347868489&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-absolute-url%2Fdownload%2Fis-absolute-url-3.0.2.tgz#554f2933e7385cc46e94351977ca2081170a206e"
   integrity sha1-VU8pM+c4XMRulDUZd8oggRcKIG4=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"
@@ -5433,6 +5946,9 @@ is-binary-path@^1.0.0:
     binary-extensions "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-binary-path@~2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
@@ -5440,8 +5956,11 @@ is-binary-path@~2.1.0:
   dependencies:
     binary-extensions "^2.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.npm.taobao.org/is-buffer/download/is-buffer-1.1.6.tgz?cache=0&sync_timestamp=1562316204520&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-buffer%2Fdownload%2Fis-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
@@ -5453,13 +5972,19 @@ is-callable@^1.1.4:
   integrity sha1-HhrfIZ4e62hNaR+dagX/DTCiTXU=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-callable@^1.1.5:
   version "1.1.5"
   resolved "https://registry.npmjs.org/is-callable/-/is-callable-1.1.5.tgz#f7e46b596890456db74e7f6e976cb3273d06faab"
   integrity sha512-ESKv5sMCJB2jnHTWZ3O5itG+O128Hsus4K4Qh1h2/cgn2vbgnLSVqfV46AeJA9D5EeeLa9w81KUXMtn34zhX+Q==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-data-descriptor@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npm.taobao.org/is-data-descriptor/download/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
@@ -5541,6 +6066,7 @@ is-glob@^3.1.0:
     is-extglob "^2.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
@@ -5550,18 +6076,24 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
 
 =======
 is-glob@^4.0.0:
+=======
+is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
+>>>>>>> 复制粘贴保留格式
   version "4.0.1"
-  resolved "https://registry.npm.taobao.org/is-glob/download/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
-  integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
+  resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+  integrity sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
   dependencies:
     is-extglob "^2.1.1"
 
+<<<<<<< HEAD
 is-number@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npm.taobao.org/is-number/download/is-number-0.1.1.tgz#69a7af116963d47206ec9bd9b48a14216f1e3806"
   integrity sha1-aaevEWlj1HIG7JvZtIoUIW8eOAY=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/is-number/download/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -5570,13 +6102,19 @@ is-number@^3.0.0:
     kind-of "^3.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-path-cwd@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/is-path-cwd/download/is-path-cwd-2.2.0.tgz#67d43b82664a7b5191fd9119127eb300048a9fdb"
@@ -5597,13 +6135,19 @@ is-path-inside@^2.1.0:
     path-is-inside "^1.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-plain-obj@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/is-plain-object/download/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -5612,13 +6156,19 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
     isobject "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-potential-custom-element-name@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.0.tgz#0c52e54bcca391bb2c494b21e8626d7336c6e397"
   integrity sha1-DFLlS8yjkbssSUsh6GJtczbG45c=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/is-promise/download/is-promise-2.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-promise%2Fdownload%2Fis-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
@@ -5632,6 +6182,9 @@ is-regex@^1.0.4:
     has "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-regex@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/is-regex/-/is-regex-1.0.5.tgz#39d589a358bf18967f726967120b8fc1aed74eae"
@@ -5639,21 +6192,30 @@ is-regex@^1.0.5:
   dependencies:
     has "^1.0.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 is-string@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
   integrity sha512-buY6VNRjhQMiF1qWDouloZlQbRhDPCebwxSjxMjxgemYT46YMd2NR0/H+fBhEfWX4A/w9TBJ+ol+okqJKFE6vQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 is-symbol@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/is-symbol/download/is-symbol-1.0.2.tgz#a055f6ae57192caee329e7a860118b497a950f38"
@@ -5759,14 +6321,19 @@ istanbul@^0.4.0:
     wordwrap "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 jasmine-core@^3.3, jasmine-core@^3.4.0, jasmine-core@~3.5.0:
 =======
 jasmine-core@^3.2.1, jasmine-core@~3.5.0:
 >>>>>>> modify
+=======
+jasmine-core@^3.3, jasmine-core@^3.4.0, jasmine-core@~3.5.0:
+>>>>>>> 复制粘贴保留格式
   version "3.5.0"
   resolved "https://registry.npm.taobao.org/jasmine-core/download/jasmine-core-3.5.0.tgz#132c23e645af96d85c8bca13c8758b18429fc1e4"
   integrity sha1-Eywj5kWvlthci8oTyHWLGEKfweQ=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 jasmine@^3.4.0:
   version "3.5.0"
@@ -5778,10 +6345,17 @@ jasmine@^3.2.0:
   resolved "https://registry.npm.taobao.org/jasmine/download/jasmine-3.5.0.tgz#7101eabfd043a1fc82ac24e0ab6ec56081357f9e"
   integrity sha1-cQHqv9BDofyCrCTgq27FYIE1f54=
 >>>>>>> modify
+=======
+jasmine@^3.4.0:
+  version "3.5.0"
+  resolved "https://registry.npmjs.org/jasmine/-/jasmine-3.5.0.tgz#7101eabfd043a1fc82ac24e0ab6ec56081357f9e"
+  integrity sha512-DYypSryORqzsGoMazemIHUfMkXM7I7easFaxAvNM3Mr6Xz3Fy36TupTrAOxZWN8MVKEU5xECv22J4tUQf3uBzQ==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     glob "^7.1.4"
     jasmine-core "~3.5.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 jest-docblock@^21.0.0:
@@ -5790,11 +6364,14 @@ jest-docblock@^21.0.0:
   integrity sha1-UVKcOzDV/RWdpgwnzu3Blfr41BQ=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 js-tokens@^3.0.2:
@@ -5803,6 +6380,8 @@ js-tokens@^3.0.2:
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 js-yaml@3.x, js-yaml@^3.13.0:
   version "3.13.1"
   resolved "https://registry.npm.taobao.org/js-yaml/download/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
@@ -5817,6 +6396,9 @@ jsbn@~0.1.0:
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 jsdom@^16.2.0:
   version "16.2.2"
   resolved "https://registry.npmjs.org/jsdom/-/jsdom-16.2.2.tgz#76f2f7541646beb46a938f5dc476b88705bedf2b"
@@ -5848,12 +6430,15 @@ jsdom@^16.2.0:
     whatwg-url "^8.0.0"
     ws "^7.2.3"
     xml-name-validator "^3.0.0"
+<<<<<<< HEAD
 =======
 jsesc@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/jsesc/download/jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b"
   integrity sha1-RsP+yMGJKxKwgz25vHYiF226s0s=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 jsesc@^2.5.1:
   version "2.5.2"
@@ -5896,6 +6481,7 @@ json3@^3.3.2:
   integrity sha1-f8EON1/FrkLEcFpcwKpvYr4wW4E=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 json5@^0.5.1:
   version "0.5.1"
@@ -5903,6 +6489,8 @@ json5@^0.5.1:
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 json5@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/json5/download/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
@@ -5911,6 +6499,9 @@ json5@^1.0.1:
     minimist "^1.2.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 json5@^2.1.2:
   version "2.1.3"
   resolved "https://registry.npmjs.org/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
@@ -5925,8 +6516,11 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 jsprim@^1.2.2:
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/jsprim/download/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
@@ -5938,10 +6532,14 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 jsx-ast-utils@^2.2.1:
 =======
 jsx-ast-utils@^2.1.0, jsx-ast-utils@^2.2.1:
 >>>>>>> modify
+=======
+jsx-ast-utils@^2.2.1:
+>>>>>>> 复制粘贴保留格式
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/jsx-ast-utils/download/jsx-ast-utils-2.2.1.tgz#4d4973ebf8b9d2837ee91a8208cc66f3a2776cfb"
   integrity sha1-TUlz6/i50oN+6RqCCMxm86J3bPs=
@@ -5950,6 +6548,9 @@ jsx-ast-utils@^2.1.0, jsx-ast-utils@^2.2.1:
     object.assign "^4.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 jsx-ast-utils@^2.2.3:
   version "2.2.3"
   resolved "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-2.2.3.tgz#8a9364e402448a3ce7f14d357738310d9248054f"
@@ -5968,8 +6569,11 @@ jszip@^3.2.2:
     readable-stream "~2.3.6"
     set-immediate-shim "~1.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 karma-chrome-launcher@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/karma-chrome-launcher/download/karma-chrome-launcher-2.2.0.tgz#cf1b9d07136cc18fe239327d24654c3dbc368acf"
@@ -5990,12 +6594,16 @@ karma-coverage@^1.1.2:
     source-map "^0.5.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 karma-jasmine@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-2.0.1.tgz#26e3e31f2faf272dd80ebb0e1898914cc3a19763"
   integrity sha512-iuC0hmr9b+SNn1DaUD2QEYtUxkS1J+bSJSn7ejdEexs7P8EYvA1CWkEdrDQ+8jVH3AgWlCNwjYsT1chjcNW9lA==
   dependencies:
     jasmine-core "^3.3"
+<<<<<<< HEAD
 
 karma-sauce-launcher@^2.0.2:
   version "2.0.2"
@@ -6024,38 +6632,42 @@ karma-jasmine@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/karma-jasmine/download/karma-jasmine-1.1.2.tgz#394f2b25ffb4a644b9ada6f22d443e2fd08886c3"
   integrity sha1-OU8rJf+0pkS5rabyLUQ+L9CIhsM=
+=======
+>>>>>>> 复制粘贴保留格式
 
-karma-sauce-launcher@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/karma-sauce-launcher/download/karma-sauce-launcher-1.2.0.tgz#6f2558ddef3cf56879fa27540c8ae9f8bfd16bca"
-  integrity sha1-byVY3e889Wh5+idUDIrp+L/Ra8o=
+karma-sauce-launcher@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/karma-sauce-launcher/-/karma-sauce-launcher-2.0.2.tgz#dbf98e70d86bf287b03a537cf637eb7aefa975c3"
+  integrity sha512-jLUFaJhHMcKpxFWUesyWYihzM5FvQiJsDwGcCtKeOy2lsWhkVw0V0Byqb1d+wU6myU1mribBtsIcub23HS4kWA==
   dependencies:
-    q "^1.5.0"
-    sauce-connect-launcher "^1.2.2"
-    saucelabs "^1.4.0"
-    wd "^1.4.0"
+    sauce-connect-launcher "^1.2.4"
+    saucelabs "^1.5.0"
+    selenium-webdriver "^4.0.0-alpha.1"
 
-karma@^3.0.0:
-  version "3.1.4"
-  resolved "https://registry.npm.taobao.org/karma/download/karma-3.1.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fkarma%2Fdownload%2Fkarma-3.1.4.tgz#3890ca9722b10d1d14b726e1335931455788499e"
-  integrity sha1-OJDKlyKxDR0UtybhM1kxRVeISZ4=
+karma@^4.0.1:
+  version "4.4.1"
+  resolved "https://registry.npmjs.org/karma/-/karma-4.4.1.tgz#6d9aaab037a31136dc074002620ee11e8c2e32ab"
+  integrity sha512-L5SIaXEYqzrh6b1wqYC42tNsFMx2PWuxky84pK9coK09MvmL7mxii3G3bZBh/0rvD27lqDd0le9jyhzvwif73A==
   dependencies:
     bluebird "^3.3.0"
     body-parser "^1.16.1"
-    chokidar "^2.0.3"
+    braces "^3.0.2"
+    chokidar "^3.0.0"
     colors "^1.1.0"
-    combine-lists "^1.0.0"
     connect "^3.6.0"
-    core-js "^2.2.0"
     di "^0.0.1"
     dom-serialize "^2.2.0"
+<<<<<<< HEAD
     expand-braces "^0.1.1"
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
     flatted "^2.0.0"
     glob "^7.1.1"
     graceful-fs "^4.1.2"
     http-proxy "^1.13.0"
     isbinaryfile "^3.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
     lodash "^4.17.14"
     log4js "^4.0.0"
@@ -6063,6 +6675,10 @@ karma@^3.0.0:
     lodash "^4.17.5"
     log4js "^3.0.0"
 >>>>>>> modify
+=======
+    lodash "^4.17.14"
+    log4js "^4.0.0"
+>>>>>>> 复制粘贴保留格式
     mime "^2.3.1"
     minimatch "^3.0.2"
     optimist "^0.6.1"
@@ -6105,6 +6721,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   integrity sha1-ARRrNqYhjmTljzqNZt5df8b20FE=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 lazystream@^1.0.0:
   version "1.0.0"
@@ -6114,6 +6731,8 @@ lazystream@^1.0.0:
     readable-stream "^2.0.5"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 lcid@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/lcid/download/lcid-2.0.0.tgz?cache=0&sync_timestamp=1569137742204&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flcid%2Fdownload%2Flcid-2.0.0.tgz#6ef5d2df60e52f82eb228a4c373e8d1f397253cf"
@@ -6122,6 +6741,9 @@ lcid@^2.0.0:
     invert-kv "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -6134,8 +6756,11 @@ levenary@^1.1.1:
   dependencies:
     leven "^3.1.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -6145,6 +6770,9 @@ levn@^0.3.0, levn@~0.3.0:
     type-check "~0.3.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 lie@~3.3.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"
@@ -6152,8 +6780,11 @@ lie@~3.3.0:
   dependencies:
     immediate "~3.0.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/load-json-file/download/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -6200,6 +6831,9 @@ loader-utils@1.2.3, loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.
     json5 "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 loader-utils@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
@@ -6209,8 +6843,11 @@ loader-utils@^1.4.0:
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/locate-path/download/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -6231,6 +6868,7 @@ lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 lodash.sortby@^4.7.0:
@@ -6259,23 +6897,33 @@ lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.npm.taobao.org/lodash.isplainobject/download/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
   integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+=======
+>>>>>>> 复制粘贴保留格式
 
-lodash.union@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.npm.taobao.org/lodash.union/download/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
-  integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
+lodash.sortby@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+  integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
+<<<<<<< HEAD
 lodash@^4.0.0, lodash@^4.16.6, lodash@^4.17.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.5.0:
 >>>>>>> modify
+=======
+lodash@^4.16.6, lodash@^4.17.0, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4:
+>>>>>>> 复制粘贴保留格式
   version "4.17.15"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 log4js@^4.0.0:
   version "4.5.1"
   resolved "https://registry.npmjs.org/log4js/-/log4js-4.5.1.tgz#e543625e97d9e6f3e6e7c9fc196dd6ab2cae30b5"
   integrity sha512-EEEgFcE9bLgaYUKuozyFfytQM2wDHtXn4tAN41pkaxpNjAykv11GVdeI4tHtmPWW4Xrgh9R/2d7XYghDVjbKKw==
+<<<<<<< HEAD
   dependencies:
     date-format "^2.0.0"
     debug "^4.1.1"
@@ -6292,18 +6940,27 @@ log4js@^3.0.0:
   version "3.0.6"
   resolved "https://registry.npm.taobao.org/log4js/download/log4js-3.0.6.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flog4js%2Fdownload%2Flog4js-3.0.6.tgz#e6caced94967eeeb9ce399f9f8682a4b2b28c8ff"
   integrity sha1-5srO2Uln7uuc45n5+GgqSysoyP8=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    circular-json "^0.5.5"
-    date-format "^1.2.0"
-    debug "^3.1.0"
-    rfdc "^1.1.2"
-    streamroller "0.7.0"
+    date-format "^2.0.0"
+    debug "^4.1.1"
+    flatted "^2.0.0"
+    rfdc "^1.1.4"
+    streamroller "^1.0.6"
 
+<<<<<<< HEAD
 loglevel@^1.6.4:
   version "1.6.4"
   resolved "https://registry.npm.taobao.org/loglevel/download/loglevel-1.6.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Floglevel%2Fdownload%2Floglevel-1.6.4.tgz#f408f4f006db8354d0577dcf6d33485b3cb90d56"
   integrity sha1-9Aj08Abbg1TQV33PbTNIWzy5DVY=
 >>>>>>> modify
+=======
+loglevel@^1.6.6:
+  version "1.6.8"
+  resolved "https://registry.npmjs.org/loglevel/-/loglevel-1.6.8.tgz#8a25fb75d092230ecd4457270d80b54e28011171"
+  integrity sha512-bsU7+gc9AJ2SqpzxwU3+1fedl8zAntbtC5XYlt3s2j1hJcn2PsXSmgN8TaLG/J1/2mod4+cE/3vNL70/c1RNCA==
+>>>>>>> 复制粘贴保留格式
 
 loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -6341,6 +6998,7 @@ lru-cache@^5.1.1:
     yallist "^3.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 make-dir@^1.0.0:
   version "1.3.0"
@@ -6350,6 +7008,8 @@ make-dir@^1.0.0:
     pify "^3.0.0"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 make-dir@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/make-dir/download/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
@@ -6359,6 +7019,7 @@ make-dir@^2.0.0:
     semver "^5.6.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 mamacro@^0.0.3:
   version "0.0.3"
@@ -6366,6 +7027,8 @@ mamacro@^0.0.3:
   integrity sha1-rSyVdhl8nxq/MI0Hh4Zb2XWj8+Q=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 map-age-cleaner@^0.1.1:
   version "0.1.3"
   resolved "https://registry.npm.taobao.org/map-age-cleaner/download/map-age-cleaner-0.1.3.tgz#7d583a7306434c055fe474b0f45078e6e1b4b92a"
@@ -6517,10 +7180,14 @@ mimic-fn@^2.0.0:
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 mini-css-extract-plugin@~0.6.0:
   version "0.6.0"
   resolved "https://registry.npmjs.org/mini-css-extract-plugin/-/mini-css-extract-plugin-0.6.0.tgz#a3f13372d6fcde912f3ee4cd039665704801e3b9"
   integrity sha512-79q5P7YGI6rdnVyIAV4NXpBQJFWdkzJxCim3Kog4078fM0piAaFlwocqbejdWtLW1cEzCexPrh6EdyFsPgVdAw==
+<<<<<<< HEAD
   dependencies:
     loader-utils "^1.1.0"
     normalize-url "^2.0.1"
@@ -6532,6 +7199,11 @@ mini-css-extract-plugin@~0.4.2:
   dependencies:
     loader-utils "^1.1.0"
 >>>>>>> modify
+=======
+  dependencies:
+    loader-utils "^1.1.0"
+    normalize-url "^2.0.1"
+>>>>>>> 复制粘贴保留格式
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
@@ -6563,13 +7235,19 @@ minimist@^1.1.3, minimist@^1.2.0:
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 minimist@~0.0.1:
   version "0.0.10"
   resolved "https://registry.npm.taobao.org/minimist/download/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
@@ -6622,6 +7300,9 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.x:
     minimist "0.0.8"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 mkdirp@^0.5.3:
   version "0.5.5"
   resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
@@ -6629,8 +7310,11 @@ mkdirp@^0.5.3:
   dependencies:
     minimist "^1.2.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/move-concurrently/download/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6735,16 +7419,22 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 node-forge@0.9.0:
   version "0.9.0"
   resolved "https://registry.npmjs.org/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
   integrity sha512-7ASaDa3pD+lJ3WvXFsxekJQelBKRpne+GOVbLbtHYdd7pFspyeuJHnWfLplGf3SwKGbfs/aYl5V/JCIaHVUKKQ==
+<<<<<<< HEAD
 =======
 node-forge@0.8.2:
   version "0.8.2"
   resolved "https://registry.npm.taobao.org/node-forge/download/node-forge-0.8.2.tgz#b4bcc59fb12ce77a8825fc6a783dfe3182499c5a"
   integrity sha1-tLzFn7Es53qIJfxqeD3+MYJJnFo=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 "node-libs-browser@^1.0.0 || ^2.0.0", node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -6792,13 +7482,19 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 node-releases@^1.1.53:
   version "1.1.53"
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.53.tgz#2d821bfa499ed7c5dffc5e2f28c88e78a08ee3f4"
   integrity sha512-wp8zyQVwef2hpZ/dJH7SfSrIPD6YoJz6BDQDpGEkcA0s3LpAQoxBIYmfIq6QAhC1DhwsyCgTaTTcONwX8qzCuQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 nopt@3.x:
   version "3.0.6"
   resolved "https://registry.npm.taobao.org/nopt/download/nopt-3.0.6.tgz#c6465dbf08abcd4db359317f79ac68a646b28ff9"
@@ -6832,15 +7528,22 @@ normalize-path@^2.1.1:
     remove-trailing-separator "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 normalize-path@^3.0.0, normalize-path@~3.0.0:
 =======
 normalize-path@^3.0.0:
 >>>>>>> modify
+=======
+normalize-path@^3.0.0, normalize-path@~3.0.0:
+>>>>>>> 复制粘贴保留格式
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 normalize-url@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-2.0.1.tgz#835a9da1551fa26f70e92329069a23aa6574d7e6"
@@ -6850,8 +7553,11 @@ normalize-url@^2.0.1:
     query-string "^5.0.1"
     sort-keys "^2.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 npm-bundled@^1.0.1:
   version "1.0.6"
   resolved "https://registry.npm.taobao.org/npm-bundled/download/npm-bundled-1.0.6.tgz#e7ba9aadcef962bb61248f91721cd932b3fe6bdd"
@@ -6893,13 +7599,19 @@ number-is-nan@^1.0.0:
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://registry.npm.taobao.org/oauth-sign/download/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
@@ -6930,13 +7642,19 @@ object-inspect@^1.6.0:
   integrity sha1-xwtsv3LydKq0w0wMgvUWe/gs8Vs=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 object-inspect@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npmjs.org/object-inspect/-/object-inspect-1.7.0.tgz#f4f6bd181ad77f006b5ece60bd0b6f398ff74a67"
   integrity sha512-a7pEHdh1xKIAgTySUGgLMx/xwDZskN1Ud6egYYN3EdRW4ZMPNEDUTF+hwy2LUC+Bl+SyLXANnwz/jyh/qutKUw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 object-is@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/object-is/download/object-is-1.0.1.tgz#0aa60ec9989a0b3ed795cf4d06f62cf1ad6539b6"
@@ -6975,10 +7693,14 @@ object.entries@^1.1.0:
     has "^1.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 object.entries@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/object.entries/-/object.entries-1.1.1.tgz#ee1cf04153de02bb093fec33683900f57ce5399b"
   integrity sha512-ilqR7BgdyZetJutmDPfXCDffGa0/Yzl2ivVNpbx/g4UeWrCdRnFDUBrKJGLhGieRHDATnyZXWBeCb29k9CJysQ==
+<<<<<<< HEAD
   dependencies:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
@@ -6999,12 +7721,28 @@ object.fromentries@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/object.fromentries/download/object.fromentries-2.0.0.tgz#49a543d92151f8277b3ac9600f1e930b189d30ab"
   integrity sha1-SaVD2SFR+Cd7OslgDx6TCxidMKs=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    define-properties "^1.1.2"
-    es-abstract "^1.11.0"
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
     function-bind "^1.1.1"
+<<<<<<< HEAD
     has "^1.0.1"
 >>>>>>> modify
+=======
+    has "^1.0.3"
+
+object.fromentries@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.2.tgz#4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
+  integrity sha512-r3ZiBH7MQppDJVLx6fhD618GKNG40CZYH9wgwdhKxBDDbQgjeWGGd4AtkZad84d291YxvWe7bJGuE65Anh0dxQ==
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+>>>>>>> 复制粘贴保留格式
 
 object.pick@^1.3.0:
   version "1.3.0"
@@ -7024,6 +7762,9 @@ object.values@^1.1.0:
     has "^1.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 object.values@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/object.values/-/object.values-1.1.1.tgz#68a99ecde356b7e9295a3c5e0ce31dc8c953de5e"
@@ -7034,8 +7775,11 @@ object.values@^1.1.1:
     function-bind "^1.1.1"
     has "^1.0.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/obuf/download/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
@@ -7121,10 +7865,14 @@ os-locale@^3.0.0, os-locale@^3.1.0:
     mem "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 os-tmpdir@^1.0.0, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
 =======
 os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.2:
 >>>>>>> modify
+=======
+os-tmpdir@^1.0.0, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
+>>>>>>> 复制粘贴保留格式
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
@@ -7203,13 +7951,19 @@ p-try@^2.0.0:
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 pako@~1.0.2:
   version "1.0.11"
   resolved "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 pako@~1.0.5:
   version "1.0.10"
   resolved "https://registry.npm.taobao.org/pako/download/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
@@ -7276,13 +8030,19 @@ parse-passwd@^1.0.0:
   integrity sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 parse5@5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
   integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 parseqs@0.0.5:
   version "0.0.5"
   resolved "https://registry.npm.taobao.org/parseqs/download/parseqs-0.0.5.tgz#d5208a3738e46766e291ba2ea173684921a8b89d"
@@ -7330,10 +8090,14 @@ path-exists@^3.0.0:
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 path-is-absolute@^1.0.0:
 =======
 path-is-absolute@^1.0.0, path-is-absolute@^1.0.1:
 >>>>>>> modify
+=======
+path-is-absolute@^1.0.0:
+>>>>>>> 复制粘贴保留格式
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/path-is-absolute/download/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
@@ -7403,13 +8167,19 @@ performance-now@^2.1.0:
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 picomatch@^2.0.4, picomatch@^2.0.7:
   version "2.2.2"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.npm.taobao.org/pify/download/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -7452,10 +8222,14 @@ pkg-dir@^3.0.0:
     find-up "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 pkg-up@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
   integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
+<<<<<<< HEAD
   dependencies:
     find-up "^2.1.0"
 
@@ -7477,6 +8251,19 @@ portfinder@^1.0.24:
     debug "^2.2.0"
     mkdirp "0.5.x"
 >>>>>>> modify
+=======
+  dependencies:
+    find-up "^2.1.0"
+
+portfinder@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.npmjs.org/portfinder/-/portfinder-1.0.25.tgz#254fd337ffba869f4b9d37edc298059cb4d35eca"
+  integrity sha512-6ElJnHBbxVA1XSLgBp7G1FiCkQdlqGzuF7DswL5tcea+E8UpuvPU7beVAjjRwCioTS9ZluNbu+ZyRvgTsmqEBg==
+  dependencies:
+    async "^2.6.2"
+    debug "^3.1.1"
+    mkdirp "^0.5.1"
+>>>>>>> 复制粘贴保留格式
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -7484,10 +8271,14 @@ posix-character-classes@^0.1.0:
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 postcss-modules-extract-imports@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/postcss-modules-extract-imports/-/postcss-modules-extract-imports-2.0.0.tgz#818719a1ae1da325f9832446b01136eeb493cd7e"
   integrity sha512-LaYLDNS4SG8Q5WAWqIJgdHPJrDDr/Lv775rMBFUbgjTz6j34lUznACHcdRWroPvXANP2Vj7yNK57vp9eFqzLWQ==
+<<<<<<< HEAD
   dependencies:
     postcss "^7.0.5"
 
@@ -7531,44 +8322,64 @@ postcss-modules-extract-imports@^1.2.0:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/postcss-modules-extract-imports/download/postcss-modules-extract-imports-1.2.1.tgz#dc87e34148ec7eab5f791f7cd5849833375b741a"
   integrity sha1-3IfjQUjsfqtfeR981YSYMzdbdBo=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    postcss "^6.0.1"
+    postcss "^7.0.5"
 
-postcss-modules-local-by-default@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/postcss-modules-local-by-default/download/postcss-modules-local-by-default-1.2.0.tgz#f7d80c398c5a393fa7964466bd19500a7d61c069"
-  integrity sha1-99gMOYxaOT+nlkRmvRlQCn1hwGk=
+postcss-modules-local-by-default@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/postcss-modules-local-by-default/-/postcss-modules-local-by-default-2.0.6.tgz#dd9953f6dd476b5fd1ef2d8830c8929760b56e63"
+  integrity sha512-oLUV5YNkeIBa0yQl7EYnxMgy4N6noxmiwZStaEJUSe2xPMcdNc8WmBQuQCx18H5psYbVxz8zoHk0RAAYZXP9gA==
   dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
+    postcss-selector-parser "^6.0.0"
+    postcss-value-parser "^3.3.1"
 
-postcss-modules-scope@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/postcss-modules-scope/download/postcss-modules-scope-1.1.0.tgz#d6ea64994c79f97b62a72b426fbe6056a194bb90"
-  integrity sha1-1upkmUx5+XtipytCb75gVqGUu5A=
+postcss-modules-scope@^2.1.0:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/postcss-modules-scope/-/postcss-modules-scope-2.2.0.tgz#385cae013cc7743f5a7d7602d1073a89eaae62ee"
+  integrity sha512-YyEgsTMRpNd+HmyC7H/mh3y+MeFWevy7V1evVhJWewmMbjDHIbZbOXICC2y+m1xI1UVfIT1HMW/O04Hxyu9oXQ==
   dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
+    postcss-selector-parser "^6.0.0"
 
-postcss-modules-values@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npm.taobao.org/postcss-modules-values/download/postcss-modules-values-1.3.0.tgz#ecffa9d7e192518389f42ad0e83f72aec456ea20"
-  integrity sha1-7P+p1+GSUYOJ9CrQ6D9yrsRW6iA=
+postcss-modules-values@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/postcss-modules-values/-/postcss-modules-values-2.0.0.tgz#479b46dc0c5ca3dc7fa5270851836b9ec7152f64"
+  integrity sha512-Ki7JZa7ff1N3EIMlPnGTZfUMe69FFwiQPnVSXC9mnn3jozCRBYIxiZd44yJOV2AmabOo4qFf8s0dC/+lweG7+w==
   dependencies:
     icss-replace-symbols "^1.1.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
 
+postcss-selector-parser@^6.0.0:
+  version "6.0.2"
+  resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.2.tgz#934cf799d016c83411859e09dcecade01286ec5c"
+  integrity sha512-36P2QR59jDTOAiIkqEprfJDsoNrvwFei3eCqKd1Y0tUsBimsq39BLp7RD+JWny3WgB1zGhJX8XVePwm9k4wdBg==
+  dependencies:
+    cssesc "^3.0.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
+<<<<<<< HEAD
 postcss-value-parser@^3.3.0:
 >>>>>>> modify
+=======
+postcss-value-parser@^3.3.0, postcss-value-parser@^3.3.1:
+>>>>>>> 复制粘贴保留格式
   version "3.3.1"
   resolved "https://registry.npm.taobao.org/postcss-value-parser/download/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha1-n/giVH4okyE88cMO+lGsX9G6goE=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 postcss@^7.0.14, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.27"
   resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
   integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
+<<<<<<< HEAD
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -7578,11 +8389,17 @@ postcss@^6.0.1, postcss@^6.0.23:
   version "6.0.23"
   resolved "https://registry.npm.taobao.org/postcss/download/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha1-YcgswyisYOZ3ZF+XkFTrmLwOMyQ=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    chalk "^2.4.1"
+    chalk "^2.4.2"
     source-map "^0.6.1"
+<<<<<<< HEAD
     supports-color "^5.4.0"
 >>>>>>> modify
+=======
+    supports-color "^6.1.0"
+>>>>>>> 复制粘贴保留格式
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -7590,6 +8407,9 @@ prelude-ls@~1.1.2:
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
@@ -7601,6 +8421,7 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+<<<<<<< HEAD
 
 prettier@^1.17.0:
   version "1.19.1"
@@ -7616,6 +8437,15 @@ prettier@^1.14.2:
 
 private@^0.1.6, private@^0.1.8, private@~0.1.5:
 >>>>>>> modify
+=======
+
+prettier@^1.17.0:
+  version "1.19.1"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+
+private@^0.1.8, private@~0.1.5:
+>>>>>>> 复制粘贴保留格式
   version "0.1.8"
   resolved "https://registry.npm.taobao.org/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha1-I4Hts2ifelPWUxkAYPz4ItLzaP8=
@@ -7673,16 +8503,22 @@ pseudomap@^1.0.2:
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 psl@^1.1.28:
   version "1.8.0"
   resolved "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+<<<<<<< HEAD
 =======
 psl@^1.1.24:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/psl/download/psl-1.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpsl%2Fdownload%2Fpsl-1.4.0.tgz#5dd26156cdb69fa1fdb8ab1991667d3f80ced7c2"
   integrity sha1-XdJhVs22n6H9uKsZkWZ9P4DO18I=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 public-encrypt@^4.0.0:
   version "4.0.3"
@@ -7727,23 +8563,32 @@ punycode@1.3.2:
   integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 punycode@^1.2.4:
 =======
 punycode@^1.2.4, punycode@^1.4.1:
 >>>>>>> modify
+=======
+punycode@^1.2.4:
+>>>>>>> 复制粘贴保留格式
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/punycode/download/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 punycode@^2.1.0, punycode@^2.1.1:
 =======
 punycode@^2.1.0:
 >>>>>>> modify
+=======
+punycode@^2.1.0, punycode@^2.1.1:
+>>>>>>> 复制粘贴保留格式
   version "2.1.1"
   resolved "https://registry.npm.taobao.org/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 puppeteer@^1.14.0:
   version "1.20.0"
@@ -7755,6 +8600,12 @@ puppeteer@^1.7.0:
   resolved "https://registry.npm.taobao.org/puppeteer/download/puppeteer-1.20.0.tgz#e3d267786f74e1d87cf2d15acc59177f471bbe38"
   integrity sha1-49JneG904dh88tFazFkXf0cbvjg=
 >>>>>>> modify
+=======
+puppeteer@^1.14.0:
+  version "1.20.0"
+  resolved "https://registry.npmjs.org/puppeteer/-/puppeteer-1.20.0.tgz#e3d267786f74e1d87cf2d15acc59177f471bbe38"
+  integrity sha512-bt48RDBy2eIwZPrkgbcwHtb51mj2nKvHOPMaSH2IsWiv7lOG9k9zhaRzpDZafrk05ajMc3cu+lSQYYOfH2DkVQ==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     debug "^4.1.0"
     extract-zip "^1.6.6"
@@ -7766,6 +8617,7 @@ puppeteer@^1.7.0:
     ws "^6.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 q@^1.5.0, q@^1.5.1:
   version "1.5.1"
@@ -7773,6 +8625,8 @@ q@^1.5.0, q@^1.5.1:
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 qjobs@^1.1.4:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/qjobs/download/qjobs-1.2.0.tgz#c45e9c61800bd087ef88d7e256423bdd49e5d071"
@@ -7789,6 +8643,9 @@ qs@~6.5.2:
   integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 query-string@^5.0.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
@@ -7798,8 +8655,11 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 querystring-es3@^0.2.0:
   version "0.2.1"
   resolved "https://registry.npm.taobao.org/querystring-es3/download/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
@@ -7816,16 +8676,22 @@ querystringify@^2.1.1:
   integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 quill-delta@4.2.1:
   version "4.2.1"
   resolved "https://registry.npmjs.org/quill-delta/-/quill-delta-4.2.1.tgz#ad4f191cdf3be5079c5dc3991b9603a5cc0db69a"
   integrity sha512-Y2nksOj6Q+4hizre8n0dml76vLNGK4/y86EoI1d7rv6EL1bx7DPDYRmqQMPu1UqFQO/uQuVHQ3fOmm4ZSzWrfA==
+<<<<<<< HEAD
 =======
 quill-delta@4.1.0:
   version "4.1.0"
   resolved "https://registry.npm.taobao.org/quill-delta/download/quill-delta-4.1.0.tgz#f250bfc86eafb70aa07835c7e03777ef5a75da5d"
   integrity sha1-8lC/yG6vtwqgeDXH4Dd371p12l0=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     deep-equal "^1.0.1"
     extend "^3.0.2"
@@ -7928,10 +8794,14 @@ read-pkg@^3.0.0:
     path-type "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
 =======
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
 >>>>>>> modify
+=======
+"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
+>>>>>>> 复制粘贴保留格式
   version "2.3.6"
   resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   integrity sha1-sRwn2IuP8fvgcGQ8+UsMea4bCq8=
@@ -7945,10 +8815,14 @@ read-pkg@^3.0.0:
     util-deprecate "~1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 readable-stream@^3.0.6:
 =======
 readable-stream@^3.0.1, readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0:
 >>>>>>> modify
+=======
+readable-stream@^3.0.6:
+>>>>>>> 复制粘贴保留格式
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-3.4.0.tgz#a51c26754658e0a3c21dbf59163bd45ba6f447fc"
   integrity sha1-pRwmdUZY4KPCHb9ZFjvUW6b0R/w=
@@ -7967,6 +8841,9 @@ readdirp@^2.2.1:
     readable-stream "^2.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 readdirp@~3.3.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/readdirp/-/readdirp-3.3.0.tgz#984458d13a1e42e2e9f5841b129e162f369aff17"
@@ -7974,8 +8851,11 @@ readdirp@~3.3.0:
   dependencies:
     picomatch "^2.0.7"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 recast@~0.11.12:
   version "0.11.23"
   resolved "https://registry.npm.taobao.org/recast/download/recast-0.11.23.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frecast%2Fdownload%2Frecast-0.11.23.tgz#451fd3004ab1e4df9b4e4b66376b2a21912462d3"
@@ -7995,12 +8875,16 @@ redent@^1.0.0:
     strip-indent "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"
   integrity sha512-F9DjY1vKLo/tPePDycuH3dn9H1OTPIkVD9Kz4LODu+F2C75mgjAJ7x/gwy6ZcSNRAAkhNlJSOHRe8k3p+K9WhA==
   dependencies:
     regenerate "^1.4.0"
+<<<<<<< HEAD
 
 regenerate@^1.4.0:
   version "1.4.0"
@@ -8017,6 +8901,13 @@ regenerator-runtime@^0.11.0:
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
 >>>>>>> modify
+=======
+
+regenerate@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
+  integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
+>>>>>>> 复制粘贴保留格式
 
 regenerator-runtime@^0.13.2:
   version "0.13.3"
@@ -8024,6 +8915,9 @@ regenerator-runtime@^0.13.2:
   integrity sha1-fPanfY9cb2Drc8X8GVWyzrAea/U=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 regenerator-runtime@^0.13.4:
   version "0.13.5"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
@@ -8033,6 +8927,7 @@ regenerator-transform@^0.14.2:
   version "0.14.4"
   resolved "https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.14.4.tgz#5266857896518d1616a78a0479337a30ea974cc7"
   integrity sha512-EaJaKPBI9GvKpvUz2mz4fhx7WPgvwRLY9v3hlNHWmAuJHI13T4nwKnNvm5RWJzEdnI5g5UwtOww+S8IdoUC2bw==
+<<<<<<< HEAD
   dependencies:
     "@babel/runtime" "^7.8.4"
     private "^0.1.8"
@@ -8046,6 +8941,11 @@ regenerator-transform@^0.10.0:
     babel-types "^6.19.0"
     private "^0.1.6"
 >>>>>>> modify
+=======
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+    private "^0.1.8"
+>>>>>>> 复制粘贴保留格式
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
@@ -8063,6 +8963,9 @@ regexp.prototype.flags@^1.2.0:
     define-properties "^1.1.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 regexp.prototype.flags@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.3.0.tgz#7aba89b3c13a64509dabcf3ca8d9fbb9bdf5cb75"
@@ -8071,18 +8974,25 @@ regexp.prototype.flags@^1.3.0:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/regexpp/download/regexpp-2.0.1.tgz?cache=0&sync_timestamp=1567133099881&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregexpp%2Fdownload%2Fregexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha1-jRnTHPYySCtYkEn4KB+T28uk0H8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 regexpu-core@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npmjs.org/regexpu-core/-/regexpu-core-4.7.0.tgz#fcbf458c50431b0bb7b45d6967b8192d91f3d938"
   integrity sha512-TQ4KXRnIn6tz6tjnrXEkD/sshygKH/j5KzK86X8MkeHyZ8qst/LZ89j3X4/8HEIfHANTFIP/AbXakeRhWIl5YQ==
+<<<<<<< HEAD
   dependencies:
     regenerate "^1.4.0"
     regenerate-unicode-properties "^8.2.0"
@@ -8114,21 +9024,33 @@ regexpu-core@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/regexpu-core/download/regexpu-core-2.0.0.tgz?cache=0&sync_timestamp=1568375012524&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregexpu-core%2Fdownload%2Fregexpu-core-2.0.0.tgz#49d038837b8dcf8bfa5b9a42139938e6ea2ae240"
   integrity sha1-SdA4g3uNz4v6W5pCE5k45uoq4kA=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    regenerate "^1.2.1"
-    regjsgen "^0.2.0"
-    regjsparser "^0.1.4"
+    regenerate "^1.4.0"
+    regenerate-unicode-properties "^8.2.0"
+    regjsgen "^0.5.1"
+    regjsparser "^0.6.4"
+    unicode-match-property-ecmascript "^1.0.4"
+    unicode-match-property-value-ecmascript "^1.2.0"
 
-regjsgen@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/regjsgen/download/regjsgen-0.2.0.tgz#6c016adeac554f75823fe37ac05b92d5a4edb1f7"
-  integrity sha1-bAFq3qxVT3WCP+N6wFuS1aTtsfc=
+regjsgen@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/regjsgen/-/regjsgen-0.5.1.tgz#48f0bf1a5ea205196929c0d9798b42d1ed98443c"
+  integrity sha512-5qxzGZjDs9w4tzT3TPhCJqWdCc3RLYwy9J2NB0nm5Lz+S273lvWcpjaTGHsT1dc6Hhfq41uSEOw8wBmxrKOuyg==
 
+<<<<<<< HEAD
 regjsparser@^0.1.4:
   version "0.1.5"
   resolved "https://registry.npm.taobao.org/regjsparser/download/regjsparser-0.1.5.tgz#7ee8f84dc6fa792d3fd0ae228d24bd949ead205c"
   integrity sha1-fuj4Tcb6eS0/0K4ijSS9lJ6tIFw=
 >>>>>>> modify
+=======
+regjsparser@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.npmjs.org/regjsparser/-/regjsparser-0.6.4.tgz#a769f8684308401a66e9b529d2436ff4d0666272"
+  integrity sha512-64O87/dPDgfk8/RQqC4gkZoGyyWFIEUTTh80CU6CWuK5vkCGyekIx+oKcEIYtP/RAxSQltCZHCNu/mdd7fqlJw==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     jsesc "~0.5.0"
 
@@ -8148,6 +9070,7 @@ repeat-element@^1.1.2:
   integrity sha1-eC4NglwMWjuzlzH4Tv7mt0Lmsc4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 repeat-string@^0.2.2:
   version "0.2.2"
@@ -8155,6 +9078,8 @@ repeat-string@^0.2.2:
   integrity sha1-x6jTI2BoNiBZp+RlH8aITosftK4=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npm.taobao.org/repeat-string/download/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
@@ -8168,6 +9093,9 @@ repeating@^2.0.0:
     is-finite "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 request-promise-core@1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/request-promise-core/-/request-promise-core-1.1.3.tgz#e9a3c081b51380dfea677336061fea879a829ee9"
@@ -8188,12 +9116,15 @@ request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.npmjs.org/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
+<<<<<<< HEAD
 =======
 request@2.88.0:
   version "2.88.0"
   resolved "https://registry.npm.taobao.org/request/download/request-2.88.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frequest%2Fdownload%2Frequest-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha1-nC/KT301tZLv5Xx/ClXoEFIST+8=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     aws-sign2 "~0.7.0"
     aws4 "^1.8.0"
@@ -8203,10 +9134,14 @@ request@2.88.0:
     forever-agent "~0.6.1"
     form-data "~2.3.2"
 <<<<<<< HEAD
+<<<<<<< HEAD
     har-validator "~5.1.3"
 =======
     har-validator "~5.1.0"
 >>>>>>> modify
+=======
+    har-validator "~5.1.3"
+>>>>>>> 复制粘贴保留格式
     http-signature "~1.2.0"
     is-typedarray "~1.0.0"
     isstream "~0.1.2"
@@ -8217,10 +9152,14 @@ request@2.88.0:
     qs "~6.5.2"
     safe-buffer "^5.1.2"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tough-cookie "~2.5.0"
 =======
     tough-cookie "~2.4.3"
 >>>>>>> modify
+=======
+    tough-cookie "~2.5.0"
+>>>>>>> 复制粘贴保留格式
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
@@ -8280,10 +9219,14 @@ resolve@1.1.x:
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 resolve@^1.10.0, resolve@^1.5.0:
 =======
 resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.0, resolve@^1.4.0, resolve@^1.5.0:
 >>>>>>> modify
+=======
+resolve@^1.10.0, resolve@^1.5.0:
+>>>>>>> 复制粘贴保留格式
   version "1.12.0"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.12.0.tgz?cache=0&sync_timestamp=1564641434608&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   integrity sha1-P8ZEo1yEpIVUYJ/ybsUrZvpXffY=
@@ -8291,6 +9234,9 @@ resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.0, resolve@^1.4.0, resolve@^1.5.
     path-parse "^1.0.6"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 resolve@^1.12.0, resolve@^1.15.1, resolve@^1.3.2:
   version "1.17.0"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
@@ -8298,8 +9244,11 @@ resolve@^1.12.0, resolve@^1.15.1, resolve@^1.3.2:
   dependencies:
     path-parse "^1.0.6"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/restore-cursor/download/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -8319,6 +9268,7 @@ retry@^0.12.0:
   integrity sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 rfdc@^1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/rfdc/-/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"
@@ -8329,6 +9279,12 @@ rfdc@^1.1.2:
   resolved "https://registry.npm.taobao.org/rfdc/download/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"
   integrity sha1-unLME2egzNnPgahws7WL060H+MI=
 >>>>>>> modify
+=======
+rfdc@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/rfdc/-/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"
+  integrity sha512-5C9HXdzK8EAqN7JDif30jqsBzavB7wLpaubisuQIGHWf2gUXSpzy6ArX/+Da8RjFpagWsCn+pIgxTMAmKw9Zug==
+>>>>>>> 复制粘贴保留格式
 
 rimraf@2.6.3:
   version "2.6.3"
@@ -8338,10 +9294,14 @@ rimraf@2.6.3:
     glob "^7.1.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 rimraf@^2.5.4, rimraf@^2.6.0, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
 =======
 rimraf@^2.5.4, rimraf@^2.6.0, rimraf@^2.6.1, rimraf@^2.6.3:
 >>>>>>> modify
+=======
+rimraf@^2.5.4, rimraf@^2.6.0, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
+>>>>>>> 复制粘贴保留格式
   version "2.7.1"
   resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.7.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frimraf%2Fdownload%2Frimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -8400,10 +9360,14 @@ safe-regex@^1.1.0:
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 sauce-connect-launcher@^1.2.4:
   version "1.3.1"
   resolved "https://registry.npmjs.org/sauce-connect-launcher/-/sauce-connect-launcher-1.3.1.tgz#31137f57b0f7176e1c0525b7fb09c6da746647cf"
   integrity sha512-vIf9qDol3q2FlYzrKt0dr3kvec6LSjX2WS+/mVnAJIhqh1evSkPKCR2AzcJrnSmx9Xt9PtV0tLY7jYh0wsQi8A==
+<<<<<<< HEAD
   dependencies:
     adm-zip "~0.4.3"
     async "^2.1.2"
@@ -8420,18 +9384,25 @@ sauce-connect-launcher@^1.2.2:
   version "1.2.7"
   resolved "https://registry.npm.taobao.org/sauce-connect-launcher/download/sauce-connect-launcher-1.2.7.tgz#c7f8b3d4eb354d07a9922b4cd67356f527192556"
   integrity sha1-x/iz1Os1TQepkitM1nNW9ScZJVY=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     adm-zip "~0.4.3"
     async "^2.1.2"
-    https-proxy-agent "^2.2.1"
+    https-proxy-agent "^3.0.0"
     lodash "^4.16.6"
     rimraf "^2.5.4"
 
-saucelabs@^1.4.0:
+saucelabs@^1.5.0:
   version "1.5.0"
+<<<<<<< HEAD
   resolved "https://registry.npm.taobao.org/saucelabs/download/saucelabs-1.5.0.tgz#9405a73c360d449b232839919a86c396d379fd9d"
   integrity sha1-lAWnPDYNRJsjKDmRmobDltN5/Z0=
 >>>>>>> modify
+=======
+  resolved "https://registry.npmjs.org/saucelabs/-/saucelabs-1.5.0.tgz#9405a73c360d449b232839919a86c396d379fd9d"
+  integrity sha512-jlX3FGdWvYf4Q3LFfFWS1QvPg3IGCGWxIc8QBFdPTbpTJnt/v17FHXYVAn7C8sHf1yUXo2c7yIM0isDryfYtHQ==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     https-proxy-agent "^2.2.1"
 
@@ -8441,6 +9412,9 @@ sax@^1.2.4, sax@~1.2.4:
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 saxes@^5.0.0:
   version "5.0.1"
   resolved "https://registry.npmjs.org/saxes/-/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
@@ -8448,8 +9422,11 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 schema-utils@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/schema-utils/download/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
@@ -8460,6 +9437,9 @@ schema-utils@^1.0.0:
     ajv-keywords "^3.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 schema-utils@^2.6.5:
   version "2.6.6"
   resolved "https://registry.npmjs.org/schema-utils/-/schema-utils-2.6.6.tgz#299fe6bd4a3365dc23d99fd446caff8f1d6c330c"
@@ -8468,18 +9448,25 @@ schema-utils@^2.6.5:
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/select-hose/download/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 selenium-webdriver@^4.0.0-alpha.1:
   version "4.0.0-alpha.7"
   resolved "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-4.0.0-alpha.7.tgz#e3879d8457fd7ad8e4424094b7dc0540d99e6797"
   integrity sha512-D4qnTsyTr91jT8f7MfN+OwY0IlU5+5FmlO5xlgRUV6hDEV8JyYx2NerdTEqDDkNq7RZDYc4VoPALk8l578RBHw==
+<<<<<<< HEAD
   dependencies:
     jszip "^3.2.2"
     rimraf "^2.7.1"
@@ -8506,14 +9493,35 @@ selfsigned@^1.10.6:
   version "1.10.6"
   resolved "https://registry.npm.taobao.org/selfsigned/download/selfsigned-1.10.6.tgz?cache=0&sync_timestamp=1567772270542&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fselfsigned%2Fdownload%2Fselfsigned-1.10.6.tgz#7b3cd37ed9c2034261a173af1a1aae27d8169b67"
   integrity sha1-ezzTftnCA0JhoXOvGhquJ9gWm2c=
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
-    node-forge "0.8.2"
+    jszip "^3.2.2"
+    rimraf "^2.7.1"
+    tmp "0.0.30"
 
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.3.0, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+selfsigned@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.npmjs.org/selfsigned/-/selfsigned-1.10.7.tgz#da5819fd049d5574f28e88a9bcc6dbc6e6f3906b"
+  integrity sha512-8M3wBCzeWIJnQfl43IKwOmC4H/RAp50S8DF60znzjW5GVqTcSe2vWclt7hmYVPkKPlHWOu5EaWOMZ2Y6W8ZXTA==
+  dependencies:
+    node-forge "0.9.0"
+
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
+<<<<<<< HEAD
   resolved "https://registry.npm.taobao.org/semver/download/semver-5.7.1.tgz?cache=0&sync_timestamp=1565627380363&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
 >>>>>>> modify
+=======
+  resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
+  integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+
+semver@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
+  integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
+>>>>>>> 复制粘贴保留格式
 
 semver@^6.0.0, semver@^6.3.0:
   version "6.3.0"
@@ -8540,16 +9548,22 @@ send@0.17.1:
     statuses "~1.5.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 serialize-javascript@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-2.1.2.tgz#ecec53b0e0317bdc95ef76ab7074b7384785fa61"
   integrity sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ==
+<<<<<<< HEAD
 =======
 serialize-javascript@^1.7.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/serialize-javascript/download/serialize-javascript-1.9.1.tgz#cfc200aef77b600c47da9bb8149c943e798c2fdb"
   integrity sha1-z8IArvd7YAxH2pu4FJyUPnmML9s=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 serve-index@^1.9.1:
   version "1.9.1"
@@ -8580,13 +9594,19 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 set-immediate-shim@~1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
   integrity sha1-SysbJ+uAip+NzEgaWOXlb1mfP2E=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/set-value/download/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
@@ -8633,6 +9653,9 @@ shebang-regex@^1.0.0:
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 side-channel@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/side-channel/-/side-channel-1.0.2.tgz#df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
@@ -8641,13 +9664,17 @@ side-channel@^1.0.2:
     es-abstract "^1.17.0-next.1"
     object-inspect "^1.7.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 slash@^1.0.0:
@@ -8656,6 +9683,8 @@ slash@^1.0.0:
   integrity sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 slice-ansi@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/slice-ansi/download/slice-ansi-2.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fslice-ansi%2Fdownload%2Fslice-ansi-2.1.0.tgz#cacd7693461a637a5788d92a7dd4fba068e81636"
@@ -8762,6 +9791,9 @@ sockjs@0.3.19:
     uuid "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 sort-keys@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/sort-keys/-/sort-keys-2.0.0.tgz#658535584861ec97d730d6cf41822e1f56684128"
@@ -8769,8 +9801,11 @@ sort-keys@^2.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -8788,6 +9823,7 @@ source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
     urix "^0.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 source-map-support@^0.4.15:
   version "0.4.18"
@@ -8797,6 +9833,8 @@ source-map-support@^0.4.15:
     source-map "^0.5.6"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 source-map-support@~0.5.12:
   version "0.5.13"
   resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
@@ -8811,10 +9849,14 @@ source-map-url@^0.4.0:
   integrity sha1-PpNdfd1zYxuXZZlW1VEo6HtQhKM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 source-map@^0.5.0, source-map@^0.5.1, source-map@^0.5.6, source-map@~0.5.0:
 =======
 source-map@^0.5.0, source-map@^0.5.1, source-map@^0.5.6, source-map@^0.5.7, source-map@~0.5.0:
 >>>>>>> modify
+=======
+source-map@^0.5.0, source-map@^0.5.1, source-map@^0.5.6, source-map@~0.5.0:
+>>>>>>> 复制粘贴保留格式
   version "0.5.7"
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
@@ -8933,13 +9975,19 @@ static-extend@^0.1.1:
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 stream-browserify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.npm.taobao.org/stream-browserify/download/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
@@ -8973,10 +10021,14 @@ stream-shift@^1.0.0:
   integrity sha1-1cdSgl5TZ+eG944Y5EXqIjoVWVI=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 streamroller@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/streamroller/-/streamroller-1.0.6.tgz#8167d8496ed9f19f05ee4b158d9611321b8cacd9"
   integrity sha512-3QC47Mhv3/aZNFpDDVO44qQb9gwB9QggMEE0sQmkTAwBVYdBRWISdsywlkfm5II1Q5y/pmrHflti/IgmIzdDBg==
+<<<<<<< HEAD
   dependencies:
     async "^2.6.2"
     date-format "^2.0.0"
@@ -8999,6 +10051,19 @@ streamroller@0.7.0:
     mkdirp "^0.5.1"
     readable-stream "^2.3.0"
 >>>>>>> modify
+=======
+  dependencies:
+    async "^2.6.2"
+    date-format "^2.0.0"
+    debug "^3.2.6"
+    fs-extra "^7.0.1"
+    lodash "^4.17.14"
+
+strict-uri-encode@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
+  integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+>>>>>>> 复制粘贴保留格式
 
 string-width@^1.0.1:
   version "1.0.2"
@@ -9027,6 +10092,9 @@ string-width@^3.0.0, string-width@^3.1.0:
     strip-ansi "^5.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 string.prototype.matchall@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.2.tgz#48bb510326fb9fdeb6a33ceaa81a6ea04ef7648e"
@@ -9047,8 +10115,11 @@ string.prototype.trimend@^1.0.0:
     define-properties "^1.1.3"
     es-abstract "^1.17.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 string.prototype.trimleft@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/string.prototype.trimleft/download/string.prototype.trimleft-2.1.0.tgz#6cc47f0d7eb8d62b0f3701611715a3954591d634"
@@ -9058,6 +10129,9 @@ string.prototype.trimleft@^2.0.0:
     function-bind "^1.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 string.prototype.trimleft@^2.1.1:
   version "2.1.2"
   resolved "https://registry.npmjs.org/string.prototype.trimleft/-/string.prototype.trimleft-2.1.2.tgz#4408aa2e5d6ddd0c9a80739b087fbc067c03b3cc"
@@ -9067,8 +10141,11 @@ string.prototype.trimleft@^2.1.1:
     es-abstract "^1.17.5"
     string.prototype.trimstart "^1.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 string.prototype.trimright@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/string.prototype.trimright/download/string.prototype.trimright-2.1.0.tgz#669d164be9df9b6f7559fa8e89945b168a5a6c58"
@@ -9078,6 +10155,9 @@ string.prototype.trimright@^2.0.0:
     function-bind "^1.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 string.prototype.trimright@^2.1.1:
   version "2.1.2"
   resolved "https://registry.npmjs.org/string.prototype.trimright/-/string.prototype.trimright-2.1.2.tgz#c76f1cef30f21bbad8afeb8db1511496cfb0f2a3"
@@ -9095,8 +10175,11 @@ string.prototype.trimstart@^1.0.0:
     define-properties "^1.1.3"
     es-abstract "^1.17.5"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 string_decoder@^1.0.0, string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/string_decoder/download/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
@@ -9162,6 +10245,7 @@ strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 style-loader@~0.23.1:
   version "0.23.1"
   resolved "https://registry.npmjs.org/style-loader/-/style-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
@@ -9172,6 +10256,12 @@ style-loader@~0.23.0:
   resolved "https://registry.npm.taobao.org/style-loader/download/style-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
   integrity sha1-y5FUYG8+dxq2xKtjcCahBJF02SU=
 >>>>>>> modify
+=======
+style-loader@~0.23.1:
+  version "0.23.1"
+  resolved "https://registry.npmjs.org/style-loader/-/style-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
+  integrity sha512-XK+uv9kWwhZMZ1y7mysB+zoihsEj4wneFWAS5qoiLwzW0WzSqMrrsIy+a3zkQJq0ipFtBpX5W3MqyRIBF/WFGg==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
@@ -9207,6 +10297,7 @@ supports-color@6.1.0, supports-color@^6.1.0:
     has-flag "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 supports-color@^2.0.0:
   version "2.0.0"
@@ -9214,6 +10305,8 @@ supports-color@^2.0.0:
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 supports-color@^3.1.0:
   version "3.2.3"
   resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-3.2.3.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
@@ -9222,10 +10315,14 @@ supports-color@^3.1.0:
     has-flag "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 supports-color@^5.3.0:
 =======
 supports-color@^5.3.0, supports-color@^5.4.0:
 >>>>>>> modify
+=======
+supports-color@^5.3.0:
+>>>>>>> 复制粘贴保留格式
   version "5.5.0"
   resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
@@ -9233,13 +10330,19 @@ supports-color@^5.3.0, supports-color@^5.4.0:
     has-flag "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 table@^5.2.3:
   version "5.4.6"
   resolved "https://registry.npm.taobao.org/table/download/table-5.4.6.tgz?cache=0&sync_timestamp=1565881929670&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftable%2Fdownload%2Ftable-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
@@ -9261,6 +10364,7 @@ tapable@^1.0.0, tapable@^1.1.3:
   integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 tar-stream@^2.1.0:
   version "2.1.0"
@@ -9274,6 +10378,8 @@ tar-stream@^2.1.0:
     readable-stream "^3.1.1"
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 tar@^4:
   version "4.4.11"
   resolved "https://registry.npm.taobao.org/tar/download/tar-4.4.11.tgz?cache=0&sync_timestamp=1568742317869&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftar%2Fdownload%2Ftar-4.4.11.tgz#7ac09801445a3cf74445ed27499136b5240ffb73"
@@ -9288,26 +10394,36 @@ tar@^4:
     yallist "^3.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 terser-webpack-plugin@^1.4.3:
   version "1.4.3"
   resolved "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-1.4.3.tgz#5ecaf2dbdc5fb99745fd06791f46fc9ddb1c9a7c"
   integrity sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
+<<<<<<< HEAD
 =======
 terser-webpack-plugin@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/terser-webpack-plugin/download/terser-webpack-plugin-1.4.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterser-webpack-plugin%2Fdownload%2Fterser-webpack-plugin-1.4.1.tgz#61b18e40eaee5be97e771cdbb10ed1280888c2b4"
   integrity sha1-YbGOQOruW+l+dxzbsQ7RKAiIwrQ=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     cacache "^12.0.2"
     find-cache-dir "^2.1.0"
     is-wsl "^1.1.0"
     schema-utils "^1.0.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
     serialize-javascript "^2.1.2"
 =======
     serialize-javascript "^1.7.0"
 >>>>>>> modify
+=======
+    serialize-javascript "^2.1.2"
+>>>>>>> 复制粘贴保留格式
     source-map "^0.6.1"
     terser "^4.1.2"
     webpack-sources "^1.4.0"
@@ -9363,6 +10479,9 @@ timers-browserify@^2.0.4:
     setimmediate "^1.0.4"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 tmp@0.0.30:
   version "0.0.30"
   resolved "https://registry.npmjs.org/tmp/-/tmp-0.0.30.tgz#72419d4a8be7d6ce75148fd8b324e593a711c2ed"
@@ -9370,8 +10489,11 @@ tmp@0.0.30:
   dependencies:
     os-tmpdir "~1.0.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 tmp@0.0.33, tmp@0.0.x, tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.npm.taobao.org/tmp/download/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -9390,6 +10512,7 @@ to-arraybuffer@^1.0.0:
   integrity sha1-fSKbH8xjfkZsoIEYCDanqr/4P0M=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 to-fast-properties@^1.0.3:
   version "1.0.3"
@@ -9397,6 +10520,8 @@ to-fast-properties@^1.0.3:
   integrity sha1-uDVx+k2MJbguIxsG46MFXeTKGkc=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/to-fast-properties/download/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
@@ -9418,6 +10543,9 @@ to-regex-range@^2.1.0:
     repeat-string "^1.6.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 to-regex-range@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
@@ -9425,8 +10553,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/to-regex/download/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
@@ -9443,6 +10574,9 @@ toidentifier@1.0.0:
   integrity sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
   version "2.5.0"
   resolved "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"
@@ -9464,6 +10598,7 @@ tr46@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmjs.org/tr46/-/tr46-2.0.2.tgz#03273586def1595ae08fedb38d7733cee91d2479"
   integrity sha512-3n1qG+/5kg+jrbTzwAykB5yRYtQCTqOGKq5U5PE3b0a1/mzo6snDhjGS0zJVJunO0NrT3Dg1MLy5TjWP/UJppg==
+<<<<<<< HEAD
   dependencies:
     punycode "^2.1.1"
 =======
@@ -9475,6 +10610,10 @@ tough-cookie@~2.4.3:
     psl "^1.1.24"
     punycode "^1.4.1"
 >>>>>>> modify
+=======
+  dependencies:
+    punycode "^2.1.1"
+>>>>>>> 复制粘贴保留格式
 
 trim-newlines@^1.0.0:
   version "1.0.0"
@@ -9487,16 +10626,22 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 ts-loader@^5.3.3:
   version "5.4.5"
   resolved "https://registry.npmjs.org/ts-loader/-/ts-loader-5.4.5.tgz#a0c1f034b017a9344cef0961bfd97cc192492b8b"
   integrity sha512-XYsjfnRQCBum9AMRZpk2rTYSVpdZBpZK+kDh0TeT3kxmQNBDVIeUjdPjY5RZry4eIAb8XHc4gYSUiUWPYvzSRw==
+<<<<<<< HEAD
 =======
 ts-loader@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npm.taobao.org/ts-loader/download/ts-loader-4.5.0.tgz#a1ce70b2dc799941fb2197605f0d67874097859b"
   integrity sha1-oc5wstx5mUH7IZdgXw1nh0CXhZs=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
@@ -9522,6 +10667,9 @@ tunnel-agent@^0.6.0:
     safe-buffer "^5.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 turndown@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/turndown/-/turndown-6.0.0.tgz#c083d6109a9366be1b84b86b20af09140ea4b413"
@@ -9529,8 +10677,11 @@ turndown@^6.0.0:
   dependencies:
     jsdom "^16.2.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.npm.taobao.org/tweetnacl/download/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
@@ -9557,16 +10708,22 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 typescript@^3.4.3:
   version "3.8.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+<<<<<<< HEAD
 =======
 typescript@^3.0.1:
   version "3.6.3"
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
   integrity sha1-/qlC+rsg9+HKcWT/Ym8anz9wtNo=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 
 uglify-js@3.4.x:
   version "3.4.10"
@@ -9590,6 +10747,9 @@ ultron@~1.1.0:
   integrity sha1-n+FTahCmZKZSZqHjzPhf02MCvJw=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -9613,8 +10773,11 @@ unicode-property-aliases-ecmascript@^1.0.4:
   resolved "https://registry.npmjs.org/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-1.1.0.tgz#dd57a99f6207bedff4628abefb94c50db941c8f4"
   integrity sha512-PqSoPh/pWetQ2phoj5RLiaqIk4kCNwoV3CI+LfGmWLKI3rE3kl1h59XpX2BjgDrmbxD9ARtQobPGU1SguCYuQg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 union-value@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/union-value/download/union-value-1.0.1.tgz#0b6fe7b835aecda61c6ea4d4f02c14221e109847"
@@ -9626,13 +10789,19 @@ union-value@^1.0.0:
     set-value "^2.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 unique-filename@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/unique-filename/download/unique-filename-1.1.1.tgz#1d69769369ada0583103a1e6ae87681b56573230"
@@ -9648,13 +10817,19 @@ unique-slug@^2.0.0:
     imurmurhash "^0.1.4"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/unpipe/download/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -9762,6 +10937,7 @@ validate-npm-package-license@^3.0.1:
     spdx-expression-parse "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 vargs@^0.1.0:
   version "0.1.0"
@@ -9769,6 +10945,8 @@ vargs@^0.1.0:
   integrity sha1-a2GE2mUgzDIEzhtAfKwm2SYJ6/8=
 
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -9794,6 +10972,9 @@ void-elements@^2.0.0:
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 w3c-hr-time@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
@@ -9812,6 +10993,7 @@ watchpack@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npmjs.org/watchpack/-/watchpack-1.6.1.tgz#280da0a8718592174010c078c7585a74cd8cd0e2"
   integrity sha512-+IF9hfUFOrYOOaKyfaI7h7dquUIOgyEMoQMLA7OP5FxegKA2+XdXThAZ9TU2kucfhDH7rfMHs1oPYziVGWRnZA==
+<<<<<<< HEAD
   dependencies:
     chokidar "^2.1.8"
 =======
@@ -9822,6 +11004,10 @@ watchpack@^1.6.0:
   dependencies:
     chokidar "^2.0.2"
 >>>>>>> modify
+=======
+  dependencies:
+    chokidar "^2.1.8"
+>>>>>>> 复制粘贴保留格式
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
@@ -9833,6 +11019,9 @@ wbuf@^1.1.0, wbuf@^1.7.3:
     minimalistic-assert "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 webidl-conversions@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-5.0.0.tgz#ae59c8a00b121543a2acc65c0434f57b0fc11aff"
@@ -9842,6 +11031,7 @@ webidl-conversions@^6.0.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
+<<<<<<< HEAD
 
 webpack-cli@^3.3.0:
   version "3.3.11"
@@ -9866,6 +11056,13 @@ webpack-cli@^3.1.0:
   resolved "https://registry.npm.taobao.org/webpack-cli/download/webpack-cli-3.3.9.tgz#79c27e71f94b7fe324d594ab64a8e396b9daa91a"
   integrity sha1-ecJ+cflLf+Mk1ZSrZKjjlrnaqRo=
 >>>>>>> modify
+=======
+
+webpack-cli@^3.3.0:
+  version "3.3.11"
+  resolved "https://registry.npmjs.org/webpack-cli/-/webpack-cli-3.3.11.tgz#3bf21889bf597b5d82c38f215135a411edfdc631"
+  integrity sha512-dXlfuml7xvAFwYUPsrtQAA9e4DOe58gnzSxhgrO/ZM/gyXTBowrsYeubyN4mqGhYdpXMFNyQ6emjJS9M7OBd4g==
+>>>>>>> 复制粘贴保留格式
   dependencies:
     chalk "2.4.2"
     cross-spawn "6.0.5"
@@ -9880,16 +11077,22 @@ webpack-cli@^3.1.0:
     yargs "13.2.4"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 webpack-dev-middleware@^3.7.2:
   version "3.7.2"
   resolved "https://registry.npmjs.org/webpack-dev-middleware/-/webpack-dev-middleware-3.7.2.tgz#0019c3db716e3fa5cecbf64f2ab88a74bab331f3"
   integrity sha512-1xC42LxbYoqLNAhV6YzTYacicgMZQTqRd27Sim9wn5hJrX3I5nxYy1SxSd4+gjUFsz1dQFj+yEe6zEVmSkeJjw==
+<<<<<<< HEAD
 =======
 webpack-dev-middleware@^3.7.1:
   version "3.7.1"
   resolved "https://registry.npm.taobao.org/webpack-dev-middleware/download/webpack-dev-middleware-3.7.1.tgz#1167aea02afa034489869b8368fe9fed1aea7d09"
   integrity sha1-EWeuoCr6A0SJhpuDaP6f7RrqfQk=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     memory-fs "^0.4.1"
     mime "^2.4.4"
@@ -9898,16 +11101,22 @@ webpack-dev-middleware@^3.7.1:
     webpack-log "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 webpack-dev-server@^3.3.1:
   version "3.10.3"
   resolved "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-3.10.3.tgz#f35945036813e57ef582c2420ef7b470e14d3af0"
   integrity sha512-e4nWev8YzEVNdOMcNzNeCN947sWJNd43E5XvsJzbAL08kGc2frm1tQ32hTJslRS+H65LCb/AaUCYU7fjHCpDeQ==
+<<<<<<< HEAD
 =======
 webpack-dev-server@^3.1.6:
   version "3.8.1"
   resolved "https://registry.npm.taobao.org/webpack-dev-server/download/webpack-dev-server-3.8.1.tgz#485b64c4aadc23f601e72114b40c1b1fea31d9f1"
   integrity sha1-SFtkxKrcI/YB5yEUtAwbH+ox2fE=
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
   dependencies:
     ansi-html "0.0.7"
     bonjour "^3.5.0"
@@ -9918,6 +11127,7 @@ webpack-dev-server@^3.1.6:
     del "^4.1.1"
     express "^4.17.1"
     html-entities "^1.2.1"
+<<<<<<< HEAD
 <<<<<<< HEAD
     http-proxy-middleware "0.19.1"
     import-local "^2.0.0"
@@ -9933,18 +11143,25 @@ webpack-dev-server@^3.1.6:
     selfsigned "^1.10.7"
 =======
     http-proxy-middleware "^0.19.1"
+=======
+    http-proxy-middleware "0.19.1"
+>>>>>>> 复制粘贴保留格式
     import-local "^2.0.0"
     internal-ip "^4.3.0"
     ip "^1.1.5"
-    is-absolute-url "^3.0.2"
+    is-absolute-url "^3.0.3"
     killable "^1.0.1"
-    loglevel "^1.6.4"
+    loglevel "^1.6.6"
     opn "^5.5.0"
     p-retry "^3.0.1"
-    portfinder "^1.0.24"
+    portfinder "^1.0.25"
     schema-utils "^1.0.0"
+<<<<<<< HEAD
     selfsigned "^1.10.6"
 >>>>>>> modify
+=======
+    selfsigned "^1.10.7"
+>>>>>>> 复制粘贴保留格式
     semver "^6.3.0"
     serve-index "^1.9.1"
     sockjs "0.3.19"
@@ -9954,10 +11171,14 @@ webpack-dev-server@^3.1.6:
     supports-color "^6.1.0"
     url "^0.11.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
     webpack-dev-middleware "^3.7.2"
 =======
     webpack-dev-middleware "^3.7.1"
 >>>>>>> modify
+=======
+    webpack-dev-middleware "^3.7.2"
+>>>>>>> 复制粘贴保留格式
     webpack-log "^2.0.0"
     ws "^6.2.1"
     yargs "12.0.5"
@@ -9979,10 +11200,14 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
     source-map "~0.6.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 webpack@^4.30.0:
   version "4.43.0"
   resolved "https://registry.npmjs.org/webpack/-/webpack-4.43.0.tgz#c48547b11d563224c561dad1172c8aa0b8a678e6"
   integrity sha512-GW1LjnPipFW2Y78OOab8NJlCflB7EFskMih2AHdvjbpKMeDJqEgSx24cXXXiPS65+WSwVyxtDsJH6jGX2czy+g==
+<<<<<<< HEAD
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
@@ -10001,6 +11226,14 @@ webpack@^4.17.1:
     "@webassemblyjs/wasm-parser" "1.8.5"
     acorn "^6.2.1"
 >>>>>>> modify
+=======
+  dependencies:
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-module-context" "1.9.0"
+    "@webassemblyjs/wasm-edit" "1.9.0"
+    "@webassemblyjs/wasm-parser" "1.9.0"
+    acorn "^6.4.1"
+>>>>>>> 复制粘贴保留格式
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
     chrome-trace-event "^1.0.2"
@@ -10012,14 +11245,19 @@ webpack@^4.17.1:
     memory-fs "^0.4.1"
     micromatch "^3.1.10"
 <<<<<<< HEAD
+<<<<<<< HEAD
     mkdirp "^0.5.3"
 =======
     mkdirp "^0.5.1"
 >>>>>>> modify
+=======
+    mkdirp "^0.5.3"
+>>>>>>> 复制粘贴保留格式
     neo-async "^2.6.1"
     node-libs-browser "^2.2.1"
     schema-utils "^1.0.0"
     tapable "^1.1.3"
+<<<<<<< HEAD
 <<<<<<< HEAD
     terser-webpack-plugin "^1.4.3"
     watchpack "^1.6.1"
@@ -10027,6 +11265,10 @@ webpack@^4.17.1:
     terser-webpack-plugin "^1.4.1"
     watchpack "^1.6.0"
 >>>>>>> modify
+=======
+    terser-webpack-plugin "^1.4.3"
+    watchpack "^1.6.1"
+>>>>>>> 复制粘贴保留格式
     webpack-sources "^1.4.1"
 
 websocket-driver@>=0.5.1:
@@ -10044,6 +11286,9 @@ websocket-extensions@>=0.1.1:
   integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 whatwg-encoding@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
@@ -10065,8 +11310,11 @@ whatwg-url@^8.0.0:
     tr46 "^2.0.0"
     webidl-conversions "^5.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 when@~3.6.x:
   version "3.6.4"
   resolved "https://registry.npm.taobao.org/when/download/when-3.6.4.tgz#473b517ec159e2b85005497a13983f095412e34e"
@@ -10145,13 +11393,19 @@ ws@^6.1.0, ws@^6.2.1:
     async-limiter "~1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 ws@^7.2.3:
   version "7.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-7.2.3.tgz#a5411e1fb04d5ed0efee76d26d5c46d830c39b46"
   integrity sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 ws@~3.3.1:
   version "3.3.3"
   resolved "https://registry.npm.taobao.org/ws/download/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
@@ -10162,6 +11416,9 @@ ws@~3.3.1:
     ultron "~1.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
@@ -10172,14 +11429,20 @@ xmlchars@^2.2.0:
   resolved "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
   resolved "https://registry.npm.taobao.org/xmlhttprequest-ssl/download/xmlhttprequest-ssl-1.5.5.tgz?cache=0&sync_timestamp=1564594921654&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fxmlhttprequest-ssl%2Fdownload%2Fxmlhttprequest-ssl-1.5.5.tgz#c2876b06168aadc40e57d97e81191ac8f4398b3e"
   integrity sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 复制粘贴保留格式
 xregexp@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/xregexp/-/xregexp-4.3.0.tgz#7e92e73d9174a99a59743f67a4ce879a04b5ae50"
@@ -10187,8 +11450,11 @@ xregexp@^4.3.0:
   dependencies:
     "@babel/runtime-corejs3" "^7.8.3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
   resolved "https://registry.npm.taobao.org/xtend/download/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
@@ -10272,6 +11538,7 @@ yeast@0.1.2:
   resolved "https://registry.npm.taobao.org/yeast/download/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
   integrity sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 zip-stream@^2.1.2:
@@ -10283,3 +11550,5 @@ zip-stream@^2.1.2:
     compress-commons "^2.1.1"
     readable-stream "^3.4.0"
 >>>>>>> modify
+=======
+>>>>>>> 复制粘贴保留格式

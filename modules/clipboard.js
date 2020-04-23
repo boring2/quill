@@ -182,8 +182,8 @@ class Clipboard extends Module {
     const html = this.quill.getSemanticHTML(range);
     // 把 html转成 md
     const markdown = turndownService.turndown(html);
-    console.log(html);
-    console.log(markdown);
+    lplog(html);
+    lplog(markdown);
     return { html, text: markdown };
   }
 
