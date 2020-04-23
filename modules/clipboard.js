@@ -157,10 +157,9 @@ class Clipboard extends Module {
   }
 
   onCopy(range) {
-    // const text = this.quill.getText(range);
     const html = this.quill.getSemanticHTML(range);
     // 把 html转成 md
-    const turndownService = new TurndownService();
+    const turndownService = new TurndownService({ headingStyle: 'atx' });
     const markdown = turndownService.turndown(html);
     return { html, text: markdown };
   }
