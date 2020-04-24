@@ -37,6 +37,13 @@ turndownService.addRule('strikethrough', {
   },
 });
 
+turndownService.addRule('code', {
+  filter: ['pre'],
+  replacement(content) {
+    return `\`\`\`javascript\n${content}\n\`\`\``;
+  },
+});
+
 const debug = logger('quill:clipboard');
 
 const CLIPBOARD_CONFIG = [
