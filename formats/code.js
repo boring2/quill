@@ -10,6 +10,7 @@ class CodeBlockContainer extends Container {
   static create(value) {
     const domNode = super.create(value);
     domNode.setAttribute('spellcheck', false);
+    domNode.classList.add('hljs');
     return domNode;
   }
 
@@ -23,6 +24,11 @@ class CodeBlockContainer extends Container {
 }
 
 class CodeBlock extends Block {
+  static create(value) {
+    const domNode = super.create(value);
+    return domNode;
+  }
+
   static register() {
     Quill.register(CodeBlockContainer);
   }
