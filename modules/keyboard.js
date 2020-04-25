@@ -335,7 +335,7 @@ Keyboard.DEFAULTS = {
       handler(range, context) {
         if (context.collapsed && context.offset !== 0) return true;
         if (context.format.indent === 8) {
-          return false
+          return false;
         }
         this.quill.format('indent', '+1', Quill.sources.USER);
         return false;
@@ -454,12 +454,12 @@ Keyboard.DEFAULTS = {
       suffix: /^$/,
       handler(range, context) {
         const [line, offset] = this.quill.getLine(range.index);
-        let fold = line.formats().header.fold
-        let delta
+        const { fold } = line.formats().header;
+        let delta;
         if (fold === 'fold') {
-          let lastChild = line.logicChildren[0]
-          window.lastChild = lastChild
-          range = {index: this.quill.getIndex(lastChild)}
+          const lastChild = line.logicChildren[0];
+          window.lastChild = lastChild;
+          range = { index: this.quill.getIndex(lastChild) };
           delta = new Delta()
             .retain(range.index + lastChild.length())
             .insert('\n', Object.assign(context.format, { header: null }))
@@ -476,7 +476,7 @@ Keyboard.DEFAULTS = {
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
         this.quill.scrollIntoView();
-      }
+      },
     },
     'table backspace': {
       key: 'Backspace',
