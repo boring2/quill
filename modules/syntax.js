@@ -277,9 +277,9 @@ Syntax.DEFAULTS = {
   })(),
   interval: 1000,
   languages: [
-    { key: 'plain', label: 'Plain' },
+    // { key: 'plain', label: 'Plain' },
     { key: 'javascript', label: 'Javascript' },
-    { key: 'markdown', label: 'Markdown' },
+    // { key: 'markdown', label: 'Markdown' },
     { key: 'json', label: 'JSON' },
     { key: 'css', label: 'CSS' },
     { key: 'xml', label: 'HTML/XML' },
