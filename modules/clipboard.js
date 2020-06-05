@@ -114,8 +114,10 @@ class Clipboard extends Module {
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const container = doc.body;
     container.childNodes.forEach(node => {
-      node.removeAttribute('id');
-      node.removeAttribute('class');
+      if (node.removeAttribute) {
+        node.removeAttribute('id');
+        node.removeAttribute('class');
+      }
     });
     const nodeMatches = new WeakMap();
     const [elementMatchers, textMatchers] = this.prepareMatching(
