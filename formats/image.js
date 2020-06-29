@@ -1,64 +1,66 @@
 import { EmbedBlot } from 'parchment';
+import Quill from 'quill';
 import { sanitize } from './link';
-import Quill from 'quill'
 
 const ATTRIBUTES = ['alt', 'width', 'height', 'data-id', 'scale'];
 
 class Image extends EmbedBlot {
   static create(value) {
     const node = super.create(value);
-    node.classList.add('loading')
+    node.classList.add('loading');
     if (typeof value === 'string') {
       // let defaultWidth = 300
       // node.setAttribute('width', defaultWidth)
       if (value.startsWith('./icons')) {
-        node.setAttribute('src', value)
-        node.classList.remove('loading')
+        node.setAttribute('src', value);
+        node.classList.remove('loading');
       } else if (value.startsWith('http://') || value.startsWith('https://')) {
-        node.setAttribute('src', value)
+        node.setAttribute('src', value);
         setTimeout(() => {
-          node.classList.remove('loading')
-        }, 1000)
-        window.LPNote.FileLoader.saveRemoteAsset(value).then(({id, base64}) => {
-          window.isModified = true
-          node.setAttribute('src', base64)
-          node.setAttribute('scale', true)
-          node.setAttribute('data-id', id)
-          node.classList.remove('loading')
-        })
+          node.classList.remove('loading');
+        }, 1000);
+        window.LPNote.FileLoader.saveRemoteAsset(value).then(
+          ({ id, base64 }) => {
+            window.isModified = true;
+            node.setAttribute('src', base64);
+            node.setAttribute('scale', true);
+            node.setAttribute('data-id', id);
+            node.classList.remove('loading');
+          },
+        );
         // 针对base64图片做存储
       } else if (value.startsWith('data:image')) {
-        window.LPNote.FileLoader.saveAsset(value).then((id) => {
-          node.setAttribute('src', value)
-          node.setAttribute('scale', true)
-          node.setAttribute('data-id', id)
-          node.classList.remove('loading')
-        })
+        window.LPNote.FileLoader.saveAsset(value).then(id => {
+          node.setAttribute('src', value);
+          node.setAttribute('scale', true);
+          node.setAttribute('data-id', id);
+          node.classList.remove('loading');
+        });
       } else {
         // 暂且认为都是我们的id
-        let id = value
-        console.log("data-id-------------", id)
+        const id = value;
+        console.log('data-id-------------', id);
         // node.setAttribute('src', './icons/angry@3x.png')
-        window.LPNote.FileLoader.load(id).then((data) => {
-          if (typeof data == 'object') {
+        window.LPNote.FileLoader.load(id).then(data => {
+          if (typeof data === 'object') {
             node.setAttribute('src', this.sanitize(data.src));
-            node.setAttribute('width', data.width || "100%");
+            node.setAttribute('width', data.width || '100%');
             node.setAttribute('height', data.height);
           }
-          if (typeof data == 'string') {
+          if (typeof data === 'string') {
             node.setAttribute('src', this.sanitize(data));
           }
-          node.classList.remove('loading')
-        })
+          node.classList.remove('loading');
+        });
       }
     } else if (typeof value === 'object') {
       value.src && node.setAttribute('src', this.sanitize(value.src));
       value.alt && node.setAttribute('alt', value.alt);
-      value.width && node.setAttribute('width', value.width || "100%");
+      value.width && node.setAttribute('width', value.width || '100%');
       value.height && node.setAttribute('height', value.height);
       value.dataId && node.setAttribute('data-id', value.dataId);
       value.scale && node.setAttribute('scale', true);
-      node.classList.remove('loading')
+      node.classList.remove('loading');
     }
     return node;
   }
@@ -90,23 +92,23 @@ class Image extends EmbedBlot {
   }
 
   static value(domNode) {
-    return domNode.getAttribute('data-id') || domNode.getAttribute('src');
+    return domNode.getAttribute('data-id') || '';
   }
 
   format(name, value) {
     if (ATTRIBUTES.indexOf(name) > -1) {
       if (value) {
         if (name === 'width') {
-          if (parseInt(value) === 0) {
-            value = "100%"
+          if (parseInt(value, 10) === 0) {
+            value = '100%';
           } else {
-            let oldValue = value
-            value = Math.min(window.innerWidth * 0.8, oldValue)
-            this.isFixScale = (value / oldValue)
+            const oldValue = value;
+            value = Math.min(window.innerWidth * 0.8, oldValue);
+            this.isFixScale = value / oldValue;
           }
         } else if (name === 'height') {
           if (this.isFixScale) {
-            value = value * this.isFixScale
+            value *= this.isFixScale;
           }
         }
         this.domNode.setAttribute(name, value);
