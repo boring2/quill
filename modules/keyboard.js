@@ -297,10 +297,36 @@ class Keyboard extends Module {
       },
       {},
     );
-    const delta = new Delta()
+    // my fix
+    if (lineFormats.list) {
+      delete lineFormats.list.id;
+      lineFormats.list.fold = 'unfold';
+    }
+    // my fix end
+    let delta = new Delta()
       .retain(range.index)
       .delete(range.length)
       .insert('\n', lineFormats);
+
+    // my fix
+    if (lineFormats.list) {
+      // 如果list是fold的跳到最后去添加？
+      const [line] = this.quill.getLine(range.index);
+      const { fold } = line.formats().list;
+      if (fold === 'fold') {
+        const { foldChildren } = line;
+        if (!foldChildren.length) {
+          return;
+        }
+        const child = foldChildren[foldChildren.length - 1];
+        range = { index: this.quill.getIndex(child) };
+        delta = new Delta()
+          .retain(range.index + child.length())
+          .insert('\n', lineFormats);
+      }
+    }
+    // my fix end
+
     this.quill.updateContents(delta, Quill.sources.USER);
     this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
     // my fix
@@ -318,6 +344,7 @@ class Keyboard extends Module {
       if (name === 'bookmark') return;
       if (name === 'file') return;
       // my fix end
+
       this.quill.format(name, context.format[name], Quill.sources.USER);
     });
   }
@@ -415,7 +442,7 @@ Keyboard.DEFAULTS = {
       format: ['list'],
       empty: true,
       handler(range, context) {
-        const formats = { list: false };
+        const formats = { list: null };
         if (context.format.indent) {
           formats.indent = false;
         }
@@ -430,21 +457,24 @@ Keyboard.DEFAULTS = {
     'checklist enter': {
       key: 'Enter',
       collapsed: true,
-      format: { list: 'checked' },
+      format: ['list'],
       handler(range) {
         const [line, offset] = this.quill.getLine(range.index);
         const formats = {
           ...line.formats(),
-          list: 'checked',
         };
+        if (formats.list.value !== 'checked') {
+          return true;
+        }
         const delta = new Delta()
           .retain(range.index)
           .insert('\n', formats)
           .retain(line.length() - offset - 1)
-          .retain(1, { list: 'unchecked' });
+          .retain(1, { list: { value: 'unchecked' } });
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
         this.quill.scrollIntoView();
+        return false;
       },
     },
     'header enter': {
@@ -458,7 +488,6 @@ Keyboard.DEFAULTS = {
         let delta;
         if (fold === 'fold') {
           const lastChild = line.logicChildren[0];
-          window.lastChild = lastChild;
           range = { index: this.quill.getIndex(lastChild) };
           delta = new Delta()
             .retain(range.index + lastChild.length())
@@ -574,7 +603,7 @@ Keyboard.DEFAULTS = {
           .retain(range.index - offset)
           .delete(length + 1)
           .retain(line.length() - 2 - offset)
-          .retain(1, { list: value });
+          .retain(1, { list: { value } });
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.history.cutoff();
         this.quill.setSelection(range.index - length, Quill.sources.SILENT);
