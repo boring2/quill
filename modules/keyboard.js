@@ -311,7 +311,7 @@ class Keyboard extends Module {
     // my fix
     if (lineFormats.list) {
       // 如果list是fold的跳到最后去添加？
-      const [line] = this.quill.getLine(range.index);
+      const [line, offset] = this.quill.getLine(range.index);
       const { fold } = line.formats().list;
       if (fold === 'fold') {
         const { foldChildren } = line;
@@ -359,8 +359,9 @@ Keyboard.DEFAULTS = {
       // highlight tab or tab at beginning of list, indent or blockquote
       key: 'Tab',
       // format: ['blockquote', 'indent', 'list'],
+      format: ['indent', 'list'],
       handler(range, context) {
-        if (context.collapsed && context.offset !== 0) return true;
+        // if (context.collapsed && context.offset !== 0) return true;
         if (context.format.indent === 8) {
           return false;
         }
@@ -372,9 +373,10 @@ Keyboard.DEFAULTS = {
       key: 'Tab',
       shiftKey: true,
       // format: ['blockquote', 'indent', 'list'],
+      format: ['indent', 'list'],
       // highlight tab or tab at beginning of list, indent or blockquote
       handler(range, context) {
-        if (context.collapsed && context.offset !== 0) return true;
+        // if (context.collapsed && context.offset !== 0) return true;
         this.quill.format('indent', '-1', Quill.sources.USER);
         return false;
       },
@@ -459,11 +461,13 @@ Keyboard.DEFAULTS = {
       collapsed: true,
       format: ['list'],
       handler(range) {
+        console.log('checked list enter------------------');
         const [line, offset] = this.quill.getLine(range.index);
         const formats = {
           ...line.formats(),
         };
         if (formats.list.value !== 'checked') {
+          console.log('checked list return------------------');
           return true;
         }
         const delta = new Delta()
@@ -474,7 +478,6 @@ Keyboard.DEFAULTS = {
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
         this.quill.scrollIntoView();
-        return false;
       },
     },
     'header enter': {
