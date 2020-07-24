@@ -174,7 +174,12 @@ class Clipboard extends Module {
     e.preventDefault();
     const range = this.quill.getSelection(true);
     if (range == null) return;
-    const html = e.clipboardData.getData('text/html');
+    let html = e.clipboardData.getData('text/html');
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    doc.body.querySelectorAll('noscript').forEach(dom => {
+      dom.remove();
+    });
+    html = doc.body.outerHTML;
     const text = e.clipboardData.getData('text/plain');
     const files = Array.from(e.clipboardData.files || []);
     if (!html && files.length > 0) {
