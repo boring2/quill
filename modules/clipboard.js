@@ -116,7 +116,7 @@ class Clipboard extends Module {
     container.childNodes.forEach(node => {
       if (node.removeAttribute) {
         node.removeAttribute('id');
-        node.removeAttribute('class');
+        // node.removeAttribute('class');
       }
     });
     const nodeMatches = new WeakMap();
@@ -453,16 +453,16 @@ function matchIndent(node, delta, scroll) {
   }
   if (indent <= 0) return delta;
   return delta.reduce((composed, op) => {
-    if (op.attributes && op.attributes.list) {
-      return composed.push(op);
-    }
+    // if (op.attributes && op.attributes.list) {
+    // return composed.push(op);
+    // }
     return composed.insert(op.insert, { indent, ...(op.attributes || {}) });
   }, new Delta());
 }
 
 function matchList(node, delta) {
   const list = node.tagName === 'OL' ? 'ordered' : 'bullet';
-  return applyFormat(delta, 'list', list);
+  return applyFormat(delta, 'list', { value: list, fold: 'unfold' });
 }
 
 function matchNewline(node, delta, scroll) {

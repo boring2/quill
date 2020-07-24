@@ -18,7 +18,6 @@ class Editor {
   }
 
   applyDelta(delta) {
-    console.log(delta, 'delta----------------');
     let consumeNextNewline = false;
     this.scroll.update();
     let scrollLength = this.scroll.length();
@@ -74,7 +73,6 @@ class Editor {
   }
 
   deleteText(index, length) {
-    console.log('deleteText-----------');
     this.scroll.deleteAt(index, length);
     return this.update(new Delta().retain(index).delete(length));
   }
@@ -159,7 +157,6 @@ class Editor {
   }
 
   insertText(index, text, formats = {}) {
-    console.log('insertText----------------');
     text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
     this.scroll.insertAt(index, text);
     Object.keys(formats).forEach(format => {
@@ -287,7 +284,7 @@ function convertHTML(blot, index, length, isRoot = false) {
           offset,
           length: childLength,
           indent: formats.indent || 0,
-          type: formats.list,
+          type: formats.list.value,
         });
       });
       return convertListHTML(items, -1, []);
@@ -297,6 +294,7 @@ function convertHTML(blot, index, length, isRoot = false) {
       parts.push(convertHTML(child, offset, childLength));
     });
     if (isRoot || blot.statics.blotName === 'list') {
+      console.error('parts------------', parts);
       return parts.join('');
     }
     const { outerHTML, innerHTML } = blot.domNode;
@@ -326,13 +324,17 @@ function combineFormats(formats, combined) {
   }, {});
 }
 
-function getListType(type) {
+function getListType(type, indent) {
   const tag = type === 'ordered' ? 'ol' : 'ul';
   switch (type) {
     case 'checked':
-      return [tag, ' data-list="checked"'];
+      return [tag, 'data-list="checked"'];
     case 'unchecked':
       return [tag, ' data-list="unchecked"'];
+    case 'bullet':
+      return [tag, ' data-list="bullet"'];
+    case 'ordered':
+      return [tag, ' data-list="ordered"'];
     default:
       return [tag, ''];
   }
