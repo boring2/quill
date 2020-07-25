@@ -1,6 +1,6 @@
 import Delta from 'quill-delta';
 import TurndownService from 'turndown';
-
+import { MarkdownToQuill } from 'md-to-quill-delta';
 import {
   Attributor,
   ClassAttributor,
@@ -21,6 +21,8 @@ import { ColorStyle } from '../formats/color';
 import { DirectionAttribute, DirectionStyle } from '../formats/direction';
 import { FontStyle } from '../formats/font';
 import { SizeStyle } from '../formats/size';
+
+const converter = new MarkdownToQuill({ debug: false });
 
 const turndownService = new TurndownService({ headingStyle: 'atx' });
 turndownService.addRule('td', {
@@ -109,7 +111,8 @@ class Clipboard extends Module {
       });
     }
     if (!html) {
-      return new Delta().insert(text || '');
+      return { ops: converter.convert(text || '') };
+      // return new Delta().insert(text || '');
     }
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const container = doc.body;
@@ -175,11 +178,14 @@ class Clipboard extends Module {
     const range = this.quill.getSelection(true);
     if (range == null) return;
     let html = e.clipboardData.getData('text/html');
-    const doc = new DOMParser().parseFromString(html, 'text/html');
-    doc.body.querySelectorAll('noscript').forEach(dom => {
-      dom.remove();
-    });
-    html = doc.body.outerHTML;
+    if (html) {
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      doc.body.querySelectorAll('noscript').forEach(dom => {
+        dom.remove();
+      });
+      html = doc.body.outerHTML;
+    }
+
     const text = e.clipboardData.getData('text/plain');
     const files = Array.from(e.clipboardData.files || []);
     if (!html && files.length > 0) {
