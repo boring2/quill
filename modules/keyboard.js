@@ -119,12 +119,12 @@ class Keyboard extends Module {
       )
         return;
       // my fix end
-      lplog(evt.key, evt.which, evt.key === ' ');
+      // lplog(evt.key, evt.which, evt.key === ' ');
       const bindings = (this.bindings[evt.key] || []).concat(
         this.bindings[evt.which] || [],
       );
       const matches = bindings.filter(binding => Keyboard.match(evt, binding));
-      lplog(matches);
+      // lplog(matches);
       if (matches.length === 0) return;
       const range = this.quill.getSelection();
       if (range == null || !this.quill.hasFocus()) return;
@@ -150,21 +150,21 @@ class Keyboard extends Module {
         suffix: suffixText,
         event: evt,
       };
-      lplog('curContext-----------------', curContext);
+      // lplog('curContext-----------------', curContext);
       const prevented = matches.some(binding => {
         if (
           binding.collapsed != null &&
           binding.collapsed !== curContext.collapsed
         ) {
-          lplog('111111111111111111 ----- binding.handler', binding.handler);
+          // lplog('111111111111111111 ----- binding.handler', binding.handler);
           return false;
         }
         if (binding.empty != null && binding.empty !== curContext.empty) {
-          lplog('222222222222222 ----- binding.handler', binding.handler);
+          // lplog('222222222222222 ----- binding.handler', binding.handler);
           return false;
         }
         if (binding.offset != null && binding.offset !== curContext.offset) {
-          lplog('3333333333333333 ----- binding.handler', binding.handler);
+          // lplog('3333333333333333 ----- binding.handler', binding.handler);
           return false;
         }
         if (Array.isArray(binding.format)) {
@@ -174,7 +174,7 @@ class Keyboard extends Module {
               return curContext.format[name] == null;
             })
           ) {
-            lplog('44444444444444444 ----- binding.handler', binding.handler);
+            // lplog('44444444444444444 ----- binding.handler', binding.handler);
             return false;
           }
         } else if (typeof binding.format === 'object') {
@@ -188,7 +188,7 @@ class Keyboard extends Module {
               return isEqual(binding.format[name], curContext.format[name]);
             })
           ) {
-            lplog('55555555555555 ----- binding.handler', binding.handler);
+            // lplog('55555555555555 ----- binding.handler', binding.handler);
             return false;
           }
         }
@@ -199,11 +199,11 @@ class Keyboard extends Module {
           return false;
         }
         // let a = binding.handler.call(this, range, curContext, binding)
-        lplog('6666666666666 ----- binding.handler', binding.handler);
+        // lplog('6666666666666 ----- binding.handler', binding.handler);
         return binding.handler.call(this, range, curContext, binding) !== true;
       });
       if (prevented) {
-        lplog('prevented --------------');
+        // lplog('prevented --------------');
         evt.preventDefault();
       }
     });
@@ -461,13 +461,13 @@ Keyboard.DEFAULTS = {
       collapsed: true,
       format: ['list'],
       handler(range) {
-        console.log('checked list enter------------------');
+        // console.log('checked list enter------------------');
         const [line, offset] = this.quill.getLine(range.index);
         const formats = {
           ...line.formats(),
         };
         if (formats.list.value !== 'checked') {
-          console.log('checked list return------------------');
+          // console.log('checked list return------------------');
           return true;
         }
         const delta = new Delta()
@@ -478,6 +478,7 @@ Keyboard.DEFAULTS = {
         this.quill.updateContents(delta, Quill.sources.USER);
         this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
         this.quill.scrollIntoView();
+        return false;
       },
     },
     'header enter': {
@@ -535,7 +536,7 @@ Keyboard.DEFAULTS = {
           const shift = tableSide(table, row, cell, offset);
           if (shift == null) return;
           let index = table.offset();
-          lplog(shift, index);
+          // lplog(shift, index);
           if (shift < 0) {
             const delta = new Delta().retain(index).insert('\n');
             this.quill.updateContents(delta, Quill.sources.USER);
@@ -730,7 +731,7 @@ function makeEmbedArrowHandler(key, shiftKey) {
 }
 
 function makeFormatHandler(format) {
-  console.warn('makeFormatHandler---', format);
+  // console.warn('makeFormatHandler---', format);
   return {
     key: format[0],
     shortKey: true,
