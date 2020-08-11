@@ -1,5 +1,4 @@
 import { EmbedBlot } from 'parchment';
-import Quill from 'quill';
 import { sanitize } from './link';
 
 const ATTRIBUTES = ['alt', 'width', 'height', 'data-id', 'scale'];
@@ -23,6 +22,7 @@ class Image extends EmbedBlot {
           ({ id, base64 }) => {
             window.isModified = true;
             node.setAttribute('src', base64);
+            node.setAttribute('width', '100%');
             node.setAttribute('scale', true);
             node.setAttribute('data-id', id);
             node.classList.remove('loading');
@@ -32,6 +32,7 @@ class Image extends EmbedBlot {
       } else if (value.startsWith('data:image')) {
         window.LPNote.FileLoader.saveAsset(value).then(id => {
           node.setAttribute('src', value);
+          node.setAttribute('width', '100%');
           node.setAttribute('scale', true);
           node.setAttribute('data-id', id);
           node.classList.remove('loading');
@@ -44,8 +45,6 @@ class Image extends EmbedBlot {
         window.LPNote.FileLoader.load(id).then(data => {
           if (typeof data === 'object') {
             node.setAttribute('src', this.sanitize(data.src));
-            node.setAttribute('width', data.width || '100%');
-            node.setAttribute('height', data.height);
           }
           if (typeof data === 'string') {
             node.setAttribute('src', this.sanitize(data));
@@ -56,7 +55,7 @@ class Image extends EmbedBlot {
     } else if (typeof value === 'object') {
       value.src && node.setAttribute('src', this.sanitize(value.src));
       value.alt && node.setAttribute('alt', value.alt);
-      value.width && node.setAttribute('width', value.width || '100%');
+      value.width && node.setAttribute('width', value.width);
       value.height && node.setAttribute('height', value.height);
       value.dataId && node.setAttribute('data-id', value.dataId);
       value.scale && node.setAttribute('scale', true);
@@ -92,25 +91,12 @@ class Image extends EmbedBlot {
   }
 
   static value(domNode) {
-    return domNode.getAttribute('data-id') || '';
+    return domNode.getAttribute('data-id') || domNode.getAttribute('src');
   }
 
   format(name, value) {
     if (ATTRIBUTES.indexOf(name) > -1) {
       if (value) {
-        if (name === 'width') {
-          if (parseInt(value, 10) === 0) {
-            value = '100%';
-          } else {
-            const oldValue = value;
-            value = Math.min(window.innerWidth * 0.8, oldValue);
-            this.isFixScale = value / oldValue;
-          }
-        } else if (name === 'height') {
-          if (this.isFixScale) {
-            value *= this.isFixScale;
-          }
-        }
         this.domNode.setAttribute(name, value);
       } else {
         this.domNode.removeAttribute(name);
