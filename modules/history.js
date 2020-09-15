@@ -38,6 +38,7 @@ class History extends Module {
   change(source, dest) {
     if (this.stack[source].length === 0) return;
     const delta = this.stack[source].pop();
+    console.log('delta----------', delta);
     const base = this.quill.getContents();
     const inverseDelta = delta.invert(base);
     this.stack[dest].push(inverseDelta);

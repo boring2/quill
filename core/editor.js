@@ -294,7 +294,6 @@ function convertHTML(blot, index, length, isRoot = false) {
       parts.push(convertHTML(child, offset, childLength));
     });
     if (isRoot || blot.statics.blotName === 'list') {
-      console.error('parts------------', parts);
       return parts.join('');
     }
     const { outerHTML, innerHTML } = blot.domNode;

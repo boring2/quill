@@ -98,6 +98,7 @@ class Clipboard extends Module {
         this.addMatcher(selector, matcher);
       },
     );
+    // console.log(this.matchers, '-------------------------');
   }
 
   addMatcher(selector, matcher) {
@@ -105,6 +106,14 @@ class Clipboard extends Module {
   }
 
   convert({ html, text }, formats = {}) {
+    if (formats['table-cell-line'])
+      return new Delta().insert(
+        text.replace(/\r\n/g, ' ').replace(/\n/g, ' '),
+        {
+          'table-cell-line': formats['table-cell-line'],
+        },
+      );
+
     if (formats[CodeBlock.blotName]) {
       return new Delta().insert(text, {
         [CodeBlock.blotName]: formats[CodeBlock.blotName],
@@ -134,6 +143,7 @@ class Clipboard extends Module {
       textMatchers,
       nodeMatches,
     );
+    // console.log('traverse to ----------', delta);
     // Remove trailing newline
     if (
       deltaEndsWith(delta, '\n') &&
@@ -187,6 +197,7 @@ class Clipboard extends Module {
     }
 
     const text = e.clipboardData.getData('text/plain');
+    // console.log('text------------------', text);
     const files = Array.from(e.clipboardData.files || []);
     if (!html && files.length > 0) {
       this.quill.uploader.upload(range, files);
@@ -209,10 +220,10 @@ class Clipboard extends Module {
     // 去掉html
     const pastedDelta = this.convert({ text, html }, formats);
     // const pastedDelta = this.convert({ text }, formats);
-    debug.log('onPaste', pastedDelta, { text, html });
+    const isTable = formats.row;
     const delta = new Delta()
       .retain(range.index)
-      .delete(range.length)
+      .delete(isTable && range.length === 1 ? 0 : range.length)
       .concat(pastedDelta);
     this.quill.updateContents(delta, Quill.sources.USER);
     // range.length contributes to delta.length()
@@ -255,6 +266,7 @@ Clipboard.DEFAULTS = {
 };
 
 function applyFormat(delta, format, value) {
+  // console.log('applyFormat', delta, format);
   if (typeof format === 'object') {
     return Object.keys(format).reduce((newDelta, key) => {
       return applyFormat(newDelta, key, format[key]);
@@ -337,6 +349,7 @@ function isPre(node) {
 }
 
 function traverse(scroll, node, elementMatchers, textMatchers, nodeMatches) {
+  // console.log(node, textMatchers, elementMatchers, nodeMatches);
   // Post-order
   if (node.nodeType === node.TEXT_NODE) {
     return textMatchers.reduce((delta, matcher) => {

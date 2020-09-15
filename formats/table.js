@@ -170,7 +170,7 @@ class TableContainer extends Container {
   }
 }
 TableContainer.blotName = 'table-container';
-TableContainer.tagName = 'TABLE';
+TableContainer.tagName = 'TABLE2';
 
 TableContainer.allowedChildren = [TableBody];
 TableBody.requiredContainer = TableContainer;
