@@ -13,7 +13,11 @@ class Image extends EmbedBlot {
       if (value.startsWith('./icons')) {
         node.setAttribute('src', value);
         node.classList.remove('loading');
-      } else if (value.startsWith('http://') || value.startsWith('https://')) {
+      } else if (
+        value.startsWith('http://') ||
+        value.startsWith('https://') ||
+        value.startsWith('file://')
+      ) {
         node.setAttribute('src', value);
         setTimeout(() => {
           node.classList.remove('loading');
