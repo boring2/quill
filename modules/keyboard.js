@@ -199,7 +199,7 @@ class Keyboard extends Module {
           return false;
         }
         // let a = binding.handler.call(this, range, curContext, binding)
-        // lplog('6666666666666 ----- binding.handler', binding.handler);
+        lplog('6666666666666 ----- binding.handler', binding.handler);
         return binding.handler.call(this, range, curContext, binding) !== true;
       });
       if (prevented) {
@@ -646,7 +646,7 @@ Keyboard.DEFAULTS = {
               .retain(1, { 'code-block': null });
             // .delete(1);
             this.quill.updateContents(delta, Quill.sources.USER);
-            this.quill.setSelection(range.index + 1, Quill.sources.SILENT);
+            this.quill.setSelection(range.index, Quill.sources.SILENT);
             return false;
           }
         }
