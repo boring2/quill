@@ -119,7 +119,7 @@ class Keyboard extends Module {
       )
         return;
       // my fix end
-      // lplog(evt.key, evt.which, evt.key === ' ');
+      lplog(evt.key, evt.which, evt.key === ' ');
       const bindings = (this.bindings[evt.key] || []).concat(
         this.bindings[evt.which] || [],
       );
@@ -495,7 +495,12 @@ Keyboard.DEFAULTS = {
           range = { index: this.quill.getIndex(lastChild) };
           delta = new Delta()
             .retain(range.index + lastChild.length())
-            .insert('\n', Object.assign(context.format, { header: null }))
+            .insert(
+              '\n',
+              Object.assign({}, context.format, {
+                header: { fold: 'unfold', value: context.format.header.value },
+              }),
+            )
             .retain(lastChild.length());
         } else {
           // my fix
@@ -579,7 +584,7 @@ Keyboard.DEFAULTS = {
         header: false,
         table: false,
       },
-      prefix: /^\s*?(\d+\.|-|\*|\[ ?\]|\[x\])$/,
+      prefix: /^\s*?(\d+(\.|。)|-|\*|(\[|【) ?(\]|】)|(\[|【)x(\]|】))$/,
       handler(range, context) {
         if (this.quill.scroll.query('list') == null) return true;
         const { length } = context.prefix;
@@ -589,9 +594,12 @@ Keyboard.DEFAULTS = {
         switch (context.prefix.trim()) {
           case '[]':
           case '[ ]':
+          case '【】':
+          case '【 】':
             value = 'unchecked';
             break;
           case '[x]':
+          case '【x】':
             value = 'checked';
             break;
           case '-':

@@ -327,7 +327,7 @@ function getListType(type, indent) {
   const tag = type === 'ordered' ? 'ol' : 'ul';
   switch (type) {
     case 'checked':
-      return [tag, 'data-list="checked"'];
+      return [tag, ' data-list="checked"'];
     case 'unchecked':
       return [tag, ' data-list="unchecked"'];
     case 'bullet':

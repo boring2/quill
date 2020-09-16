@@ -1,6 +1,7 @@
 import Delta from 'quill-delta';
 import TurndownService from 'turndown';
 import { MarkdownToQuill } from 'md-to-quill-delta';
+import EventBus from 'utils/eventbus';
 import {
   Attributor,
   ClassAttributor,
@@ -24,7 +25,42 @@ import { SizeStyle } from '../formats/size';
 
 const converter = new MarkdownToQuill({ debug: false });
 
-const turndownService = new TurndownService({ headingStyle: 'atx' });
+const turndownService = new TurndownService({
+  headingStyle: 'atx',
+});
+
+turndownService.addRule('ph', {
+  filter: 'p',
+  replacement(content) {
+    return `${content}\n`;
+  },
+});
+turndownService.addRule('check', {
+  filter: 'li',
+  replacement(content, node, options) {
+    if (node.getAttribute('data-list') === 'unchecked') {
+      return `[ ] ${content}`;
+    }
+    if (node.getAttribute('data-list') === 'checked') {
+      return `[x] ${content}`;
+    }
+    content = content
+      .replace(/^\n+/, '') // remove leading newlines
+      .replace(/\n+$/, '\n') // replace trailing newlines with just a single one
+      .replace(/\n/gm, '\n    '); // indent
+    let prefix = `${options.bulletListMarker}   `;
+    const parent = node.parentNode;
+    if (parent.nodeName === 'OL') {
+      const start = parent.getAttribute('start');
+      const index = Array.prototype.indexOf.call(parent.children, node);
+      prefix = `${start ? Number(start) + index : index + 1}.  `;
+    }
+    return (
+      prefix + content + (node.nextSibling && !/\n$/.test(content) ? '\n' : '')
+    );
+  },
+});
+
 turndownService.addRule('td', {
   filter: ['td'],
   replacement(content) {
@@ -35,7 +71,7 @@ turndownService.addRule('td', {
 turndownService.addRule('strikethrough', {
   filter: ['del', 's', 'strike'],
   replacement(content) {
-    return `~${content}~`;
+    return `~~${content}~~`;
   },
 });
 
@@ -232,6 +268,9 @@ class Clipboard extends Module {
       Quill.sources.SILENT,
     );
     this.quill.scrollIntoView();
+    setTimeout(() => {
+      EventBus.$emit('needRainbow');
+    }, 0);
   }
 
   prepareMatching(container, nodeMatches) {
