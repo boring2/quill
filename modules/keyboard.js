@@ -245,21 +245,31 @@ class Keyboard extends Module {
 
   handleDelete(range, context) {
     // Check for astral symbols
-    const length = /^[\uD800-\uDBFF][\uDC00-\uDFFF]/.test(context.suffix)
+    const length = /[\uD800-\uDBFF][\uDC00-\uDFFF]$/.test(context.prefix)
       ? 2
       : 1;
-    if (range.index >= this.quill.getLength() - length) return;
+    if (range.index === 0 || this.quill.getLength() <= 1) return;
+
     let formats = {};
     const [line] = this.quill.getLine(range.index);
-    let delta = new Delta().retain(range.index).delete(length);
-    if (context.offset >= line.length() - 1) {
-      const [next] = this.quill.getLine(range.index + 1);
-      if (next) {
-        const curFormats = line.formats();
-        const nextFormats = this.quill.getFormat(range.index, 1);
-        formats = AttributeMap.diff(curFormats, nextFormats) || {};
-        if (Object.keys(formats).length > 0) {
-          delta = delta.retain(next.length() - 1).retain(1, formats);
+    let delta = new Delta().retain(range.index - length).delete(length);
+    if (context.offset === 0) {
+      // Always deleting newline here, length always 1
+      const [prev] = this.quill.getLine(range.index - 1);
+      if (prev) {
+        const isPrevLineEmpty =
+          prev.statics.blotName === 'block' && prev.length() <= 1;
+        if (!isPrevLineEmpty) {
+          const curFormats = line.formats();
+          const prevFormats = this.quill.getFormat(range.index - 1, 1);
+          formats = AttributeMap.diff(curFormats, prevFormats) || {};
+          if (Object.keys(formats).length > 0) {
+            // line.length() - 1 targets \n in line, another -1 for newline being deleted
+            const formatDelta = new Delta()
+              .retain(range.index + line.length() - 2)
+              .retain(1, formats);
+            delta = delta.compose(formatDelta);
+          }
         }
       }
     }
