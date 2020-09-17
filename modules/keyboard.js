@@ -215,6 +215,7 @@ class Keyboard extends Module {
       ? 2
       : 1;
     if (range.index === 0 || this.quill.getLength() <= 1) return;
+
     let formats = {};
     const [line] = this.quill.getLine(range.index);
     let delta = new Delta().retain(range.index - length).delete(length);
@@ -475,13 +476,11 @@ Keyboard.DEFAULTS = {
       collapsed: true,
       format: ['list'],
       handler(range) {
-        // console.log('checked list enter------------------');
         const [line, offset] = this.quill.getLine(range.index);
         const formats = {
           ...line.formats(),
         };
         if (formats.list.value !== 'checked') {
-          // console.log('checked list return------------------');
           return true;
         }
         const delta = new Delta()
