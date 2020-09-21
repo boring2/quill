@@ -286,6 +286,9 @@ class Keyboard extends Module {
       formats = AttributeMap.diff(lastFormats, firstFormats) || {};
     }
     this.quill.deleteText(range, Quill.sources.USER);
+    if (formats['table-col'] || formats['table-cell-line']) {
+      return;
+    }
     if (Object.keys(formats).length > 0) {
       this.quill.formatLine(range.index, 1, formats, Quill.sources.USER);
     }
