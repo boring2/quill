@@ -59,7 +59,7 @@ class Image extends EmbedBlot {
     } else if (typeof value === 'object') {
       value.src && node.setAttribute('src', this.sanitize(value.src));
       value.alt && node.setAttribute('alt', value.alt);
-      value.width && node.setAttribute('width', value.width);
+      value.width && node.setAttribute('width', value.width || '100%');
       value.height && node.setAttribute('height', value.height);
       value.dataId && node.setAttribute('data-id', value.dataId);
       value.scale && node.setAttribute('scale', true);
