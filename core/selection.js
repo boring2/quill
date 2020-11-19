@@ -29,7 +29,7 @@ class Selection {
     this.handleDragging();
     this.emitter.listenDOM('selectionchange', document, () => {
       if (!this.mouseDown && !this.composing) {
-        lplog('selectionchange---------------------------------')
+        lplog('selectionchange---------------------------------');
         setTimeout(this.update.bind(this, Emitter.sources.USER), 1);
       }
     });
@@ -69,26 +69,27 @@ class Selection {
 
   handleComposition() {
     this.root.addEventListener('compositionupdate', () => {
-      lplog('compositionupdate')
-    })
+      lplog('compositionupdate');
+    });
     this.root.addEventListener('compositionstart', () => {
-      lplog('compositionstart')
+      lplog('compositionstart');
       this.composing = true;
       this.scroll.batchStart();
     });
     this.root.addEventListener('compositionend', () => {
-      lplog('compositionend')
+      lplog('compositionend');
       // my fix
-      setTimeout(() => { // <- add this line
+      setTimeout(() => {
+        // <- add this line
         this.scroll.batchEnd();
         this.composing = false;
-        lplog('compositionend -------- 1', this)
+        lplog('compositionend -------- 1', this);
         if (this.cursor.parent) {
           const range = this.cursor.restore();
-          lplog('compositionend -------- 2')
+          lplog('compositionend -------- 2');
           if (!range) return;
           setTimeout(() => {
-            lplog('compositionend -------- 3')
+            lplog('compositionend -------- 3');
             this.setNativeRange(
               range.startNode,
               range.startOffset,
@@ -97,7 +98,7 @@ class Selection {
             );
           }, 1);
         }
-      },0)
+      }, 0);
     });
   }
 
@@ -154,7 +155,7 @@ class Selection {
     [node, offset] = leaf.position(offset, true);
     const range = document.createRange();
     if (length > 0) {
-      lplog("1111111111111111111111111")
+      lplog('1111111111111111111111111');
       range.setStart(node, offset);
       [leaf, offset] = this.scroll.leaf(index + length);
       if (leaf == null) return null;
@@ -166,19 +167,18 @@ class Selection {
     let rect;
     if (node instanceof Text) {
       if (offset < node.data.length) {
-        lplog("222222222222222222222", offset, node)
+        lplog('222222222222222222222', offset, node);
         range.setStart(node, offset);
         range.setEnd(node, offset + 1);
-      }
-       else {
-        lplog("33333333333333333333", offset, node)
+      } else {
+        lplog('33333333333333333333', offset, node);
         range.setStart(node, offset - 1);
         range.setEnd(node, offset);
         side = 'right';
       }
       rect = range.getBoundingClientRect();
     } else {
-      lplog("44444444444444444444444444444444", offset)
+      lplog('44444444444444444444444444444444', offset);
       rect = leaf.domNode.getBoundingClientRect();
       if (offset > 0) side = 'right';
     }

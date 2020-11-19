@@ -26,7 +26,7 @@ class Image extends EmbedBlot {
           ({ id, base64 }) => {
             window.isModified = true;
             node.setAttribute('src', base64);
-            node.setAttribute('width', '100%');
+            // node.setAttribute('width', '100%');
             node.setAttribute('scale', true);
             node.setAttribute('data-id', id);
             node.classList.remove('loading');
@@ -36,7 +36,7 @@ class Image extends EmbedBlot {
       } else if (value.startsWith('data:image')) {
         window.LPNote.FileLoader.saveAsset(value).then(id => {
           node.setAttribute('src', value);
-          node.setAttribute('width', '100%');
+          // node.setAttribute('width', '100%');
           node.setAttribute('scale', true);
           node.setAttribute('data-id', id);
           node.classList.remove('loading');
@@ -44,7 +44,6 @@ class Image extends EmbedBlot {
       } else {
         // 暂且认为都是我们的id
         const id = value;
-        console.log('data-id-------------', id);
         // node.setAttribute('src', './icons/angry@3x.png')
         window.LPNote.FileLoader.load(id).then(data => {
           if (typeof data === 'object') {

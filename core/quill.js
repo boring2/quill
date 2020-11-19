@@ -272,7 +272,7 @@ class Quill {
     if (typeof index === 'number') {
       return this.editor.getFormat(index, length);
     }
-    index = index || 0
+    index = index || 0;
     return this.editor.getFormat(index.index, index.length);
   }
 

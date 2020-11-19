@@ -142,13 +142,25 @@ class Clipboard extends Module {
   }
 
   convert({ html, text }, formats = {}) {
-    if (formats['table-cell-line'])
-      return new Delta().insert(
-        text.replace(/\r\n/g, ' ').replace(/\n/g, ' '),
-        {
-          'table-cell-line': formats['table-cell-line'],
-        },
-      );
+    // 处理下table-cell-line
+    if (formats['table-cell-line']) {
+      const ops = text.split('\n').reduce((op, t) => {
+        if (t) {
+          op.push({
+            insert: t,
+          });
+        }
+        op.push({
+          insert: '\n',
+          attributes: {
+            ...formats,
+          },
+        });
+        return op;
+      }, []);
+      ops[ops.length - 1].insert = '';
+      return new Delta({ ops });
+    }
 
     if (formats[CodeBlock.blotName]) {
       return new Delta().insert(text, {
@@ -206,10 +218,43 @@ class Clipboard extends Module {
   }
 
   onCaptureCopy(e, isCut = false) {
-    if (e.defaultPrevented) return;
-    e.preventDefault();
+    // 代码的复制
+    if (
+      e.target.classList &&
+      (e.target.classList.contains('code-copy') ||
+        e.target.classList.contains('ql-code-block'))
+    ) {
+      e.preventDefault();
+      const parentNote = e.target.parentNode;
+      let str = '';
+      parentNote.querySelectorAll('.ql-code-block').forEach(d => {
+        str += `${d.innerText}\n`;
+      });
+      e.clipboardData.setData('text/plain', str);
+      return;
+    }
+
+    // 表格内的复制
+    const format = this.quill.getFormat();
     const [range] = this.quill.selection.getRange();
     if (range == null) return;
+
+    if (format['table-cell-line']) {
+      e.preventDefault();
+      const str = this.quill.getText(range.index, range.length);
+      e.clipboardData.setData('text/plain', str);
+      if (isCut) {
+        this.quill.deleteText(
+          { index: range.index, length: str.trim().length },
+          Quill.sources.USER,
+        );
+      }
+      return;
+    }
+
+    if (e.defaultPrevented) return;
+    e.preventDefault();
+
     const { html, text } = this.onCopy(range, isCut);
     e.clipboardData.setData('text/plain', text);
     e.clipboardData.setData('text/html', html);

@@ -1,5 +1,6 @@
 import Delta from 'quill-delta';
 import { ClassAttributor, Scope } from 'parchment';
+import { createOptimisticUniqueName } from 'typescript';
 import Inline from '../blots/inline';
 import Quill from '../core/quill';
 import Module from '../core/module';
@@ -180,6 +181,11 @@ class Syntax extends Module {
     this.quill.on(Quill.events.SCROLL_BLOT_MOUNT, blot => {
       if (!(blot instanceof SyntaxCodeBlockContainer)) return;
       const select = this.quill.root.ownerDocument.createElement('select');
+      const copy = this.quill.root.ownerDocument.createElement('span');
+      copy.classList.add('code-copy');
+      copy.setAttribute('contenteditable', false);
+      copy.style.display = 'none';
+      copy.innerText = '复制';
       this.options.languages.forEach(({ key, label }) => {
         const option = select.ownerDocument.createElement('option');
         option.textContent = label;
@@ -193,6 +199,10 @@ class Syntax extends Module {
       });
       if (blot.uiNode == null) {
         blot.attachUI(select);
+        copy.addEventListener('click', () => {
+          document.execCommand('copy');
+        });
+        select.parentNode.appendChild(copy);
         if (blot.children.head) {
           select.value = SyntaxCodeBlock.formats(blot.children.head.domNode);
         }

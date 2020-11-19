@@ -285,6 +285,7 @@ class Keyboard extends Module {
       const lastFormats = lines[lines.length - 1].formats();
       formats = AttributeMap.diff(lastFormats, firstFormats) || {};
     }
+
     this.quill.deleteText(range, Quill.sources.USER);
     if (formats['table-col'] || formats['table-cell-line']) {
       return;
@@ -517,8 +518,15 @@ Keyboard.DEFAULTS = {
         const { fold } = line.formats().header;
         let delta;
         if (fold === 'fold') {
-          const lastChild = line.logicChildren[0];
+          let lastChild = line.logicChildren[0];
+          while (
+            lastChild.logicChildren &&
+            lastChild.logicChildren.length > 0
+          ) {
+            [lastChild] = lastChild.logicChildren;
+          }
           range = { index: this.quill.getIndex(lastChild) };
+
           delta = new Delta()
             .retain(range.index + lastChild.length())
             .insert(
@@ -610,7 +618,7 @@ Keyboard.DEFAULTS = {
         header: false,
         table: false,
       },
-      prefix: /^\s*?(\d+(\.|。)|-|\*|(\[|【) ?(\]|】)|(\[|【)x(\]|】))$/,
+      prefix: /^\s*?(\d+(\.|。)|-|\*|－|×|(\[|【) ?(\]|】)|(\[|【)x(\]|】))$/,
       handler(range, context) {
         if (this.quill.scroll.query('list') == null) return true;
         const { length } = context.prefix;
@@ -630,6 +638,8 @@ Keyboard.DEFAULTS = {
             break;
           case '-':
           case '*':
+          case '×':
+          case '－':
             value = 'bullet';
             break;
           default:
