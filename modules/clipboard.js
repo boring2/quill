@@ -1,5 +1,4 @@
 import Delta from 'quill-delta';
-import TurndownService from 'turndown';
 import { MarkdownToQuill } from 'md-to-quill-delta';
 import EventBus from 'utils/eventbus';
 import {
@@ -10,6 +9,7 @@ import {
   // StyleAttributor,
   BlockBlot,
 } from 'parchment';
+import TurndownService from '../../../utils/turndown';
 import { BlockEmbed } from '../blots/block';
 import Quill from '../core/quill';
 import logger from '../core/logger';
@@ -61,26 +61,26 @@ turndownService.addRule('check', {
   },
 });
 
-turndownService.addRule('td', {
-  filter: ['td'],
-  replacement(content) {
-    return `|  ${content}  `;
-  },
-});
+// turndownService.addRule('td', {
+//   filter: ['td'],
+//   replacement(content) {
+//     return `|  ${content}  `;
+//   },
+// });
 
-turndownService.addRule('strikethrough', {
-  filter: ['del', 's', 'strike'],
-  replacement(content) {
-    return `~~${content}~~`;
-  },
-});
+// turndownService.addRule('strikethrough', {
+//   filter: ['del', 's', 'strike'],
+//   replacement(content) {
+//     return `~~${content}~~`;
+//   },
+// });
 
-turndownService.addRule('code', {
-  filter: ['pre'],
-  replacement(content) {
-    return `\`\`\`javascript\n${content}\n\`\`\``;
-  },
-});
+// turndownService.addRule('code', {
+//   filter: ['pre'],
+//   replacement(content) {
+//     return `\`\`\`javascript\n${content}\n\`\`\``;
+//   },
+// });
 
 const debug = logger('quill:clipboard');
 

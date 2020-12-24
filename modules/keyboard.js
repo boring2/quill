@@ -623,6 +623,9 @@ Keyboard.DEFAULTS = {
         if (this.quill.scroll.query('list') == null) return true;
         const { length } = context.prefix;
         const [line, offset] = this.quill.getLine(range.index);
+        if (line.formats()['table-cell-line']) {
+          return true;
+        }
         if (offset > length) return true;
         let value;
         switch (context.prefix.trim()) {

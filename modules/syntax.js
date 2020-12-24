@@ -1,6 +1,5 @@
 import Delta from 'quill-delta';
 import { ClassAttributor, Scope } from 'parchment';
-import { createOptimisticUniqueName } from 'typescript';
 import Inline from '../blots/inline';
 import Quill from '../core/quill';
 import Module from '../core/module';

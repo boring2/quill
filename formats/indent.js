@@ -4,8 +4,8 @@ class IndentAttributor extends ClassAttributor {
   add(node, value) {
     if (value === '+1' || value === '-1') {
       const indent = this.value(node) || 0;
-      if ((indent >= 8 && value === '+1')) {
-        return
+      if (indent >= 8 && value === '+1') {
+        return;
       }
       value = value === '+1' ? indent + 1 : indent - 1;
     }
@@ -17,9 +17,9 @@ class IndentAttributor extends ClassAttributor {
   }
 
   canAdd(node, value) {
-    return true
-    console.log(super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10)))
-    return super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10));
+    return true;
+
+    // return super.canAdd(node, value) || super.canAdd(node, parseInt(value, 10));
   }
 
   value(node) {
