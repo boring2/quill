@@ -219,11 +219,7 @@ class Clipboard extends Module {
 
   onCaptureCopy(e, isCut = false) {
     // 代码的复制
-    if (
-      e.target.classList &&
-      (e.target.classList.contains('code-copy') ||
-        e.target.classList.contains('ql-code-block'))
-    ) {
+    if (e.target.classList && e.target.classList.contains('code-copy')) {
       e.preventDefault();
       const parentNote = e.target.parentNode;
       let str = '';
@@ -291,8 +287,6 @@ class Clipboard extends Module {
     const html = this.quill.getSemanticHTML(range);
     // 把 html转成 md
     const markdown = turndownService.turndown(html);
-    lplog(html);
-    lplog(markdown);
     return { html, text: markdown };
   }
 
