@@ -38,6 +38,17 @@ class History extends Module {
   change(source, dest) {
     if (this.stack[source].length === 0) return;
     const delta = this.stack[source].pop();
+    const hasTable = delta.ops.some(op => {
+      if (op.attributes) {
+        if (op.attributes['table-cell-line']) {
+          return true;
+        }
+      }
+      return false;
+    });
+    if (hasTable) {
+      return;
+    }
     const base = this.quill.getContents();
     const inverseDelta = delta.invert(base);
     this.stack[dest].push(inverseDelta);
