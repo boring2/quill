@@ -347,7 +347,6 @@ class Keyboard extends Module {
     if (lineFormats.header) this.quill.format('header', null);
     // my fix end
     this.quill.focus();
-
     Object.keys(context.format).forEach(name => {
       if (lineFormats[name] != null) return;
       if (Array.isArray(context.format[name])) return;
@@ -357,6 +356,14 @@ class Keyboard extends Module {
       if (name === 'remark-link') return;
       if (name === 'bookmark') return;
       if (name === 'file') return;
+      // my fix fix ruby
+      if (
+        name === 'id' ||
+        name === 'title' ||
+        name === 'text' ||
+        name === 'notation'
+      )
+        return;
       // my fix end
 
       this.quill.format(name, context.format[name], Quill.sources.USER);

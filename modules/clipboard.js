@@ -82,7 +82,7 @@ turndownService.addRule('check', {
 //   },
 // });
 
-const debug = logger('quill:clipboard');
+// const debug = logger('quill:clipboard');
 
 const CLIPBOARD_CONFIG = [
   [Node.TEXT_NODE, matchText],
